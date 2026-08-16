@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="125mm"
+   height="125mm"
+   viewBox="0 0 125 125"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="vect-cart-decomp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.3772587"
+     inkscape:cx="217.824"
+     inkscape:cy="181.88304"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-5.0000001"
+       originy="14.999999"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="211.65355"
+       y="15.118107"
+       width="41.574802"
+       height="30.236221"
+       id="rect12" />
+    <rect
+       x="438.4252"
+       y="234.3307"
+       width="29.296858"
+       height="47.534725"
+       id="rect11" />
+    <rect
+       x="289.05325"
+       y="264.56693"
+       width="45.694031"
+       height="37.795277"
+       id="rect9" />
+    <marker
+       style="overflow:visible"
+       id="marker9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="0.75"
+       markerHeight="0.75"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path9" />
+    </marker>
+    <rect
+       x="264.56693"
+       y="132.28346"
+       width="18.897638"
+       height="18.897638"
+       id="rect7" />
+    <marker
+       style="overflow:visible"
+       id="marker5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+    <rect
+       x="289.05325"
+       y="264.56693"
+       width="45.694031"
+       height="37.795277"
+       id="rect9-5" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.0000001,14.999999)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;marker-end:url(#ArrowWide)"
+       d="M 15.000001,49.999998 H 115"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-dasharray:none;marker-end:url(#marker3)"
+       d="M 64.987753,99.999996 65.012248,0"
+       id="path2-8" />
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:0.529167;stroke-dasharray:none;marker-end:url(#marker5)"
+       d="m 65.000001,50 25,-40"
+       id="path4" />
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:0.529167;stroke-dasharray:1.58750099,0.529167;stroke-dashoffset:0"
+       d="m 65.000001,50 h 25"
+       id="path6" />
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:0.529167;stroke-dasharray:1.05833399,0.529167;stroke-dashoffset:0"
+       d="M 90.000001,50 V 10"
+       id="path7" />
+    <g
+       id="g9"
+       transform="translate(0.81007491,-0.03030593)">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,2.9594995,-9.7828172)"
+         id="text7"
+         style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);fill:#000000;stroke:none;stroke-width:2;stroke-dasharray:none"><tspan
+           x="264.56641"
+           y="146.69527"
+           id="tspan1">A</tspan></text>
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;marker-end:url(#marker9)"
+         d="m 73.000001,25.334531 h 3"
+         id="path8" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.47853436,-18.813054)"
+       id="text9"
+       style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9);fill:#000000;stroke:#000000;stroke-width:1;stroke-dasharray:none"><tspan
+         x="289.05273"
+         y="278.97848"
+         id="tspan5"><tspan
+           style="stroke:none"
+           id="tspan2">A</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan4">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,15.249873,-43.010777)"
+       id="text9-7"
+       style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9-5);fill:#000000;stroke:#000000;stroke-width:1;stroke-dasharray:none"><tspan
+         x="289.05273"
+         y="278.97848"
+         id="tspan8"><tspan
+           style="stroke:none"
+           id="tspan6">A</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan7">y</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.02495552,-14.61781)"
+       id="text11"
+       style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect11);fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none"><tspan
+         x="438.42578"
+         y="248.74215"
+         id="tspan9">x</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,7.7136373,-9.7038508)"
+       id="text12"
+       style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);fill:#000000;stroke:none;stroke-width:1;stroke-dasharray:none"><tspan
+         x="211.6543"
+         y="29.529258"
+         id="tspan10">y</tspan></text>
+  </g>
+</svg>

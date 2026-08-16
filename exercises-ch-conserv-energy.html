@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chapter Exercises</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Introductory Classical Mechanics with Calculus">
+<meta property="book:author" content="
+            Garrett Floyd
+          ">
+<meta property="book:author" content="
+            Danny Kotovsky
+          ">
+<meta property="book:author" content="
+            Brian Lee
+          ">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.18d8728f6d56e11d.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="phy2048.html"><span class="title">Introductory Classical Mechanics with Calculus</span></a></h1>
+<p class="byline">Garrett Floyd, Danny Kotovsky, Brian Lee</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-power-ex-prob.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-conserv-energy.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-lin-momentum-and-com.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="phy2048-2.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-prereq-skills.html" class="internal"><span class="codenumber">1</span> <span class="title">Prerequisite Skills Refresher</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sig-figs.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sig-figs.html#subsec-exact-vs-inexact-nums" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Exact vs Inexact Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sig-figs.html#subsubsec-add-and-sub" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Addition and Subtraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sig-figs.html#subsubsec-mul-and-div" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Multiplication and Division</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sig-figs.html#subsubsec-multi-step-calcs" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Multiple-Step Calculations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sig-figs.html#subsec-rounding-rules" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Rules for Rounding Your Final Answer</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-w-units.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Algebra with Units</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-geometry.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Geometry</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-trig.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Trigonometry</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exercises-prereq-skills.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-vectors.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-vectors.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-vect-ops" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Doing Math on Vectors Graphically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-vect-comp-form" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Vectors in Component Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-vect-polar-form" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Vectors in Polar Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-scaling-vects" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Scaling Vectors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-vec-add" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Vector Addition</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-pos-vect" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Position Vector</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-displacement-vect" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Displacement Vector</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-dot-prod" class="internal"><span class="codenumber">2.1.8</span> <span class="title">Dot Product</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-vectors.html#subsec-cross-prod" class="internal"><span class="codenumber">2.1.9</span> <span class="title">Cross Product</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-vectors.html#exercises-sec-replacement_tag5" class="internal"><span class="codenumber">2.1.10</span> <span class="title">Section Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-vectors.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-1d-kinematic-defs.html" class="internal"><span class="codenumber">3</span> <span class="title">Kinematic Definitions in One Dimension</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pos-vel-speed-acc.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematic Definitions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pos-vel-speed-acc.html#subsec-1d-position" class="internal"><span class="codenumber">3.1.1</span> <span class="title">One Dimensional Position</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pos-vel-speed-acc.html#subsec-1d-displacement" class="internal"><span class="codenumber">3.1.2</span> <span class="title">One Dimensional Displacement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pos-vel-speed-acc.html#subsec-1d-vel" class="internal"><span class="codenumber">3.1.3</span> <span class="title">One Dimensional Velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pos-vel-speed-acc.html#subsec-speed" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Speed</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pos-vel-speed-acc.html#subsec-1d-acc" class="internal"><span class="codenumber">3.1.5</span> <span class="title">One Dimensional Acceleration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-1d-kinematic-defs.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-eqs-of-1d-kinematics.html" class="internal"><span class="codenumber">4</span> <span class="title">Equations of 1D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-deriv-1d-kin-eqs.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Deriving 1D Kinematic Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solv-sing-obj-1d-kin-probs.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Solving Single-object 1D Kinematic Problems</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ch-exercises-eqs-1d-kinematics.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-multiobject-kinematics.html" class="internal"><span class="codenumber">5</span> <span class="title">Multi-object Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solv-multi-obj-1d-kin-probs.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Solving Multi-object 1D Kinematic Problems</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-multiobject-kinematics.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-2d-kinematic-defs.html" class="internal"><span class="codenumber">6</span> <span class="title">2D Kinematic Definitions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2d-pos-vel-acc.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Position, velocity, and Acceleration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2d-diff-eqs-motion.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Differential Equations of Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2d-speed.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Speed: Magnitude of Velocity</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2d-int-eqs-motion.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Integral Equations of Motion</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-2d-kinematic-defs.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-eqs-of-2d-kinematics.html" class="internal"><span class="codenumber">7</span> <span class="title">Equations of 2D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-deriv-2d-kin-eqs.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Deriving 2D Kinematic Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-projectile-motion.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Projectile Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solv-2d-kin-probs.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Solving 2D Kinematic Problems</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-eqs-of-2d-kinematics.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rel-velocity.html" class="internal"><span class="codenumber">8</span> <span class="title">Relative Velocity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-obs-and-ref-frame.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Observers and Reference Frames</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rel-position.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Relative Position</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rel-vel.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Relative Velocity</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solving-rel-vel-probs.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Solving Relative Velocity Problems</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-rel-velocity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-fbds.html" class="internal"><span class="codenumber">9</span> <span class="title">Free Body Diagrams</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newt-first-law-def-force.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Newton’s First Law and the Definition of Force</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newt-sec-law-def-mass.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Newton’s Second Law and the Definition of Mass</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-normal-force.html" class="internal"><span class="codenumber">9.3</span> <span class="title">The Normal Force</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-draw-fbds.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Drawing Free Body Diagrams</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-fbds.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-weight-and-tension.html" class="internal"><span class="codenumber">10</span> <span class="title">Weight and Tension</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gravity.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Gravity</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-weight-ex-prob.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Weight Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-tension.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Tension</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-weight-tension-ex-prob.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Weight and Tension Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-weight-and-tension.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-apparent-weight.html" class="internal"><span class="codenumber">11</span> <span class="title">Apparent Weight</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-weight.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Weight</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apparent-weight.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Apparent Weight</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-apparent-weight-ex-prob.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Apparent Weight Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-lbs.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Pounds: Force or Mass</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-contact-force-and-apparent-weight.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-pulleys.html" class="internal"><span class="codenumber">12</span> <span class="title">Pulleys</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pulley-probs.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Pulley Problems</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pulleys-ex-prob-1.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Pulleys Example Problem 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pulleys-ex-prob-2.html" class="internal"><span class="codenumber">12.3</span> <span class="title">Pulleys Example Problem 2</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-pulleys.html" class="internal"><span class="codenumber">12.4</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-contact-friction.html" class="internal"><span class="codenumber">13</span> <span class="title">Contact Friction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-stat-kin-fric.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Static and Kinetic Friction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-contact-friction-ex-prob-1.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Contact Friction Example Problem 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-contact-friction-ex-prob-2.html" class="internal"><span class="codenumber">13.3</span> <span class="title">Contact Friction Example Problem 2</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-wheels-fric.html" class="internal"><span class="codenumber">13.4</span> <span class="title">Wheels and Friction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-wheels-fric-ex-prob.html" class="internal"><span class="codenumber">13.5</span> <span class="title">Wheels and Friction Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-contact-friction.html" class="internal"><span class="codenumber">13.6</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-newtons-third.html" class="internal"><span class="codenumber">14</span> <span class="title">Newton’s Third Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newtons-third.html" class="internal"><span class="codenumber">14.1</span> <span class="title">Newton’s Third Law</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-tips-and-tricks.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Tips and Tricks</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newtons-third-ex-prob.html" class="internal"><span class="codenumber">14.3</span> <span class="title">Newton’s Third Law Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-newtons-third.html" class="internal"><span class="codenumber">14.4</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-work-and-kinetic-energy.html" class="internal"><span class="codenumber">15</span> <span class="title">Work and Kinetic Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-work.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Work</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-sing-force" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Work From a Single Force</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-work-kin-energy-theorem.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Work-Kinetic Energy Theorem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-work-and-kinetic-energy.html" class="internal"><span class="codenumber">15.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-conserv-energy.html" class="internal"><span class="codenumber">16</span> <span class="title">Conservation of Energy</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-forces.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Conservative Forces</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Potential Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Power Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises active"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.7</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-lin-momentum-and-com.html" class="internal"><span class="codenumber">17</span> <span class="title">Linear Momentum and Center of Mass</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-momentum-impulse.html#exercises-sec-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-conserv-momentum.html#exercises-sec-conserv-momentum" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-collisions.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Collisions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-elastic-collisions" class="internal"><span class="codenumber">17.3.1</span> <span class="title">1D Elastic Collsions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-inelastic-collisions" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Inelastic Collisions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-explosions" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Explosions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-collision-ex-prob.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Collision Example Problem</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-com.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Center of Mass</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-com.html#exercises-sec-com" class="internal"><span class="codenumber">17.5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-var-mass-force.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Variable Mass Force</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-var-mass-force.html#exercises-sec-sec-var-mass-force" class="internal"><span class="codenumber">17.6</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rotational-kinematics.html" class="internal"><span class="codenumber">18</span> <span class="title">Rotational Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-rot-kin.html" class="internal"><span class="codenumber">18.1</span> <span class="title">Rotational Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-eqs-rot-kin" class="internal"><span class="codenumber">18.1.2</span> <span class="title">Equations of Rotational Kinematics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circ-motion.html" class="internal"><span class="codenumber">18.2</span> <span class="title">Circular Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-relating-cart-polar-coord-systems" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relating Cartesian and Polar Coordinate Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-ucm.html" class="internal"><span class="codenumber">18.3</span> <span class="title">Uniform Circular Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rot-kin-ex-prob.html" class="internal"><span class="codenumber">18.4</span> <span class="title">Rotational Kinematics Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-rotational-kinematics.html" class="internal"><span class="codenumber">18.5</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-newtons-laws-w-circ-motion.html" class="internal"><span class="codenumber">19</span> <span class="title">Newton’s Laws with Circular Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-newt-laws-circ-motion.html" class="internal"><span class="codenumber">19.1</span> <span class="title">Newton’s Laws with Circular Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solv-newt-laws-circ-motion-probs.html" class="internal"><span class="codenumber">19.2</span> <span class="title">Solving Newton’s Laws with Circular Motion Problems</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-newtons-laws-w-circ-motion.html" class="internal"><span class="codenumber">19.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-torque.html" class="internal"><span class="codenumber">20</span> <span class="title">Torque</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-torque.html" class="internal"><span class="codenumber">20.1</span> <span class="title">Torque</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-torque.html" class="internal"><span class="codenumber">20.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="exercises" id="exercises-ch-conserv-energy"><h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">16.7</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter Exercises</span>
+</h2>
+<article class="exercise exercise-like" id="exercises-ch-conserv-energy-2"><h3 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Deriving the Gravitational Potential Energy formula, <span class="process-math">\(mgh\)</span>.</span>
+</h3>
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1">
+<div class="para">The work done by a conservative force causes stored energy that can be fully recovered later (whereas the work done by a non-conservative force is not stored up, and gets lost as waste energy). So, we say that the amount of potential energy, <span class="process-math">\(\Delta U\text{,}\)</span> stored by a conservative force is the negative (reverse) of the work W expended by the conservative force.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-conserv-energy-2-2-1-2">
+<li id="exercises-ch-conserv-energy-2-2-1-2-1">
+<div class="para" id="exercises-ch-conserv-energy-2-2-1-2-1-1">If we calculate the amount of work done by a conservative force, that will give us (after some cleanup) the formula for the potential energy caused by that force. Let’s do this to find the formula for gravitational potential energy near the surface of Earth (it’s a more complicated formula out in space).<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.a"><a href="#exercises-ch-conserv-energy-2-2-1-2-1" title="Copy heading and permalink for Item 16.7.1.a" aria-label="Copy heading and permalink for Item 16.7.1.a">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-2">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-2-1">
+<div class="para">Write down the most general formula we have for net work done when the net force vector and displacement vector is not constant:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-2-1-1">
+\begin{equation*}
+W_{grav} = \int_{\fillinmath{X}}^{\fillinmath{X}} \fillinmath{XXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.b"><a href="#exercises-ch-conserv-energy-2-2-1-2-2" title="Copy heading and permalink for Item 16.7.1.b" aria-label="Copy heading and permalink for Item 16.7.1.b">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-3">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-3-1">
+<div class="para">Write the x,y,z components of the force of gravity <span class="process-math">\(\vec{F}\text{.}\)</span> Assume the vertical axis is the z-axis.</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-3-1-2">
+\begin{equation*}
+\vec{F} = \left\langle \fillinmath{X}, 0, \fillinmath{X} \right\rangle
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.c"><a href="#exercises-ch-conserv-energy-2-2-1-2-3" title="Copy heading and permalink for Item 16.7.1.c" aria-label="Copy heading and permalink for Item 16.7.1.c">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-4">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-4-1">
+<div class="para">Write the x,y,z components of a small 3-D displacement <span class="process-math">\(\vec{ds}\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-4-1-2">
+\begin{equation*}
+\vec{ds} = \left\langle \fillinmath{X}, dy, \fillinmath{X} \right\rangle
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.d"><a href="#exercises-ch-conserv-energy-2-2-1-2-4" title="Copy heading and permalink for Item 16.7.1.d" aria-label="Copy heading and permalink for Item 16.7.1.d">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-5">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-5-1">
+<div class="para">Do the dot product of the force of gravity and the small displacement:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-5-1-1">
+\begin{equation*}
+\vec{F} \cdot \vec{ds} = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.e"><a href="#exercises-ch-conserv-energy-2-2-1-2-5" title="Copy heading and permalink for Item 16.7.1.e" aria-label="Copy heading and permalink for Item 16.7.1.e">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-6">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-6-1">
+<div class="para">Do the integral of your dot product result to get the work formula. Since the only small differential left is <span class="process-math">\(\fillinmath{X}\text{,}\)</span> the variable of integration must be z. So, the lower limit of integration is the initial coordinate <span class="process-math">\(\fillinmath{X}\text{,}\)</span> and the upper limit is the final coordinate <span class="process-math">\(\fillinmath{X}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-6-1-4">
+\begin{equation*}
+W_{grav} = \int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXX}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-6-1-5">
+\begin{equation*}
+W_{grav} = - mg(z_{f} - z_{i})
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-6-1-6">
+\begin{equation*}
+W_{grav} = - mg\mathrm{\Delta}z
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.f"><a href="#exercises-ch-conserv-energy-2-2-1-2-6" title="Copy heading and permalink for Item 16.7.1.f" aria-label="Copy heading and permalink for Item 16.7.1.f">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-7">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-7-1">
+<div class="para">So, the gain in gravitational potential energy is the reverse of the work done:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-7-1-1">
+\begin{equation*}
+\mathrm{\Delta}U_{grav} = - W_{grav}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-7-1-2">
+\begin{equation*}
+\mathrm{\Delta}U_{grav} = - \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-7-1-3">
+\begin{equation*}
+\mathrm{\Delta}U_{grav} = + \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="para">or if you need to break the <span class="process-math">\(\mathrm{\Delta}U_{grav}\)</span> into final and initial values,</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-7-1-5">
+\begin{equation*}
+U_{{grav}_{f}} - U_{{grav}_{i}} = \fillinmath{XXXXXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.g"><a href="#exercises-ch-conserv-energy-2-2-1-2-7" title="Copy heading and permalink for Item 16.7.1.g" aria-label="Copy heading and permalink for Item 16.7.1.g">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-2-2-1-2-8">
+<div class="para logical" id="exercises-ch-conserv-energy-2-2-1-2-8-1">
+<div class="para">Many textbooks call the altitude (above the origin) <span class="process-math">\(h\)</span> instead of <span class="process-math">\(z\text{.}\)</span> So, in terms of <span class="process-math">\(h\text{,}\)</span> the formula would be:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-8-1-4">
+\begin{equation*}
+U_{{grav}_{f}} - U_{{grav}_{i}} = \left( mgh_{f} \right) - (mgh_{i})
+\end{equation*}
+</div>
+<div class="para">so, since you can plug in <span class="process-math">\(h_{f}\)</span> to get <span class="process-math">\(U_{f}\)</span> or <span class="process-math">\(h_{i}\)</span> to get <span class="process-math">\(U_{i}\text{,}\)</span> we can write the general formula for any single <span class="process-math">\(U\)</span> in terms of any single <span class="process-math">\(h\)</span> as:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-2-2-1-2-8-1-11">
+\begin{equation*}
+U_{grav} = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.1.h"><a href="#exercises-ch-conserv-energy-2-2-1-2-8" title="Copy heading and permalink for Item 16.7.1.h" aria-label="Copy heading and permalink for Item 16.7.1.h">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.1: Deriving the Gravitational Potential Energy formula, mgh"><a href="#exercises-ch-conserv-energy-2" title="Copy heading and permalink for Exercise 16.7.1: Deriving the Gravitational Potential Energy formula, mgh" aria-label="Copy heading and permalink for Exercise 16.7.1: Deriving the Gravitational Potential Energy formula, mgh">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-3"><h3 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Derivation of Conservaton of Energy.</span>
+</h3>
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1">
+<div class="para">The Law of Conservation of Energy is actually just an alternative way of writing the Work-Energy Theorem. However, we are going to break down the net work into conservative work and non-conservative work.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-conserv-energy-3-2-1-1">
+<li id="exercises-ch-conserv-energy-3-2-1-1-1">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-1-1">
+<div class="para">Write down the most general formula we have for net work done when the net force is not constant. Write the symbolic formula in terms of the net force vector, <span class="process-math">\({\vec{F}}_{net}\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-1-1-2">
+\begin{equation*}
+W_{net} = \int_{\fillinmath{X}}^{\fillinmath{X}} \fillinmath{XXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.a"><a href="#exercises-ch-conserv-energy-3-2-1-1-1" title="Copy heading and permalink for Item 16.7.2.a" aria-label="Copy heading and permalink for Item 16.7.2.a">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-2">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-2-1">
+<div class="para">
+<span class="process-math">\({\vec{F}}_{net}\)</span> is made up of two kinds of forces: conservative and non-conservative. Substitute in <span class="process-math">\({\vec{F}}_{net} = {\vec{F}}_{cons} + {\vec{F}}_{noncons}\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-2-1-3">
+\begin{equation*}
+W_{net} = \int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXXXXXXX}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.b"><a href="#exercises-ch-conserv-energy-3-2-1-1-2" title="Copy heading and permalink for Item 16.7.2.b" aria-label="Copy heading and permalink for Item 16.7.2.b">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-3">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-3-1">
+<div class="para">Break the integral into two parts, one for integrating the <span class="process-math">\({\vec{F}}_{cons}\text{,}\)</span> and one for integrating the <span class="process-math">\({\vec{F}}_{noncons}\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-3-1-3">
+\begin{equation*}
+W_{net} = 
+\int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXX}} + 
+\int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXX}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.c"><a href="#exercises-ch-conserv-energy-3-2-1-1-3" title="Copy heading and permalink for Item 16.7.2.c" aria-label="Copy heading and permalink for Item 16.7.2.c">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-4">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-4-1">
+<div class="para">From the definition of potential energy <span class="process-math">\(U\text{,}\)</span> we know that the change in potential energy <span class="process-math">\(\Delta U\)</span> is related to the <span class="process-math">\({\vec{F}}_{cons}\)</span> by the following relationship:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-4-1-4">
+\begin{equation*}
+\mathrm{\Delta}U =
+- W_{cons} =
+- \int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXX}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.d"><a href="#exercises-ch-conserv-energy-3-2-1-1-4" title="Copy heading and permalink for Item 16.7.2.d" aria-label="Copy heading and permalink for Item 16.7.2.d">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-5">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-5-1">
+<div class="para">From the Work-KE Theorem, we know that the net work is related to the change in kinetic energy by the following relationship:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-5-1-1">
+\begin{equation*}
+W_{net} = \fillinmath{XXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.e"><a href="#exercises-ch-conserv-energy-3-2-1-1-5" title="Copy heading and permalink for Item 16.7.2.e" aria-label="Copy heading and permalink for Item 16.7.2.e">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-6">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-6-1">
+<div class="para">Now, use your answers from steps 4 and 5 to substitute back into step 3. You can replace one of the integrals using your answer from step 4, and you can replace the <span class="process-math">\(W_{net}\)</span> using your answer from step 5:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-6-1-2">
+\begin{equation*}
+\fillinmath{XXX} = 
+\fillinmath{XXX} + 
+\int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXX}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.f"><a href="#exercises-ch-conserv-energy-3-2-1-1-6" title="Copy heading and permalink for Item 16.7.2.f" aria-label="Copy heading and permalink for Item 16.7.2.f">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-7">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-7-1">
+<div class="para">We can call the one remaining integral the work done by the non-conservative forces. (These include forces that move energy in/out of the isolated system, which could be called external work input, <span class="process-math">\(W_{ext}\text{.}\)</span>) So,</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-7-1-2">
+\begin{equation*}
+\mathrm{\Delta}KE = - \mathrm{\Delta}U + W_{ext}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.g"><a href="#exercises-ch-conserv-energy-3-2-1-1-7" title="Copy heading and permalink for Item 16.7.2.g" aria-label="Copy heading and permalink for Item 16.7.2.g">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-8">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-8-1">
+<div class="para">Now we can do some rearranging on the formula to clean it up. Note that <span class="process-math">\(\mathrm{\Delta}KE = {KE}_{f} - {KE}_{i}\)</span> and <span class="process-math">\(\mathrm{\Delta}U = U_{f} - U_{i}\text{.}\)</span> Substitute these in:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-8-1-3">
+\begin{equation*}
+\fillinmath{XX} - \fillinmath{XX}  = - U_{f} + \fillinmath{XX} + W_{ext}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.h"><a href="#exercises-ch-conserv-energy-3-2-1-1-8" title="Copy heading and permalink for Item 16.7.2.h" aria-label="Copy heading and permalink for Item 16.7.2.h">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-9">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-9-1">
+<div class="para">Put all the energies that are evaluated using the final positions/velocities on the left-hand side; put all the energies that are evaluated using the initial positions/velocities on the right-hand side:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-9-1-1">
+\begin{equation*}
+{\fillinmath{XXX}}_{f} + 
+{\fillinmath{XXX}}_{f} = 
+{\fillinmath{XXX}}_{i} + 
+{\fillinmath{XXX}}_{i} + 
+W_{ext}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.i"><a href="#exercises-ch-conserv-energy-3-2-1-1-9" title="Copy heading and permalink for Item 16.7.2.i" aria-label="Copy heading and permalink for Item 16.7.2.i">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-3-2-1-1-10">
+<div class="para logical" id="exercises-ch-conserv-energy-3-2-1-1-10-1">
+<div class="para">
+<span class="process-math">\({KE}_{f} + U_{f}\)</span> is defined as the final total mechanical energy: <span class="process-math">\(E_{f} = {KE}_{f} + U_{f}\text{.}\)</span> <span class="process-math">\({KE}_{i} + U_{i}\)</span> is defined as the initial total mechanical energy: <span class="process-math">\(E_{i} = {KE}_{i} + U_{i}\text{.}\)</span> Subbing this in to shorten the equation, we have the Law of Conservation of Energy:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-10-1-5">
+\begin{equation*}
+E_{f} = E_{i} + W_{ext}
+\end{equation*}
+</div>
+<div class="para">Note that often the <span class="process-math">\(W_{ext}\)</span> is done by friction, and friction often does negative work. When <span class="process-math">\(W_{ext}\)</span> is a negative number, <span class="process-math">\(E_{f}\)</span> is less than <span class="process-math">\(E_{i}\)</span> (in other words, energy was lost/dissipated as frictional heat). But if there is no nonconservative <span class="process-math">\(W_{ext}\text{,}\)</span> then the final total energy is the same as the initial total energy. Note also that <span class="process-math">\(U\)</span> is the total instantaneous potential energy from all sources of conservative work. It may be made up of many individual sources of potential energy. So, if gravity, electricity, and springs are all present in a problem, you will need to calculate the total instantaneous potential energy by breaking out</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-3-2-1-1-10-1-12">
+\begin{equation*}
+U_{f}=U_{grav, f}+U_{elec, f}+U_{spring, f} \ \text{and} \ U_{i}=U_{grav, i}+U_{elec, i}+U_{spring, i}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1-1-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.2.j"><a href="#exercises-ch-conserv-energy-3-2-1-1-10" title="Copy heading and permalink for Item 16.7.2.j" aria-label="Copy heading and permalink for Item 16.7.2.j">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.2: Derivation of Conservaton of Energy"><a href="#exercises-ch-conserv-energy-3" title="Copy heading and permalink for Exercise 16.7.2: Derivation of Conservaton of Energy" aria-label="Copy heading and permalink for Exercise 16.7.2: Derivation of Conservaton of Energy">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-4"><h3 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conservation of Energy example including external work.</span>
+</h3>
+<div class="para" id="exercises-ch-conserv-energy-4-2-1">In potential energy problems, the variables are usually the coordinates and speeds. Let’s see how the givens and unknowns come into an example problem. Consider a sled of mass m sliding down a wavy hill with friction. The hill has height <span class="process-math">\(h\text{.}\)</span> The sled starts at rest at the top and ends with speed = <span class="process-math">\(v_{f}\)</span> at the bottom. How much energy is lost due to friction?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-conserv-energy-4-2-2">Step 1. Make sure that this is a Conservation of Energy problem. We know it’s probably not a kinematics problem because they didn’t tell us the <span class="process-math">\(\fillinmath{XXX}\)</span> of the hill, the <span class="process-math">\(\fillinmath{XXX}\)</span> of the hill, or the amount of <span class="process-math">\(\fillinmath{XXX}\)</span> elapsed for the sled to get to the bottom.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-conserv-energy-4-2-3">Step 2. Draw a before-and-after diagram showing the initial position and final position of the sled. Mark the location of the coordinate origin on both pictures (you may pick the origin anywhere you like, but after you pick it, both pictures must have the origin marked in the same place). To show that any pick works, let’s pick the origin to be where the sled started.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-conserv-energy-4-2-4">Step 3. Measure speeds and coordinates relative to the origin you picked.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-conserv-energy-4-2-5">
+<div class="para">Initial values:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-5-1">
+\begin{equation*}
+v_i = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-5-2">
+\begin{equation*}
+x_i = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-5-3">
+\begin{equation*}
+y_i = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-conserv-energy-4-2-6">
+<div class="para">final values:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-6-1">
+\begin{equation*}
+v_f = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-6-2">
+\begin{equation*}
+x_f = unknown 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-6-3">
+\begin{equation*}
+y_f = -h
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-conserv-energy-4-2-7">
+<div class="para">Step 4. Write the equation of Conservation of Energy. Break it down to show all sources of initial energy present in this particular problem (kinetic? gravitational potential? spring potential?), and all sources of final energy in this particular problem. Since the target object has a speed, there is <span class="process-math">\(\fillinmath{XXXXX}\)</span> energy in this problem. Since the altitude changes, there is <span class="process-math">\(\fillinmath{XXXXX}\)</span> energy in this problem. Since there is no spring, there is no <span class="process-math">\(\fillinmath{XXXXX}\)</span> energy in this problem. Since there is friction, there is non-conserved external <span class="process-math">\(\fillinmath{XX}\)</span> in this problem.</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-7-5">
+\begin{equation*}
+E_{f} = E_{i} + W_{ext}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-7-6">
+\begin{equation*}
+{\fillinmath{XXX} + U}_{grav,f} = {KE}_{i} + \fillinmath{XXX} + W_{ext}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-conserv-energy-4-2-8">
+<div class="para">Step 5. Sub. in all kinetic and potential energy formulae needed.</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-8-1">
+\begin{equation*}
+\fillinmath{XXX} + mgh_{f} = \frac{1}{2}mv_{i}^{2} + \fillinmath{XXX} + W_{ext}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-conserv-energy-4-2-9">
+<div class="para">Step 6. Sub. in all givens, then solve for the requested unknown, which is <span class="process-math">\(W_{ext}\)</span> in this problem. If <span class="process-math">\(W_{ext}\)</span> came out negative, it means energy was lost and turned into waste energy, such as heat. [If <span class="process-math">\(W_{ext}\)</span> were positive, it means some external source came and added energy to the system (for example, chemical energy from an explosion).]</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-9-4">
+\begin{equation*}
+\fillinmath{XXX} + mg( - h) = \frac{1}{2}m{(0)}^{2} + \fillinmath{XXX} + W_{ext}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-4-2-9-5">
+\begin{equation*}
+W_{ext} = \fillinmath{XXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-4-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.3: Conservation of Energy example including external work"><a href="#exercises-ch-conserv-energy-4" title="Copy heading and permalink for Exercise 16.7.3: Conservation of Energy example including external work" aria-label="Copy heading and permalink for Exercise 16.7.3: Conservation of Energy example including external work">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-5"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-conserv-energy-5-1-1">A reluctant child is pushed down a frictionless waterslide, with an initial speed of 1.00 meters per second, initially directed 20.0 degrees below horizontal (the angle of the slide is not 20.0 degrees all throughout, though, since the slide twists and turns). The top of the slide is 30.0 m above sea level, and the bottom of the ramp is 20.0 m above sea level. Find the speed of the child as he reaches the bottom of the slide.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.4"><a href="#exercises-ch-conserv-energy-5" title="Copy heading and permalink for Exercise 16.7.4" aria-label="Copy heading and permalink for Exercise 16.7.4">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-6"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-conserv-energy-6-1-1">Your company is designing an apparatus for an ice skating show. An ice skater will start from rest and slide down an ice-covered ramp. At the bottom of the ramp, the skater will glide around an ice-covered loop which is the inside of a vertical circle before emerging out onto the skating rink floor. For a spectacular effect, the circular loop will have a diameter of 30.0 feet. Your task is to determine the minimum height from the rink floor to the top of the ramp for the skater to make it around the loop. When barely making it around, the skater briefly loses contact with the ice at the top of the loop and at that point the skater is in free fall.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.5"><a href="#exercises-ch-conserv-energy-6" title="Copy heading and permalink for Exercise 16.7.5" aria-label="Copy heading and permalink for Exercise 16.7.5">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-7"><h3 class="heading">
+<span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Deriving the Spring Potential Energy formula, <span class="process-math">\(\sfrac{kx^{2}}{2}\)</span>.</span>
+</h3>
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1">
+<div class="para">The work done by a conservative force causes stored energy that can be fully recovered later (whereas the work done by a non-conservative force is not stored up, and gets lost as waste energy). So, we say that the amount of potential energy, <span class="process-math">\(\Delta U\text{,}\)</span> stored by a conservative force is the negative (reverse) of the work <span class="process-math">\(W\)</span> expended by the conservative force.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-conserv-energy-7-2-1-3">
+<li id="exercises-ch-conserv-energy-7-2-1-3-1">
+<div class="para" id="exercises-ch-conserv-energy-7-2-1-3-1-1">If we calculate the amount of work done by a conservative force, that will give us (after some cleanup) the formula for the potential energy caused by that force. Let’s do this to find the formula for the potential energy of a string that gets stretched by an amount <span class="process-math">\(x\)</span> beyond its natural length.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.a"><a href="#exercises-ch-conserv-energy-7-2-1-3-1" title="Copy heading and permalink for Item 16.7.6.a" aria-label="Copy heading and permalink for Item 16.7.6.a">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-2">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-2-1">
+<div class="para">Write down the most general formula we have for net work done when the net force vector and displacement vector is not constant:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-2-1-1">
+\begin{equation*}
+W_{spring} = \int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXX}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.b"><a href="#exercises-ch-conserv-energy-7-2-1-3-2" title="Copy heading and permalink for Item 16.7.6.b" aria-label="Copy heading and permalink for Item 16.7.6.b">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-3">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-3-1">
+<div class="para">We need to know what the spring force equation is. Let’s figure it out:</div>
+<ol class="lower-roman" id="exercises-ch-conserv-energy-7-2-1-3-3-1-1">
+<li id="exercises-ch-conserv-energy-7-2-1-3-3-1-1-1">
+<div class="para" id="exercises-ch-conserv-energy-7-2-1-3-3-1-1-1-1">For a spring, when you increase the amount of stretch <span class="process-math">\(x\text{,}\)</span> the force will <span class="process-math">\(\fillinmath{XXXXX}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.c.i"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1-1-1" title="Copy heading and permalink for Item 16.7.6.c.i" aria-label="Copy heading and permalink for Item 16.7.6.c.i">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-3-1-1-2">
+<div class="para" id="exercises-ch-conserv-energy-7-2-1-3-3-1-1-2-1">For a spring, when you stretch it in the +x direction, the force will be in the <span class="process-math">\(\fillinmath{XXXXX}\)</span> direction.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.c.ii"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1-1-2" title="Copy heading and permalink for Item 16.7.6.c.ii" aria-label="Copy heading and permalink for Item 16.7.6.c.ii">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-3-1-1-3">
+<div class="para" id="exercises-ch-conserv-energy-7-2-1-3-3-1-1-3-1">Therefore, the spring force would be <span class="process-math">\(F = - kx\text{,}\)</span> where the <span class="process-math">\(k\)</span> is a constant of proportionality that cancels the units correctly (since the <span class="process-math">\(F\)</span> is in newtons and the <span class="process-math">\(x\)</span> is in meters). <span class="process-math">\(k\)</span> is called the “spring constant.”<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.c.iii"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1-1-3" title="Copy heading and permalink for Item 16.7.6.c.iii" aria-label="Copy heading and permalink for Item 16.7.6.c.iii">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.c"><a href="#exercises-ch-conserv-energy-7-2-1-3-3" title="Copy heading and permalink for Item 16.7.6.c" aria-label="Copy heading and permalink for Item 16.7.6.c">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-4">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-4-1">
+<div class="para">Write the x,y,z components of the spring force <span class="process-math">\(\vec{F}\text{.}\)</span> Assume the spring is stretched along the x-axis.</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-4-1-2">
+\begin{equation*}
+\vec{F} = \left\langle
+\fillinmath{XXX},
+\fillinmath{XXX},
+\fillinmath{XXX} 
+\right\rangle
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.d"><a href="#exercises-ch-conserv-energy-7-2-1-3-4" title="Copy heading and permalink for Item 16.7.6.d" aria-label="Copy heading and permalink for Item 16.7.6.d">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-5">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-5-1">
+<div class="para">Write the x,y,z components of a small displacement of our spring along the x-axis:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-5-1-1">
+\begin{equation*}
+\vec{ds} = \left\langle 
+\fillinmath{XXX},
+\fillinmath{XXX},
+\fillinmath{XXX} 
+\right\rangle
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.e"><a href="#exercises-ch-conserv-energy-7-2-1-3-5" title="Copy heading and permalink for Item 16.7.6.e" aria-label="Copy heading and permalink for Item 16.7.6.e">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-6">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-6-1">
+<div class="para">5. Do the dot product of the spring force and the small displacement:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-6-1-1">
+\begin{equation*}
+\vec{F} \cdot \vec{ds} = \fillinmath{XXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.f"><a href="#exercises-ch-conserv-energy-7-2-1-3-6" title="Copy heading and permalink for Item 16.7.6.f" aria-label="Copy heading and permalink for Item 16.7.6.f">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-7">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-7-1">
+<div class="para">6. Do the integral of your dot product result to get the work formula. Since the only small differential left is <span class="process-math">\(\fillinmath{XX}\text{,}\)</span> the variable of integration must be <span class="process-math">\(\fillinmath{XX}\text{.}\)</span> So, the lower limit of integration is the initial coordinate <span class="process-math">\(\fillinmath{XX}\text{,}\)</span> and the upper limit is the final coordinate <span class="process-math">\(\fillinmath{XX}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-7-1-5">
+\begin{equation*}
+W_{spring} = \int_{\fillinmath{X}}^{\fillinmath{X}}{\fillinmath{XXXXX}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-7-1-6">
+\begin{equation*}
+W_{spring} = - \frac{1}{2}k{x_{f}}^{2} + \frac{1}{2}k{x_{i}}^{2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.g"><a href="#exercises-ch-conserv-energy-7-2-1-3-7" title="Copy heading and permalink for Item 16.7.6.g" aria-label="Copy heading and permalink for Item 16.7.6.g">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-8">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-8-1">
+<div class="para">7. So, the gain in spring potential energy is the reverse of the work done:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-8-1-1">
+\begin{equation*}
+\mathrm{\Delta}U_{spring} = - W_{spring}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-8-1-2">
+\begin{equation*}
+\mathrm{\Delta}U_{spring} = - (\fillinmath{XXXXXXXX})
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-8-1-3">
+\begin{equation*}
+\mathrm{\Delta}U_{spring} = + \fillinmath{XXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">or if you need to break the <span class="process-math">\(\mathrm{\Delta}U_{spring}\)</span> into final and initial values,</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-8-1-5">
+\begin{equation*}
+U_{{spring}_{f}} - U_{{spring}_{i}} = \fillinmath{XXXXXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.h"><a href="#exercises-ch-conserv-energy-7-2-1-3-8" title="Copy heading and permalink for Item 16.7.6.h" aria-label="Copy heading and permalink for Item 16.7.6.h">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-7-2-1-3-9">
+<div class="para logical" id="exercises-ch-conserv-energy-7-2-1-3-9-1">
+<div class="para">8. Since you can plug in <span class="process-math">\(x_{f}\)</span> to get <span class="process-math">\(U_{f}\)</span> or <span class="process-math">\(x_{i}\)</span> to get <span class="process-math">\(U_{i}\text{,}\)</span> we can write the general formula for any single <span class="process-math">\(U\)</span> in terms of any single <span class="process-math">\(x\)</span> as:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-7-2-1-3-9-1-7">
+\begin{equation*}
+U_{spring} = \fillinmath{XXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1-3-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.6.i"><a href="#exercises-ch-conserv-energy-7-2-1-3-9" title="Copy heading and permalink for Item 16.7.6.i" aria-label="Copy heading and permalink for Item 16.7.6.i">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.6: Deriving the Spring Potential Energy formula, \sfrac{kx^{2}}{2}"><a href="#exercises-ch-conserv-energy-7" title="Copy heading and permalink for Exercise 16.7.6: Deriving the Spring Potential Energy formula, \sfrac{kx^{2}}{2}" aria-label="Copy heading and permalink for Exercise 16.7.6: Deriving the Spring Potential Energy formula, \sfrac{kx^{2}}{2}">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-8"><h3 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-conserv-energy-8-1-1">At the train station, you notice a large horizontal spring at the end of the track where the train comes in. This is a safety device to stop the train so that it will not plow through the station if the engineer misjudges the stopping distance. While waiting, you wonder what would be the fastest train that the spring could stop at its full compression, 3.0 feet. To keep the passengers safe when the train stops, you assume a maximum stopping acceleration of magnitude <span class="process-math">\(g/2\text{,}\)</span> where <span class="process-math">\(g = 9.8\)</span> meters per second. You also guess that a train weighs half a million pounds. For purpose of getting an estimate, you decide to assume that all frictional force are negligible.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.7"><a href="#exercises-ch-conserv-energy-8" title="Copy heading and permalink for Exercise 16.7.7" aria-label="Copy heading and permalink for Exercise 16.7.7">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-9"><h3 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-conserv-energy-9-1-1">You have been hired to design a spring-launched roller coaster that will carry two passengers per car. The car goes up a 10 meter high hill, then descends 17 meters to the track’s lowest point. You’ve determined that the spring can be compressed a maximum of 2.4 meters and that a loaded car will have a maximum mass of 410 kilograms. For safety reasons, the spring constant should be 12% larger than the minimum needed for the car to just make it over the top. What spring constant should you specify?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.8"><a href="#exercises-ch-conserv-energy-9" title="Copy heading and permalink for Exercise 16.7.8" aria-label="Copy heading and permalink for Exercise 16.7.8">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-10"><h3 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para logical" id="exercises-ch-conserv-energy-10-1-1">
+<div class="para">A 2.5 kilogram box, sliding on a rough horizontal surface, has a speed of 1.2  meters per second when it makes contact with a spring (see the figure). The block comes to a momentary halt when the compression of the spring is 5.0 centimeters. The work done by the friction, from the instant the block makes contact with the spring until it comes to a momentary halt, is -0.50 Joules.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-conserv-energy-10-1-1-1">
+<li id="exercises-ch-conserv-energy-10-1-1-1-1">
+<div class="para" id="exercises-ch-conserv-energy-10-1-1-1-1-1">What is the spring constant of the spring?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-10-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.9.a"><a href="#exercises-ch-conserv-energy-10-1-1-1-1" title="Copy heading and permalink for Item 16.7.9.a" aria-label="Copy heading and permalink for Item 16.7.9.a">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-10-1-1-1-2">
+<div class="para" id="exercises-ch-conserv-energy-10-1-1-1-2-1">What is the coefficient of kinetic friction between the box and the rough surface?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-10-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.9.b"><a href="#exercises-ch-conserv-energy-10-1-1-1-2" title="Copy heading and permalink for Item 16.7.9.b" aria-label="Copy heading and permalink for Item 16.7.9.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.9"><a href="#exercises-ch-conserv-energy-10" title="Copy heading and permalink for Exercise 16.7.9" aria-label="Copy heading and permalink for Exercise 16.7.9">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-11"><h3 class="heading">
+<span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Power: the rate at which work is done by a force.</span>
+</h3>
+<div class="para logical" id="exercises-ch-conserv-energy-11-2-1">
+<div class="para">Work transfers energy between things. The rate at which work is done, or the rate at which energy is transferred, is called the power.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-conserv-energy-11-2-1-1">
+<li id="exercises-ch-conserv-energy-11-2-1-1-1">
+<div class="para" id="exercises-ch-conserv-energy-11-2-1-1-1-1">To move your body up the altitude of one flight of stairs, it typically takes <span class="process-math">\(mg\mathrm{\Delta}h \approx 2000\)</span>  joulse of work to achieve that result. However, you can do this amount of work by: A) crawling up the stairs slowly in a total elapsed time of <span class="process-math">\(\mathrm{\Delta}t \approx 120\)</span> seconds, or B) the same amount of work by running up the stairs quickly in a total elapsed time of <span class="process-math">\(\mathrm{\Delta}t \approx 10\)</span> seconds. Which method, A or B, accomplishes the <span class="process-math">\(2000\)</span> joules of work at a faster rate?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.a"><a href="#exercises-ch-conserv-energy-11-2-1-1-1" title="Copy heading and permalink for Item 16.7.10.a" aria-label="Copy heading and permalink for Item 16.7.10.a">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-2">
+<div class="para" id="exercises-ch-conserv-energy-11-2-1-1-2-1">Since power is the rate at which work is done, which method had higher power? <span class="process-math">\(\fillinmath{X}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.b"><a href="#exercises-ch-conserv-energy-11-2-1-1-2" title="Copy heading and permalink for Item 16.7.10.b" aria-label="Copy heading and permalink for Item 16.7.10.b">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-3">
+<div class="para logical" id="exercises-ch-conserv-energy-11-2-1-1-3-1">
+<div class="para">Knowing which method gave you higher power, which of the following equations must be the correct one?</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-3-1-1">
+\begin{equation*}
+Average\ power = \frac{Work\ done}{Time\ elapsed} = \frac{\mathrm{\Delta}W}{\mathrm{\Delta}t}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-3-1-2">
+\begin{equation*}
+Average\ power = (Work\ done)(Time\ elapsed) = \mathrm{\Delta}W\mathrm{\Delta}t
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.c"><a href="#exercises-ch-conserv-energy-11-2-1-1-3" title="Copy heading and permalink for Item 16.7.10.c" aria-label="Copy heading and permalink for Item 16.7.10.c">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-4">
+<div class="para" id="exercises-ch-conserv-energy-11-2-1-1-4-1">Assuming work done climbing the stairs was <span class="process-math">\(\mathrm{\Delta}W \approx 2000\)</span> joules, what was the average power for the two cases? Check to make sure your answers agree with what you stated in question 2.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exercises-ch-conserv-energy-11-2-1-1-4-2">Average power for <span class="process-math">\(\mathrm{\Delta}t \approx 120\)</span> seconds: <span class="process-math">\(\fillinmath{XXXXX}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exercises-ch-conserv-energy-11-2-1-1-4-3">Average power for <span class="process-math">\(\mathrm{\Delta}t \approx 10\)</span> seconds: <span class="process-math">\(\fillinmath{XXXXX}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.d"><a href="#exercises-ch-conserv-energy-11-2-1-1-4" title="Copy heading and permalink for Item 16.7.10.d" aria-label="Copy heading and permalink for Item 16.7.10.d">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-5">
+<div class="para logical" id="exercises-ch-conserv-energy-11-2-1-1-5-1">
+<div class="para">The SI units for power are units of energy divided by units of time:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-5-1-1">
+\begin{equation*}
+Units\ of\ power:\ \frac{Units\ of\ energy}{Units\ of\ time} = \ \frac{\fillinmath{X}\ }{\fillinmath{X}\ },\ which\ is\ defined\ as\ a\ Watt\ (W).
+\end{equation*}
+</div>
+<div class="para">Also note that if you know the power, but want the energy transferred, then <span class="process-math">\(\mathrm{\Delta}W = P\mathrm{\Delta}t\text{,}\)</span> so you can invent a unit of energy by multiplying any unit of power times any unit of time. This is why your electricity company bills you for the amount of energy you used in units of kilowatts times <span class="process-math">\(\fillinmath{XXX}\)</span> (abbreviated kWh).</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.e"><a href="#exercises-ch-conserv-energy-11-2-1-1-5" title="Copy heading and permalink for Item 16.7.10.e" aria-label="Copy heading and permalink for Item 16.7.10.e">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-6">
+<div class="para logical" id="exercises-ch-conserv-energy-11-2-1-1-6-1">
+<div class="para">To get the instantaneous power, we take the limit of the average power as the time elapsed shrinks to zero:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-6-1-1">
+\begin{equation*}
+Instantaneous\ power\ P = \lim_{\mathrm{\Delta}t \rightarrow 0}\frac{Work\ done}{Time\ elapsed}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-6-1-2">
+\begin{equation*}
+P = \lim_{\mathrm{\Delta}t \rightarrow 0}\frac{\mathrm{\Delta}W}{\ \fillinmath{X}\ }
+\end{equation*}
+</div>
+<div class="para">which turns into a derivative:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-6-1-3">
+\begin{equation*}
+P = \frac{dW}{d\ \fillinmath{X}\ }
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.f"><a href="#exercises-ch-conserv-energy-11-2-1-1-6" title="Copy heading and permalink for Item 16.7.10.f" aria-label="Copy heading and permalink for Item 16.7.10.f">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-7">
+<div class="para logical" id="exercises-ch-conserv-energy-11-2-1-1-7-1">
+<div class="para">We can actually write this in terms of the velocity, if the work is being done by a constant force <span class="process-math">\(\vec{F}\)</span> and a straight-line displacement <span class="process-math">\(\vec{s}\text{.}\)</span> We’ll need to sub in the formula for work if the force is constant, which was:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-7-1-3">
+\begin{equation*}
+W = \ \fillinmath{X}\  \cdot \vec{s}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.g"><a href="#exercises-ch-conserv-energy-11-2-1-1-7" title="Copy heading and permalink for Item 16.7.10.g" aria-label="Copy heading and permalink for Item 16.7.10.g">🔗</a></div>
+</li>
+<li id="exercises-ch-conserv-energy-11-2-1-1-8">
+<div class="para logical" id="exercises-ch-conserv-energy-11-2-1-1-8-1">
+<div class="para">Subbing that in, we’ve got:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-8-1-1">
+\begin{equation*}
+P = \frac{d\ }{dt\ }\left( \fillinmath{X}\  \cdot \vec{s} \right)
+\end{equation*}
+</div>
+<div class="para">If the force is constant, it factors outside the derivative:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-8-1-2">
+\begin{equation*}
+P = \fillinmath{X}\  \cdot \frac{d \left( \vec{s} \right)}{dt\ }
+\end{equation*}
+</div>
+<div class="para">But we know that the derivative of the displacement <span class="process-math">\(\frac{d\ \vec{s}}{dt\ }\)</span> is the <span class="process-math">\(\fillinmath{X}\text{,}\)</span> so this formula can be written:</div>
+<div class="displaymath process-math" id="exercises-ch-conserv-energy-11-2-1-1-8-1-5">
+\begin{equation*}
+P = \vec{F} \cdot \fillinmath{X}\ 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 16.7.10.h"><a href="#exercises-ch-conserv-energy-11-2-1-1-8" title="Copy heading and permalink for Item 16.7.10.h" aria-label="Copy heading and permalink for Item 16.7.10.h">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.10: Power: the rate at which work is done by a force"><a href="#exercises-ch-conserv-energy-11" title="Copy heading and permalink for Exercise 16.7.10: Power: the rate at which work is done by a force" aria-label="Copy heading and permalink for Exercise 16.7.10: Power: the rate at which work is done by a force">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-12"><h3 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-conserv-energy-12-1-1">A 85 kilogram firefighter needs to climb the stairs of a 25 meter tall building while carrying a 35 kilogram backpack filled with gear. How much average power does he need to reach the top in 55 seconds?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.11"><a href="#exercises-ch-conserv-energy-12" title="Copy heading and permalink for Exercise 16.7.11" aria-label="Copy heading and permalink for Exercise 16.7.11">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-conserv-energy-13"><h3 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-conserv-energy-13-1-1">An elevator of mass 1800.0 kilograms ascends with constant velocity +3.00 meters per second. The force of kinetic friction with the wall is 4000.0 newtons. How much power must be supplied to the elevator cable?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-conserv-energy-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 16.7.12"><a href="#exercises-ch-conserv-energy-13" title="Copy heading and permalink for Exercise 16.7.12" aria-label="Copy heading and permalink for Exercise 16.7.12">🔗</a></div></article><div class="autopermalink" data-description="Exercises 16.7: Chapter Exercises"><a href="#exercises-ch-conserv-energy" title="Copy heading and permalink for Exercises 16.7: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 16.7: Chapter Exercises">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-power-ex-prob.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-lin-momentum-and-com.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

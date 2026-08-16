@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="519.875"
+   height="314.13983"
+   viewBox="0 0 137.55026 83.11616"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="SoaCahToa.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="320.67292"
+     inkscape:cy="98.28784"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-33.13906)">
+    <g
+       id="g9"
+       transform="matrix(1.3956336,0,0,1.3968856,-97.223456,-78.332186)"
+       style="stroke-width:0.716199">
+      <path
+         id="rect1"
+         style="fill:#000000;stroke:#000000;stroke-width:0.189792;stroke-linecap:square;stroke-opacity:1;fill-opacity:0"
+         d="M 160.00005,79.999768 69.999862,135.00003 h 90.000188 z" />
+      <path
+         style="stroke-width:0.189792;fill:none;stroke:#000000;stroke-linecap:square;stroke-opacity:1"
+         id="path2"
+         transform="rotate(-31.429752)"
+         sodipodi:type="arc"
+         sodipodi:cx="-10.666515"
+         sodipodi:cy="151.69452"
+         sodipodi:rx="22.559706"
+         sodipodi:ry="22.559706"
+         sodipodi:start="0"
+         sodipodi:end="0.54847661"
+         sodipodi:arc-type="slice"
+         d="M 11.89319,151.69452 A 22.559706,22.559706 0 0 1 8.584128,163.45688 L -10.666515,151.69452 Z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.189792;stroke-linecap:square;stroke-opacity:1"
+         id="rect9"
+         width="5"
+         height="4.9999995"
+         x="155"
+         y="130" />
+      <text
+         xml:space="preserve"
+         style="stroke-width:0.189792;font-size:3.175px;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:#000000;stroke-linecap:square;stroke-opacity:1;fill-opacity:1"
+         x="93.876862"
+         y="129.81944"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="stroke-width:0.189793;fill:#000000;fill-opacity:1"
+           x="93.876862"
+           y="129.81944">θ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="stroke-width:0.189792;font-size:3.175px;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:#000000;stroke-linecap:square;stroke-opacity:1;fill-opacity:1"
+         id="text4"
+         inkscape:label="text4"
+         y="148.56664"
+         x="49.324974"
+         transform="rotate(-30)"><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke-width:0.189793;fill-opacity:1"
+           x="49.324974"
+           y="148.56664"
+           id="tspan5">hyp.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="stroke-width:0.189792;font-size:3.175px;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:#000000;stroke-linecap:square;stroke-opacity:1;fill-opacity:1"
+         x="120"
+         y="138.55026"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="fill:#000000;stroke-width:0.189793;fill-opacity:1"
+           x="120"
+           y="138.55026">adj.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="stroke-width:0.189792;font-size:3.175px;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:#000000;stroke-linecap:square;stroke-opacity:1;fill-opacity:1"
+         x="165"
+         y="110"
+         id="text6"><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke-width:0.189793;fill-opacity:1"
+           x="165"
+           y="110"
+           id="tspan7">opp.</tspan></text>
+    </g>
+  </g>
+</svg>

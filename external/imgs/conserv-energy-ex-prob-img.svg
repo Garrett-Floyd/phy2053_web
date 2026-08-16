@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="140mm"
+   height="140mm"
+   viewBox="0 0 140 140"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="conserv-energy-ex-prob-img.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.68862935"
+     inkscape:cx="732.61472"
+     inkscape:cy="524.95584"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-25.000002"
+       originy="-75"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="207.87402"
+       y="465.6684"
+       width="56.692917"
+       height="44.567806"
+       id="rect9" />
+    <rect
+       x="195.09811"
+       y="353.74368"
+       width="81.119743"
+       height="32.345215"
+       id="rect5" />
+    <rect
+       x="510.23624"
+       y="529.13385"
+       width="94.48819"
+       height="75.590546"
+       id="rect4" />
+    <rect
+       x="529.13385"
+       y="529.13385"
+       width="94.48819"
+       height="75.590546"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:none">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect10"
+       width="140"
+       height="140"
+       x="-1.9073485e-06"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.000001,-74.999998)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:2.99999, 2.99999;stroke-dashoffset:0"
+       d="M 29.999997,144.99999 H 160"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999"
+       d="M 95.20383,210.00164 94.79617,79.998321"
+       id="path1-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999"
+       d="M 94.972379,145.02182 61.736051,97.446657"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999"
+       d="M 90.000002,148.90565 56.204003,100.53439"
+       id="path2-1" />
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583"
+       id="path3"
+       cx="60"
+       cy="95"
+       r="3" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,12.05497,-0.96334899)"
+       id="text3"
+       style="font-weight:bold;font-size:20px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#000000;stroke:none;stroke-width:1.88976;stroke-dasharray:none;stroke-dashoffset:0"><tspan
+         x="510.23633"
+         y="547.14985"
+         id="tspan6">h = 0</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583"
+       id="path4"
+       transform="rotate(-125.01938)"
+       sodipodi:type="arc"
+       sodipodi:cx="-173.265"
+       sodipodi:cy="-5.4077501"
+       sodipodi:rx="24.867708"
+       sodipodi:ry="24.867712"
+       sodipodi:start="0"
+       sodipodi:end="0.60896485"
+       sodipodi:arc-type="slice"
+       d="M -148.39729,-5.4077501 A 24.867708,24.867712 0 0 1 -152.8675,8.817046 L -173.265,-5.4077501 Z" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,26.380414,19.638702)"
+       id="text4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#000000;stroke:none;stroke-width:1.88976;stroke-dasharray:none;stroke-dashoffset:0"><tspan
+         x="195.09766"
+         y="371.75923"
+         id="tspan9"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
+   id="tspan7">θ = θ</tspan><tspan
+   style="font-weight:bold;-inkscape-font-specification:'Arial Bold';baseline-shift:sub"
+   id="tspan8">0</tspan> </tspan></text>
+    <path
+       style="fill:none;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 94.000001,145.99999 -4,4"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 88.335567,150.17113 3.328868,-2.43485"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 54.539569,101.75181 3.328868,-2.434843"
+       id="path9-2" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,13.594082,1.0255224)"
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9);display:inline;fill:#000000;stroke:none;stroke-width:1.88976;stroke-dasharray:none;stroke-dashoffset:0"><tspan
+         x="207.875"
+         y="483.68306"
+         id="tspan10">L</tspan></text>
+  </g>
+</svg>

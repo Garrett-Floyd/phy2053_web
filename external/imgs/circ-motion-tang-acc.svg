@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="80.000008mm"
+   viewBox="0 0 80 80.000008"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="circ-motion-tang-acc.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     showguides="true"
+     inkscape:zoom="4"
+     inkscape:cx="121.625"
+     inkscape:cy="72.125"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-60"
+       originy="-109.99999"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+    <sodipodi:guide
+       position="59.998427,57.362099"
+       orientation="-0.70710678,-0.70710678"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="39.999997,35.00001"
+       orientation="-0.74539231,0.66662606"
+       id="guide4"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="204.09449"
+       y="18.897667"
+       width="37.795277"
+       height="22.677166"
+       id="rect2" />
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path4" />
+    </marker>
+    <rect
+       x="204.09448"
+       y="18.897667"
+       width="37.795277"
+       height="22.677166"
+       id="rect2-4" />
+    <rect
+       x="204.09448"
+       y="18.897667"
+       width="37.795277"
+       height="22.677166"
+       id="rect2-4-6" />
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-5-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="0.69999999"
+       markerHeight="0.69999999"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path25-1-4" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:none">
+    <rect
+       style="fill:#ffffff;stroke-width:0.499999"
+       id="rect1"
+       width="80"
+       height="80"
+       x="0"
+       y="7.6293945e-06" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-60.000001,-110)">
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583"
+       id="path1"
+       cx="100"
+       cy="150"
+       r="30.000004" />
+    <circle
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264584"
+       id="path2"
+       cx="119.99843"
+       cy="127.63791"
+       r="0.54036355" />
+    <g
+       id="g6"
+       inkscape:label="g-diag-at-part">
+      <g
+         id="g4-3"
+         inkscape:label="g-vec-at"
+         transform="translate(55.000001,90)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,5.8493025,21.339937)"
+           id="text1-8-2"
+           style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-4-6);display:inline;fill:#000000;stroke-width:1.51181"><tspan
+             x="204.09375"
+             y="33.310508"
+             id="tspan4">a<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan2">t</tspan></tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;marker-end:url(#ArrowWide-5-1)"
+           d="m 59.863677,27.000008 h 2.27265"
+           id="path15-1-1" />
+      </g>
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;marker-end:url(#ArrowWide)"
+         d="M 119.96963,127.60911 107.66854,115.30802"
+         id="path3" />
+    </g>
+  </g>
+</svg>
