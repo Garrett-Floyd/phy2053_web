@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Solving Multi-object 1D Kinematic Problems</title>
+<title>Introductory Classical Mechanics without Calculus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -137,7 +137,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-multiobject-kinematics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-multiobject-kinematics.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="exercises-ch-multiobject-kinematics.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><a class="next-button button" href="phy2053-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -213,10 +213,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ch-exercises-eqs-1d-kinematics.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Chapter Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-multiobject-kinematics.html" class="internal"><span class="codenumber">5</span> <span class="title">Multi-object Kinematics</span></a></div>
-<ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-solv-multi-obj-1d-kin-probs.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Solving Multi-object 1D Kinematic Problems</span></a></div></li>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solv-multi-obj-1d-kin-probs.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Solving Multi-object 1D Kinematic Problems</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-multiobject-kinematics.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Chapter Exercises</span></a></div></li>
 </ul>
 </li>
@@ -402,185 +402,31 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-solv-multi-obj-1d-kin-probs"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Solving Multi-object 1D Kinematic Problems</span>
-</h2>
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-2">We’ve seen how to do single-object one dimensional kinematics problems. Another common, but slightly more complicated, class of problems is when there are two objects that meet or intersect at a certain time or a certain location. How do we solve for the meeting time or the meeting location? The basic idea behind how to solve multiobject kinematics problems is the same as the single object case, but each object has its own kinematic variables to describe its motion. For two objects we’ll need a givens table with seven entries for each object (this gives fourteen variables in total).<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-3">Lets go over the recommended steps for solving a multi-object one dimensional kinematics problem by working an example. The evil Lex Luthor drops Lois Lane from the top of a 100.0m high cliff. Who comes to rescue her? Superman, of course! At the time Lois is dropped, Superman jumps from the bottom of the cliff with a super velocity of +50.0 m/s, but he immediately allows gravity to take over during the rest of his jump (so that he doesn’t smash into Lois that fast when he meets her). How long after Lois is dropped does Superman meet up with her?<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="sec-solv-multi-obj-1d-kin-probs-4">
-<ol class="decimal" id="sec-solv-multi-obj-1d-kin-probs-4-1">
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-1">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-1-1">Decide on givens and unknowns for both objects or axes (make a separate table for each). Break out <span class="process-math">\(x_{i}\text{,}\)</span> <span class="process-math">\(x_{f}\text{,}\)</span> <span class="process-math">\(t_{i}\text{,}\)</span> and <span class="process-math">\(t_{f}\)</span> separately instead of as <span class="process-math">\(\Delta x\)</span> and <span class="process-math">\(\Delta t\text{,}\)</span> because the two objects may have started at different coordinates or times.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-1-2">The problem has choosen up as positive in the way that it has given Superman’s velocity so lets stick with that. We choose the initial state to be the state of affiars when Lex Luther drops Lois and the final state to be the state of affairs when Superman meets Lois in the air. In the givens tables that follow kinematic variables with an L subscript correspond to Lois and  kinematic variables with an S subscript correspond to Superman.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="table table-like" id="table-lois-givens-1"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Lois’s Givens Table Stage 1<div class="autopermalink" data-description="Table 5.1.1: Lois’s Givens Table Stage 1"><a href="#table-lois-givens-1" title="Copy heading and permalink for Table 5.1.1: Lois’s Givens Table Stage 1" aria-label="Copy heading and permalink for Table 5.1.1: Lois’s Givens Table Stage 1">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b2 r1 l1 t1 lines"><span class="process-math">\(t_{L, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(t_{L, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{L, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{L, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{L, x, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{L, x, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(a_{L, x}\)</span></th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0s\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(100.0m\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0 \frac{m}{s}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-g\)</span></td>
-</tr>
-</table></div></figure><figure class="table table-like" id="table-superman-givens-1"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Supermans Givens Table Stage 1<div class="autopermalink" data-description="Table 5.1.2: Supermans Givens Table Stage 1"><a href="#table-superman-givens-1" title="Copy heading and permalink for Table 5.1.2: Supermans Givens Table Stage 1" aria-label="Copy heading and permalink for Table 5.1.2: Supermans Givens Table Stage 1">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b2 r1 l1 t1 lines"><span class="process-math">\(t_{S, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(t_{S, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{S, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{S, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{S, x, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{S, x, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(a_{S, x}\)</span></th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0s\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0m\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(50.0 \frac{m}{s}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-g\)</span></td>
-</tr>
-</table></div></figure><div class="autopermalink" data-description="Item 1"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-2">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-2-1">Circle unknowns that you know should come out equal between the two tables (for example, if two objects are supposed to intersect at a common time or a common position). We will call these shared unknowns.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-2-2">We have choosen the inital time for both Lois and Superman to be at the same instant which we will choose to be the zero time. We also know that in order for Superman and Lois to meet in the final state they must be at the same place at the same time. Just by coincidence they also have the same acceleration. We now record these findings in updated givens tables. For increased accessibility we don’t circle kinematic variables that come out equal between the two tables, but instead drop the subscripts L or S denoting which object the variable belongs to. This emphasizes that the variable is the same between the two obects.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="table table-like" id="table-lois-givens-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Lois’s Givens Table Stage 2<div class="autopermalink" data-description="Table 5.1.3: Lois’s Givens Table Stage 2"><a href="#table-lois-givens-2" title="Copy heading and permalink for Table 5.1.3: Lois’s Givens Table Stage 2" aria-label="Copy heading and permalink for Table 5.1.3: Lois’s Givens Table Stage 2">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b2 r1 l1 t1 lines"><span class="process-math">\(t_{i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(t_{f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{L, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{L, x, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{L, x, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(a_{x}\)</span></th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0s\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(100.0m\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0 \frac{m}{s}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-g\)</span></td>
-</tr>
-</table></div></figure><figure class="table table-like" id="table-superman-givens-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.1.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Supermans Givens Table Stage 2<div class="autopermalink" data-description="Table 5.1.4: Supermans Givens Table Stage 2"><a href="#table-superman-givens-2" title="Copy heading and permalink for Table 5.1.4: Supermans Givens Table Stage 2" aria-label="Copy heading and permalink for Table 5.1.4: Supermans Givens Table Stage 2">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="c m b2 r1 l1 t1 lines"><span class="process-math">\(t_{i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(t_{f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{S, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(x_{f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{S, x, i}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(v_{S, x, f}\)</span></th>
-<th scope="col" class="c m b2 r1 l0 t1 lines"><span class="process-math">\(a_{x}\)</span></th>
-</tr>
-<tr>
-<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0s\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0m\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(50.0 \frac{m}{s}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-g\)</span></td>
-</tr>
-</table></div></figure><div class="autopermalink" data-description="Item 2"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-3">
-<div class="para logical" id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1">
-<div class="para">For each table, pick one of the equations of kinematics that has the unknown you want and the things you were given. Keep in mind, unknowns that share the same value in both tables are easier to mathimatically eliminate, so prioritize what to include in the equation:</div>
-<ol class="lower-alpha lower-alpha-level-1" id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1">
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-1">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-1-1">Include the givens and the unknown you are solving for.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3.a"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-1" title="Copy heading and permalink for Item 3.a" aria-label="Copy heading and permalink for Item 3.a">🔗</a></div>
-</li>
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-2">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-2-1">Include unknowns that that share the same value in both tables.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3.b"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-2" title="Copy heading and permalink for Item 3.b" aria-label="Copy heading and permalink for Item 3.b">🔗</a></div>
-</li>
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-3">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-3-1">If you have to, include nuisance unknowns that you are not solving (you shouldn’t normally have to do this unless there is a separate way to find the nuisance unknowns).<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3.c"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1-1-3" title="Copy heading and permalink for Item 3.c" aria-label="Copy heading and permalink for Item 3.c">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-3-2">
-<a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-5" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-5.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.5">Theorem 4.1.5</a> doesn’t include the variable we want to solve for so it’s not a good choice. <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-1" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.1">Theorem 4.1.1</a>, <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-3" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.3">Theorem 4.1.3</a>, and <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-4" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-4.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.4">Theorem 4.1.4</a> have the variable we want to solve for but they also include <span class="process-math">\(v_{x, f}\)</span> which is different and unknown in both of the objects. This gives us three unknowns and only two equations so these are not good choices either. <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-2" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.2">Theorem 4.1.2</a> includes the variable we want to solve for and the only other unknown is <span class="process-math">\(x_f\)</span> which is a shared unknown between the objects. This gives us two unknowns and two equations which means we can solve for everything. So <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-2" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.2">Theorem 4.1.2</a> looks like the best choice for this problem.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-4">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-4-1">Substitute one equation into the other to solve for one unknown. If necessary, backsubstitute into the other equation to solve the other unknown. It may help to substitute in givens that are zero, to make the algebra easier.<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="sec-solv-multi-obj-1d-kin-probs-4-1-4-2">
-<div class="para">We start with the equations we choose.</div>
-<div class="displaymath process-math" id="sec-solv-multi-obj-1d-kin-probs-4-1-4-2-1">
-\begin{align*}
-x_{f} \amp = \frac{1}{2} a_{x} \left( t_{f} - t_{i} \right)^{2} + v_{L, i} \left( t_{f} - t_{i} \right) + x_{L, i}\\
-x_{f} \amp = \frac{1}{2} a_{x} \left( t_{f} - t_{i} \right)^{2} + v_{S, i} \left( t_{f} - t_{i} \right) + x_{S, i}
-\end{align*}
-</div>
-<div class="para">Plugging in zero values gives</div>
-<div class="displaymath process-math" id="sec-solv-multi-obj-1d-kin-probs-4-1-4-2-2">
-\begin{align*}
-x_{f} \amp = \frac{1}{2} a_{x} t_{f}^{2} + x_{L, i}\\
-x_{f} \amp = \frac{1}{2} a_{x} t_{f}^{2} + v_{S, i} t_{f}.
-\end{align*}
-</div>
-<div class="para">We want to solve for <span class="process-math">\(t_{f}\)</span> so we eliminated <span class="process-math">\(x_{f}\text{.}\)</span>
-</div>
-<div class="displaymath process-math" id="sec-solv-multi-obj-1d-kin-probs-4-1-4-2-5">
-\begin{align*}
-\frac{1}{2} a_{x} t_{f}^{2} + v_{S, i} t_{f} \amp = \frac{1}{2} a_{x} t_{f}^{2} + x_{L, i} \\
-\\
-v_{S, i} t_{f} \amp = x_{L, i} \\
-\\
-t_{f} \amp = \frac{x_{L, i}}{v_{S, i}} 
-\end{align*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 4"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
-</li>
-<li id="sec-solv-multi-obj-1d-kin-probs-4-1-5">
-<div class="para" id="sec-solv-multi-obj-1d-kin-probs-4-1-5-1">Plug in the numbers with units so you can check the unit cancellations (this helps detect errors in your algebra, such as forgetting to square).<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="sec-solv-multi-obj-1d-kin-probs-4-1-5-2">
-<div class="para">Plugging in our values gives</div>
-<div class="displaymath process-math" id="sec-solv-multi-obj-1d-kin-probs-4-1-5-2-1">
-\begin{equation*}
-t_{f} = \frac{x_{L, i}}{v_{S, i}} = \frac{100.0m}{50.0 \frac{m}{s}} = 2.00s.
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 5"><a href="#sec-solv-multi-obj-1d-kin-probs-4-1-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-solv-multi-obj-1d-kin-probs-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Section 5.1: Solving Multi-object 1D Kinematic Problems"><a href="#sec-solv-multi-obj-1d-kin-probs" title="Copy heading and permalink for Section 5.1: Solving Multi-object 1D Kinematic Problems" aria-label="Copy heading and permalink for Section 5.1: Solving Multi-object 1D Kinematic Problems">🔗</a></div></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="phy2053"><nav class="summary-links"><ul>
+<li><a href="phy2053-2.html" class="internal"><span class="title">Front Matter</span></a></li>
+<li><a href="ch-prereq-skills.html" class="internal"><span class="codenumber">1</span> <span class="title">Prerequisite Skills Refresher</span></a></li>
+<li><a href="ch-vectors.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></li>
+<li><a href="ch-1d-kinematic-defs.html" class="internal"><span class="codenumber">3</span> <span class="title">Kinematic Definitions in One Dimension</span></a></li>
+<li><a href="ch-eqs-of-1d-kinematics.html" class="internal"><span class="codenumber">4</span> <span class="title">Equations of 1D Kinematics</span></a></li>
+<li><a href="ch-multiobject-kinematics.html" class="internal"><span class="codenumber">5</span> <span class="title">Multi-object Kinematics</span></a></li>
+<li><a href="ch-2d-kinematic-defs.html" class="internal"><span class="codenumber">6</span> <span class="title">2D Kinematic Definitions</span></a></li>
+<li><a href="ch-eqs-of-2d-kinematics.html" class="internal"><span class="codenumber">7</span> <span class="title">Equations of 2D Kinematics</span></a></li>
+<li><a href="ch-rel-velocity.html" class="internal"><span class="codenumber">8</span> <span class="title">Relative Velocity</span></a></li>
+<li><a href="ch-fbds.html" class="internal"><span class="codenumber">9</span> <span class="title">Free Body Diagrams</span></a></li>
+<li><a href="ch-weight-and-tension.html" class="internal"><span class="codenumber">10</span> <span class="title">Weight and Tension</span></a></li>
+<li><a href="ch-apparent-weight.html" class="internal"><span class="codenumber">11</span> <span class="title">Apparent Weight</span></a></li>
+<li><a href="ch-pulleys.html" class="internal"><span class="codenumber">12</span> <span class="title">Pulleys</span></a></li>
+<li><a href="ch-contact-friction.html" class="internal"><span class="codenumber">13</span> <span class="title">Contact Friction</span></a></li>
+<li><a href="ch-newtons-third.html" class="internal"><span class="codenumber">14</span> <span class="title">Newton’s Third Law</span></a></li>
+<li><a href="ch-work-and-kinetic-energy.html" class="internal"><span class="codenumber">15</span> <span class="title">Work and Kinetic Energy</span></a></li>
+<li><a href="ch-conserv-energy.html" class="internal"><span class="codenumber">16</span> <span class="title">Conservation of Energy</span></a></li>
+<li><a href="ch-lin-momentum-and-com.html" class="internal"><span class="codenumber">17</span> <span class="title">Linear Momentum and Center of Mass</span></a></li>
+<li><a href="ch-rotational-kinematics.html" class="internal"><span class="codenumber">18</span> <span class="title">Rotational Kinematics</span></a></li>
+<li><a href="ch-newtons-laws-w-circ-motion.html" class="internal"><span class="codenumber">19</span> <span class="title">Newton’s Laws with Circular Motion</span></a></li>
+<li><a href="ch-torque.html" class="internal"><span class="codenumber">20</span> <span class="title">Torque</span></a></li>
+</ul></nav><div class="autopermalink" data-description="Book: Introductory Classical Mechanics without Calculus"><a href="#phy2053" title="Copy heading and permalink for Book: Introductory Classical Mechanics without Calculus" aria-label="Copy heading and permalink for Book: Introductory Classical Mechanics without Calculus">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="ch-multiobject-kinematics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="exercises-ch-multiobject-kinematics.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="phy2053-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
