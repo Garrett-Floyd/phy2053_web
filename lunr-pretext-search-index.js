@@ -433,51 +433,6 @@ var ptx_lunr_docs = [
   "body": "  The average acceleration of an object over a period of time is    "
 },
 {
-  "id": "exercises-ch-1d-kinematic-defs",
-  "level": "1",
-  "url": "exercises-ch-1d-kinematic-defs.html",
-  "type": "Exercises",
-  "number": "3.2",
-  "title": "Chapter Exercises",
-  "body": " Chapter Exercises    A car starts from rest ( meters per second) at time seconds. Its acceleration as a function of time is given by . What is its velocity as a function of time?      A train has a position meters at time seconds. Its velocity as a function of time is given by . What is its acceleration as a function of time?      An airplane has a position meters at time seconds. Its velocity as a function of time is given by . What is its position when seconds?      A car starts in motion to the left ( meters per second) at time seconds. Its acceleration as a function of time is given by , where is some constant. What is its velocity as a function of time?    "
-},
-{
-  "id": "exercises-ch-1d-kinematic-defs-2",
-  "level": "2",
-  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-2",
-  "type": "Exercise",
-  "number": "3.2.1",
-  "title": "",
-  "body": "  A car starts from rest ( meters per second) at time seconds. Its acceleration as a function of time is given by . What is its velocity as a function of time?   "
-},
-{
-  "id": "exercises-ch-1d-kinematic-defs-3",
-  "level": "2",
-  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-3",
-  "type": "Exercise",
-  "number": "3.2.2",
-  "title": "",
-  "body": "  A train has a position meters at time seconds. Its velocity as a function of time is given by . What is its acceleration as a function of time?   "
-},
-{
-  "id": "exercises-ch-1d-kinematic-defs-4",
-  "level": "2",
-  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-4",
-  "type": "Exercise",
-  "number": "3.2.3",
-  "title": "",
-  "body": "  An airplane has a position meters at time seconds. Its velocity as a function of time is given by . What is its position when seconds?   "
-},
-{
-  "id": "exercises-ch-1d-kinematic-defs-5",
-  "level": "2",
-  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-5",
-  "type": "Exercise",
-  "number": "3.2.4",
-  "title": "",
-  "body": "  A car starts in motion to the left ( meters per second) at time seconds. Its acceleration as a function of time is given by , where is some constant. What is its velocity as a function of time?   "
-},
-{
   "id": "sec-deriv-1d-kin-eqs",
   "level": "1",
   "url": "sec-deriv-1d-kin-eqs.html",
