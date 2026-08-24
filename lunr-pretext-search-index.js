@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.5",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises   Significant Figures    How many significant figures are in the number 0.0004?      A digital readout on a scale is showing a fluctuating reading, and you're trying to decide what to report on your piece of paper. The numbers flash before your eyes in the following random sequence:   1.053    1.059    1.041    1.050    1.047    1.051    1.048       Which decimal place is totally unknown due to the fluctuations?    Since we need to exclude the totally unknown digit from the significant figures, but keep the digit that we can reasonably well estimate, what is the reported value, to the correct number of significant figures?        If you do 1.0 + 1254.1, how many significant figures does the answer have, according to the rule for adding significant figures?      If you do , how many significant figures does the answer have,according to the rule for multiplying significant figures?      Unit Conversions    Convert 6.00 kilograms to grams. Show all the algebraic cancellations of intermediate units.      Convert 3.00 miles per hour to meters per second. Show all the algebraic cancellations of intermediate units.      Convert 5 meters pers second squared to miles per hour squared. Show all the algebraic cancellations of intermediate units.      Geometry    A right triangle has a hypotenuse of length 20 centimeters and another side of length 16 centimeters. Determine the third side of the triangle and the other two angles of the triangle. Don't forget units.       replacement_tag   replacement_tag     is a diagram containing right triangles that might appear in unit 2 of this course, when we will draw something called, “free-body diagrams”. If we assume is a symbolic given, compute , , , and in terms of (i.e., the answers must only contain numbers and the given symbol ). Then, if the triangle side lengths and are given, compute the lengths , , , and in terms of only , , and . Fully simplify your answers. Make sure to specify whether the angle units are degrees or radians.       replacement_tag   replacement_tag     is a diagram containing right triangles that might appear in unit 2 of this course, when we will draw something called, “free-body diagrams”. If we assume is given, compute , , , and in terms of . Then, if the triangle side lengths and are given, compute the lengths , , , and in terms of only , , and .       replacement_tag   replacement_tag     is a diagram containing right triangles that might appear in unit 2 of this course, when we will draw something called, “free-body diagrams”. Compute , , , , and . Then, if the triangle side length is given, compute the lengths and in terms of (i.e., the answer should be times some numerical value from your calculator, with proper significant figures):     "
+  "body": " Chapter Exercises   Significant Figures    How many significant figures are in the number 0.0004?      A digital readout on a scale is showing a fluctuating reading, and you're trying to decide what to report on your piece of paper. The numbers flash before your eyes in the following random sequence:   1.053    1.059    1.041    1.050    1.047    1.051    1.048       Which decimal place is totally unknown due to the fluctuations?    Since we need to exclude the totally unknown digit from the significant figures, but keep the digit that we can reasonably well estimate, what is the reported value, to the correct number of significant figures?        If you do 1.0 + 1254.1, how many significant figures does the answer have, according to the rule for adding significant figures?      If you do , how many significant figures does the answer have,according to the rule for multiplying significant figures?      Unit Conversions    Convert 6.00 kilograms to grams. Show all the algebraic cancellations of intermediate units.      Convert 3.00 miles per hour to meters per second. Show all the algebraic cancellations of intermediate units.      Convert 5.00 meters pers second squared to miles per hour squared. Show all the algebraic cancellations of intermediate units.      Geometry    A right triangle has a hypotenuse of length 20 centimeters and another side of length 16 centimeters. Determine the third side of the triangle and the other two angles of the triangle. Don't forget units.       replacement_tag   replacement_tag     is a diagram containing right triangles that might appear in unit 2 of this course, when we will draw something called, “free-body diagrams”. If we assume is a symbolic given, compute , , , and in terms of (i.e., the answers must only contain numbers and the given symbol ). Then, if the triangle side lengths and are given, compute the lengths , , , and in terms of only , , and . Fully simplify your answers. Make sure to specify whether the angle units are degrees or radians.       replacement_tag   replacement_tag     is a diagram containing right triangles that might appear in unit 2 of this course, when we will draw something called, “free-body diagrams”. If we assume is given, compute , , , and in terms of . Then, if the triangle side lengths and are given, compute the lengths , , , and in terms of only , , and .       replacement_tag   replacement_tag     is a diagram containing right triangles that might appear in unit 2 of this course, when we will draw something called, “free-body diagrams”. Compute , , , , and . Then, if the triangle side length is given, compute the lengths and in terms of (i.e., the answer should be times some numerical value from your calculator, with proper significant figures):     "
 },
 {
   "id": "sec-exercises-prereq-skills-2-2",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.5.7",
   "title": "",
-  "body": "  Convert 5 meters pers second squared to miles per hour squared. Show all the algebraic cancellations of intermediate units.   "
+  "body": "  Convert 5.00 meters pers second squared to miles per hour squared. Show all the algebraic cancellations of intermediate units.   "
 },
 {
   "id": "sec-exercises-prereq-skills-4-2",
@@ -433,6 +433,69 @@ var ptx_lunr_docs = [
   "body": "  The average acceleration of an object over a period of time is    "
 },
 {
+  "id": "exercises-ch-1d-kinematic-defs",
+  "level": "1",
+  "url": "exercises-ch-1d-kinematic-defs.html",
+  "type": "Exercises",
+  "number": "3.2",
+  "title": "Chapter Exercises",
+  "body": " Chapter Exercises    A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration of the boat?      A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration? of the boat?      A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration? of the boat?      A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration? of the boat?      A runner runs 13 laps around a quarter mile track in 33 minutes. What is the runners average velocity and average speed?      If the inital speed of an object over a period of time is less than the final speed of the object, is the acceleration always negative? If so prove it. If not which of the first four chapter exercies are a counter example.    "
+},
+{
+  "id": "exercises-ch-1d-kinematic-defs-2",
+  "level": "2",
+  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-2",
+  "type": "Exercise",
+  "number": "3.2.1",
+  "title": "",
+  "body": "  A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration of the boat?   "
+},
+{
+  "id": "exercises-ch-1d-kinematic-defs-3",
+  "level": "2",
+  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-3",
+  "type": "Exercise",
+  "number": "3.2.2",
+  "title": "",
+  "body": "  A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration? of the boat?   "
+},
+{
+  "id": "exercises-ch-1d-kinematic-defs-4",
+  "level": "2",
+  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-4",
+  "type": "Exercise",
+  "number": "3.2.3",
+  "title": "",
+  "body": "  A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration? of the boat?   "
+},
+{
+  "id": "exercises-ch-1d-kinematic-defs-5",
+  "level": "2",
+  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-5",
+  "type": "Exercise",
+  "number": "3.2.4",
+  "title": "",
+  "body": "  A boat is sailing on the lake. At seconds the boat is located at meters and has an x-component of velocity equal to meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average x-component of velocity and the average x-component of acceleration? of the boat?   "
+},
+{
+  "id": "exercises-ch-1d-kinematic-defs-6",
+  "level": "2",
+  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-6",
+  "type": "Exercise",
+  "number": "3.2.5",
+  "title": "",
+  "body": "  A runner runs 13 laps around a quarter mile track in 33 minutes. What is the runners average velocity and average speed?   "
+},
+{
+  "id": "exercises-ch-1d-kinematic-defs-7",
+  "level": "2",
+  "url": "exercises-ch-1d-kinematic-defs.html#exercises-ch-1d-kinematic-defs-7",
+  "type": "Exercise",
+  "number": "3.2.6",
+  "title": "",
+  "body": "  If the inital speed of an object over a period of time is less than the final speed of the object, is the acceleration always negative? If so prove it. If not which of the first four chapter exercies are a counter example.   "
+},
+{
   "id": "sec-deriv-1d-kin-eqs",
   "level": "1",
   "url": "sec-deriv-1d-kin-eqs.html",
@@ -511,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4.3",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises   Derivation of 1D Kinematic Equations Under Constant Acceleration   Many situations in everyday life can be roughly approximated as having constant acceleration. Even when the acceleration isn't constant, a trip can often be broken down into several legs, each of which has roughly constant acceleration. So, the result of solving the kinematics integrals and derivatives assuming a constant acceleration is so often used that we do the work in advance and keep the result handy on our formula sheets. In this problem, the given is acceleration, which is some constant . In this problem, our unknowns are velocity and position . Let's solve first. We'll need an equation from our kinematics definitions which relates and , so that we can solve for : Solve for by multiplying both sides to isolate the term: Then undo the derivative operator by taking the integral of both sides. (Use a definite integral so we don't have to worry about constants of integration floating around. When doing a definite integral, the lower limit is the initial value of the variable you're integrating, while the upper limit is the final value of the variable you're integrating.)   This answer is often written in terms of the changes in and : Or simply dropping the subscript f's, as: Or rearranging to write as a function of : Now that we know as a function of , we can move on to solve for  We'll need an equation from our kinematics definitions which relates and , so that we can solve for : Solve for by multiplying both sides to isolate the term: Sub in for , since we already found the formula for (not a constant) at the very end of the last section: Then undo the derivative operator by taking the integral of both sides. Use a definite integral. This answer is often written in terms of the changes in and : Or simply dropping the subscript f's, as:       Note that 5280 feet = 1 mile, and 1 inch = 2.54 centimeters = 0.0254 meters.  A car starts from rest at a stop sign. It accelerates at 4.0 meters per second squared for 6 seconds, coasts for 2 seconds, and then slows down at a rate of 3 meters per second squared for the next stop sign. How far apart (in meters) are the stop signs?      An airplane travels 0.175 miles down the runway before taking off. Assuming that it has constant acceleration, if it starts from rest and becomes airborne in 8 seconds, how fast (in meters per second) is it moving at takeoff?      Starting from rest, a boulder rolls down a hill with constant acceleration and travels 2.00 meters during the first second. What is the boulder's acceleration (in meters per second squared)?      A car sits in an entrance ramp to a freeway, waiting for a break in the traffic. The driver accelerates with constant acceleration along the ramp and onto the freeway. The car starts from rest, moves in a straight line, and has a speed of 45.0 miles per hour ( mph ) when it reaches the end of the 120.0 meter long ramp. How much time (in seconds) does it take the car to travel the length of the ramp?      One way to make lead balls for shot is to use a shot tower. Drops of molten lead are dropped from a height , and they solidify into round balls (due to surface tension) during a time as they fall. Assuming t = 4.20 seconds, what is the height , assuming negligible air resistance?      When jumping, a flea accelerates at an astounding , but over only the very short distance of 0.54 millimeters. After that, its legs have left the ground. If a flea jumps straight up, and if air resistance is neglected (a rather poor approximation in this situation), how high does the flea go above the ground?      You are part of a citizen's group evaluating the safety of a high school athletic program. To help judge the diving program you would like to know how fast a diver hits the water in the most complicated dive. The coach has his best diver perform for your group. The diver, after jumping from the high board, moves through the air with a constant acceleration of 9.8 meters per second squared. Later in the dive, she passes near a lower diving board which is 3.0 meters above the water. With your trusty stop watch, you determine that it took 0.20 seconds to enter the water from the time the diver passed the lower board. How fast was she going when she hit the water?    "
+  "body": " Chapter Exercises    Note that 5280 feet = 1 mile, and 1 inch = 2.54 centimeters = 0.0254 meters.  A car starts from rest at a stop sign. It accelerates at 4.0 meters per second squared for 6 seconds, coasts for 2 seconds, and then slows down at a rate of 3 meters per second squared for the next stop sign. How far apart (in meters) are the stop signs?      An airplane travels 0.175 miles down the runway before taking off. Assuming that it has constant acceleration, if it starts from rest and becomes airborne in 8 seconds, how fast (in meters per second) is it moving at takeoff?      Starting from rest, a boulder rolls down a hill with constant acceleration and travels 2.00 meters during the first second. What is the boulder's acceleration (in meters per second squared)?      A car sits in an entrance ramp to a freeway, waiting for a break in the traffic. The driver accelerates with constant acceleration along the ramp and onto the freeway. The car starts from rest, moves in a straight line, and has a speed of 45.0 miles per hour ( mph ) when it reaches the end of the 120.0 meter long ramp. How much time (in seconds) does it take the car to travel the length of the ramp?      One way to make lead balls for shot is to use a shot tower. Drops of molten lead are dropped from a height , and they solidify into round balls (due to surface tension) during a time as they fall. Assuming t = 4.20 seconds, what is the height , assuming negligible air resistance?      When jumping, a flea accelerates at an astounding , but over only the very short distance of 0.54 millimeters. After that, its legs have left the ground. If a flea jumps straight up, and if air resistance is neglected (a rather poor approximation in this situation), how high does the flea go above the ground?      You are part of a citizen's group evaluating the safety of a high school athletic program. To help judge the diving program you would like to know how fast a diver hits the water in the most complicated dive. The coach has his best diver perform for your group. The diver, after jumping from the high board, moves through the air with a constant acceleration of 9.8 meters per second squared. Later in the dive, she passes near a lower diving board which is 3.0 meters above the water. With your trusty stop watch, you determine that it took 0.20 seconds to enter the water from the time the diver passed the lower board. How fast was she going when she hit the water?    "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-2",
@@ -519,8 +582,8 @@ var ptx_lunr_docs = [
   "url": "ch-exercises-eqs-1d-kinematics.html#ch-exercises-eqs-1d-kinematics-2",
   "type": "Exercise",
   "number": "4.3.1",
-  "title": "Derivation of 1D Kinematic Equations Under Constant Acceleration.",
-  "body": " Derivation of 1D Kinematic Equations Under Constant Acceleration   Many situations in everyday life can be roughly approximated as having constant acceleration. Even when the acceleration isn't constant, a trip can often be broken down into several legs, each of which has roughly constant acceleration. So, the result of solving the kinematics integrals and derivatives assuming a constant acceleration is so often used that we do the work in advance and keep the result handy on our formula sheets. In this problem, the given is acceleration, which is some constant . In this problem, our unknowns are velocity and position . Let's solve first. We'll need an equation from our kinematics definitions which relates and , so that we can solve for : Solve for by multiplying both sides to isolate the term: Then undo the derivative operator by taking the integral of both sides. (Use a definite integral so we don't have to worry about constants of integration floating around. When doing a definite integral, the lower limit is the initial value of the variable you're integrating, while the upper limit is the final value of the variable you're integrating.)   This answer is often written in terms of the changes in and : Or simply dropping the subscript f's, as: Or rearranging to write as a function of : Now that we know as a function of , we can move on to solve for  We'll need an equation from our kinematics definitions which relates and , so that we can solve for : Solve for by multiplying both sides to isolate the term: Sub in for , since we already found the formula for (not a constant) at the very end of the last section: Then undo the derivative operator by taking the integral of both sides. Use a definite integral. This answer is often written in terms of the changes in and : Or simply dropping the subscript f's, as:    "
+  "title": "",
+  "body": "  Note that 5280 feet = 1 mile, and 1 inch = 2.54 centimeters = 0.0254 meters.  A car starts from rest at a stop sign. It accelerates at 4.0 meters per second squared for 6 seconds, coasts for 2 seconds, and then slows down at a rate of 3 meters per second squared for the next stop sign. How far apart (in meters) are the stop signs?   "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-3",
@@ -529,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.3.2",
   "title": "",
-  "body": "  Note that 5280 feet = 1 mile, and 1 inch = 2.54 centimeters = 0.0254 meters.  A car starts from rest at a stop sign. It accelerates at 4.0 meters per second squared for 6 seconds, coasts for 2 seconds, and then slows down at a rate of 3 meters per second squared for the next stop sign. How far apart (in meters) are the stop signs?   "
+  "body": "  An airplane travels 0.175 miles down the runway before taking off. Assuming that it has constant acceleration, if it starts from rest and becomes airborne in 8 seconds, how fast (in meters per second) is it moving at takeoff?   "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-4",
@@ -538,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.3.3",
   "title": "",
-  "body": "  An airplane travels 0.175 miles down the runway before taking off. Assuming that it has constant acceleration, if it starts from rest and becomes airborne in 8 seconds, how fast (in meters per second) is it moving at takeoff?   "
+  "body": "  Starting from rest, a boulder rolls down a hill with constant acceleration and travels 2.00 meters during the first second. What is the boulder's acceleration (in meters per second squared)?   "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-5",
@@ -547,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.3.4",
   "title": "",
-  "body": "  Starting from rest, a boulder rolls down a hill with constant acceleration and travels 2.00 meters during the first second. What is the boulder's acceleration (in meters per second squared)?   "
+  "body": "  A car sits in an entrance ramp to a freeway, waiting for a break in the traffic. The driver accelerates with constant acceleration along the ramp and onto the freeway. The car starts from rest, moves in a straight line, and has a speed of 45.0 miles per hour ( mph ) when it reaches the end of the 120.0 meter long ramp. How much time (in seconds) does it take the car to travel the length of the ramp?   "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-6",
@@ -556,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.3.5",
   "title": "",
-  "body": "  A car sits in an entrance ramp to a freeway, waiting for a break in the traffic. The driver accelerates with constant acceleration along the ramp and onto the freeway. The car starts from rest, moves in a straight line, and has a speed of 45.0 miles per hour ( mph ) when it reaches the end of the 120.0 meter long ramp. How much time (in seconds) does it take the car to travel the length of the ramp?   "
+  "body": "  One way to make lead balls for shot is to use a shot tower. Drops of molten lead are dropped from a height , and they solidify into round balls (due to surface tension) during a time as they fall. Assuming t = 4.20 seconds, what is the height , assuming negligible air resistance?   "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-7",
@@ -565,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.3.6",
   "title": "",
-  "body": "  One way to make lead balls for shot is to use a shot tower. Drops of molten lead are dropped from a height , and they solidify into round balls (due to surface tension) during a time as they fall. Assuming t = 4.20 seconds, what is the height , assuming negligible air resistance?   "
+  "body": "  When jumping, a flea accelerates at an astounding , but over only the very short distance of 0.54 millimeters. After that, its legs have left the ground. If a flea jumps straight up, and if air resistance is neglected (a rather poor approximation in this situation), how high does the flea go above the ground?   "
 },
 {
   "id": "ch-exercises-eqs-1d-kinematics-8",
@@ -573,15 +636,6 @@ var ptx_lunr_docs = [
   "url": "ch-exercises-eqs-1d-kinematics.html#ch-exercises-eqs-1d-kinematics-8",
   "type": "Exercise",
   "number": "4.3.7",
-  "title": "",
-  "body": "  When jumping, a flea accelerates at an astounding , but over only the very short distance of 0.54 millimeters. After that, its legs have left the ground. If a flea jumps straight up, and if air resistance is neglected (a rather poor approximation in this situation), how high does the flea go above the ground?   "
-},
-{
-  "id": "ch-exercises-eqs-1d-kinematics-9",
-  "level": "2",
-  "url": "ch-exercises-eqs-1d-kinematics.html#ch-exercises-eqs-1d-kinematics-9",
-  "type": "Exercise",
-  "number": "4.3.8",
   "title": "",
   "body": "  You are part of a citizen's group evaluating the safety of a high school athletic program. To help judge the diving program you would like to know how fast a diver hits the water in the most complicated dive. The coach has his best diver perform for your group. The diver, after jumping from the high board, moves through the air with a constant acceleration of 9.8 meters per second squared. Later in the dive, she passes near a lower diving board which is 3.0 meters above the water. With your trusty stop watch, you determine that it took 0.20 seconds to enter the water from the time the diver passed the lower board. How fast was she going when she hit the water?   "
 },
@@ -682,88 +736,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Position, velocity, and Acceleration",
-  "body": " Position, velocity, and Acceleration  Because the and -directions are perpendicular, the velocity in the -direction describes only the change in position along the x-axis. Similarly, acceleration in the -direction only describes the change in velocity along the -direction. For the -direction we have For the -direction we have Each represents a component of a vector. For position we have For velocity we have For acceleration we have These vectors denote magnitude and direction! Position represents the distance from the origin and the direction pointing from the origin to the position. Velocity represents the Speed and direction of motion. Acceleration represents \"rate of acceleration\" and direction in which velocity is changing.  "
+  "body": " Position, velocity, and Acceleration   We defined position, displacement, velocity, and acceleration in , but we only looked at their x-components. For a refresher on these definitions please see the previously mentioned section. In this chapter we'll look at multidimensional kinematics, so we can't ignore the fact that these vectors have y- and z-components as well.  As we discussed in we can decompose vectors into x-, y-, and z-components. We also know that vectors are equal if and only if their components are equal. For example, we know that because the x-components are not equal.    Position    The x,y, and z components of position are     Position is We can also write the position out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of position is the y-component of position is and the z-component of position is       Displacement    The x,y, and z components of displacement are     Displacement is We can also write the position out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of displacement is the y-component of displacement is and the z-component of displacement is       Velocity    The x,y, and z components of the average velocity are     The average velocity is We can also write the average velocity out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of the average velocity is the y-component of average velocity is and the z-component of average velocity is       Acceleration    The x,y, and z components of the average acceleration are     The average acceleration is We can also write the average acceleration out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of the average velocity is the y-component of average velocity is and the z-component of average velocity is      "
 },
 {
-  "id": "sec-2d-diff-eqs-motion",
-  "level": "1",
-  "url": "sec-2d-diff-eqs-motion.html",
-  "type": "Section",
-  "number": "6.2",
-  "title": "Differential Equations of Motion",
-  "body": " Differential Equations of Motion  Each component of the velocity is the time-derivative of the matching position companent (e.g., ). This allows us to write the entire velocity vector as the time-derivative of the position vector. (The same is true for accelelation as the time derivative of velocity.) Acceleration can also be described as the second time-derivative of position Sometimes the motion in one direction can affect the acceleration in another direction! motion in one direction is not always independent of the motion in other direction e.g. magnetic forces are perpendicular to the motion of electrical charges The motions in each direction are \"coupled\". and must be solved for together.  "
-},
-{
-  "id": "sec-2d-speed",
-  "level": "1",
-  "url": "sec-2d-speed.html",
-  "type": "Section",
-  "number": "6.3",
-  "title": "Speed: Magnitude of Velocity",
-  "body": " Speed: Magnitude of Velocity  In two dimensions the speed at time is defined as (speed is also often denoted by \" \"). Note that the time-averaged speed is not necessarily the magnitude of the time-averaged velocity! The time-averaged speed is different than the magnitude of the time-averaged velocity when direction changes. (This can often be a difficult integral to solve!)  "
-},
-{
-  "id": "sec-2d-int-eqs-motion",
-  "level": "1",
-  "url": "sec-2d-int-eqs-motion.html",
-  "type": "Section",
-  "number": "6.4",
-  "title": "Integral Equations of Motion",
-  "body": " Integral Equations of Motion         Recall that Now vectors are equal if an only if there components are equal. For example, if the -components of two vectors are different then they can't be equal as vectors. So it must be the case that the component of velocity on the left hand side of the equation is equal to the component of the velocity on the right hand side of the equantion. The same thing goes for the component of velocity on each side of the equation. Then and Integrating the equation for the -component gives Completely similarly, integrating the equation for the -component gives Then Because and don't change over time we can bring them into the integrals (not all unit vectors have this property). Contining we get            Recall that Now vectors are equal if an only if there components are equal. For example, if the -components of two vectors are different then they can't be equal as vectors. So it must be the case that the component of velocity on the left hand side of the equation is equal to the component of the velocity on the right hand side of the equantion. The same thing goes for the component of velocity on each side of the equation. Then and Integrating the equation for the -component gives Completely similarly, integrating the equation for the -component gives Then Because and don't change over time we can bring them into the integrals (not all unit vectors have this property). Contining we get     How should we interpret these equations? As stated before two vectors are equal if and only if their components are equal. Therefore the -component of the left hand side of the equation in question is equal to the -component of the right hand side of the -component in question. The same is true for the -components of each side of the equation in question.  "
-},
-{
-  "id": "thm-r-int-eq",
+  "id": "thm-comps-of-pos",
   "level": "2",
-  "url": "sec-2d-int-eqs-motion.html#thm-r-int-eq",
+  "url": "sec-2d-pos-vel-acc.html#thm-comps-of-pos",
   "type": "Theorem",
-  "number": "6.4.1",
+  "number": "6.1.1",
   "title": "",
-  "body": "       Recall that Now vectors are equal if an only if there components are equal. For example, if the -components of two vectors are different then they can't be equal as vectors. So it must be the case that the component of velocity on the left hand side of the equation is equal to the component of the velocity on the right hand side of the equantion. The same thing goes for the component of velocity on each side of the equation. Then and Integrating the equation for the -component gives Completely similarly, integrating the equation for the -component gives Then Because and don't change over time we can bring them into the integrals (not all unit vectors have this property). Contining we get    "
+  "body": "  The x,y, and z components of position are     Position is We can also write the position out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of position is the y-component of position is and the z-component of position is    "
 },
 {
-  "id": "thm-v-int-eq",
+  "id": "thm-comps-of-displacement",
   "level": "2",
-  "url": "sec-2d-int-eqs-motion.html#thm-v-int-eq",
+  "url": "sec-2d-pos-vel-acc.html#thm-comps-of-displacement",
   "type": "Theorem",
-  "number": "6.4.2",
+  "number": "6.1.2",
   "title": "",
-  "body": "       Recall that Now vectors are equal if an only if there components are equal. For example, if the -components of two vectors are different then they can't be equal as vectors. So it must be the case that the component of velocity on the left hand side of the equation is equal to the component of the velocity on the right hand side of the equantion. The same thing goes for the component of velocity on each side of the equation. Then and Integrating the equation for the -component gives Completely similarly, integrating the equation for the -component gives Then Because and don't change over time we can bring them into the integrals (not all unit vectors have this property). Contining we get    "
+  "body": "  The x,y, and z components of displacement are     Displacement is We can also write the position out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of displacement is the y-component of displacement is and the z-component of displacement is    "
+},
+{
+  "id": "thm-comps-of-avg-vel",
+  "level": "2",
+  "url": "sec-2d-pos-vel-acc.html#thm-comps-of-avg-vel",
+  "type": "Theorem",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  The x,y, and z components of the average velocity are     The average velocity is We can also write the average velocity out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of the average velocity is the y-component of average velocity is and the z-component of average velocity is    "
+},
+{
+  "id": "thm-comps-of-avg-acc",
+  "level": "2",
+  "url": "sec-2d-pos-vel-acc.html#thm-comps-of-avg-acc",
+  "type": "Theorem",
+  "number": "6.1.4",
+  "title": "",
+  "body": "  The x,y, and z components of the average acceleration are     The average acceleration is We can also write the average acceleration out in terms of its components Setting these equal to each other we get Since vectors are equal if and only if their components are equal, the x-component of the average velocity is the y-component of average velocity is and the z-component of average velocity is    "
 },
 {
   "id": "exercises-ch-2d-kinematic-defs",
   "level": "1",
   "url": "exercises-ch-2d-kinematic-defs.html",
   "type": "Exercises",
-  "number": "6.5",
+  "number": "6.2",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises   Note that .     Chewbacca is trying to land his spaceship. The ship's velocity at seconds is meters per second. The combination of thrusters and wind gusts at landing cause an acceleration vector .   At what time does the x-velocity of the spaceship come to rest?    At what time does the y-velocity of the spaceship come to rest? (So, is Chewbacca a good pilot?)         A train is leaving a station, and it has a constant acceleration vector of . At seconds, it was at rest at the origin.   Use integration to determine the velocity of the train as a function of time.    Use integration to determine the velocity of the train as a function of time.    Therefore, what is the velocity vector of the train, in proper vector component notation, as a function of time?         An aircraft is travelling with acceleration vector . Its velocity at seconds is 145 meters per second in the direction.   What is the aircraft's velocity vector, in proper component form, at time seconds?    What is the direction of the aircraft's velocity vector (in degrees counterclockwise from the positive x-axis) at time seconds?    What is the aircraft's speed at time seconds?       "
+  "body": " Chapter Exercises    A boat is sailing on the lake. At seconds the boat is located at meters and has a velocity of meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average velocity and average acceleration of the boat?    "
 },
 {
-  "id": "exercises-ch-2d-kinematic-defs-3",
+  "id": "exercises-ch-2d-kinematic-defs-2",
   "level": "2",
-  "url": "exercises-ch-2d-kinematic-defs.html#exercises-ch-2d-kinematic-defs-3",
+  "url": "exercises-ch-2d-kinematic-defs.html#exercises-ch-2d-kinematic-defs-2",
   "type": "Exercise",
-  "number": "6.5.1",
+  "number": "6.2.1",
   "title": "",
-  "body": "  Chewbacca is trying to land his spaceship. The ship's velocity at seconds is meters per second. The combination of thrusters and wind gusts at landing cause an acceleration vector .   At what time does the x-velocity of the spaceship come to rest?    At what time does the y-velocity of the spaceship come to rest? (So, is Chewbacca a good pilot?)      "
-},
-{
-  "id": "exercises-ch-2d-kinematic-defs-4",
-  "level": "2",
-  "url": "exercises-ch-2d-kinematic-defs.html#exercises-ch-2d-kinematic-defs-4",
-  "type": "Exercise",
-  "number": "6.5.2",
-  "title": "",
-  "body": "  A train is leaving a station, and it has a constant acceleration vector of . At seconds, it was at rest at the origin.   Use integration to determine the velocity of the train as a function of time.    Use integration to determine the velocity of the train as a function of time.    Therefore, what is the velocity vector of the train, in proper vector component notation, as a function of time?      "
-},
-{
-  "id": "exercises-ch-2d-kinematic-defs-5",
-  "level": "2",
-  "url": "exercises-ch-2d-kinematic-defs.html#exercises-ch-2d-kinematic-defs-5",
-  "type": "Exercise",
-  "number": "6.5.3",
-  "title": "",
-  "body": "  An aircraft is travelling with acceleration vector . Its velocity at seconds is 145 meters per second in the direction.   What is the aircraft's velocity vector, in proper component form, at time seconds?    What is the direction of the aircraft's velocity vector (in degrees counterclockwise from the positive x-axis) at time seconds?    What is the aircraft's speed at time seconds?      "
+  "body": "  A boat is sailing on the lake. At seconds the boat is located at meters and has a velocity of meters per second. Later at seconds the boat is located at meters and has an x-component of velocity equal to meters per second. What is the average velocity and average acceleration of the boat?   "
 },
 {
   "id": "sec-deriv-2d-kin-eqs",
@@ -772,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Deriving 2D Kinematic Equations",
-  "body": " Deriving 2D Kinematic Equations  In general, acceleration is a function of time. However, in many situations we can approximate the acceleration as a constant. Because this approximation is made frequently, we will solve in advance for velocity and position when acceleration is constant. By definition Now two vectors are equal if and only if all their components are equal. This gives an equation for each dimension. Since we are assuming the acceleration is constant , and are constant as well. Then the equation we got from equating the -component is same equation which justifies the kinematic equations in . Similarly the equation we got from equating the -components is the same as the equation we got from equating the -components, just with all the subscripts replaced with . So for each equation in there is an equivalent for the -dimension which replaces the subscript with .  To recap, when acceleration is constant we have the following kinematic equations for : , as well as the following kinematic equations for :   What's the takeaway? When acceleration is constant the one dimensional kinematic equations can be applied to each individual dimension.  "
+  "body": " Deriving 2D Kinematic Equations  In general, acceleration is a function of time. However, in many situations we can approximate the acceleration as a constant. Because this approximation is made frequently, we will solve in advance for velocity and position when acceleration is constant. By definition Now two vectors are equal if and only if all their components are equal. This gives an equation for each dimension. Since we are assuming the acceleration is constant , and are constant as well. In addition and . Then the equation we got from equating the -component is same equation which justifies the kinematic equations in . Similarly the equation we got from equating the -components is the same as the equation we got from equating the -components, just with all the subscripts replaced with . So for each equation in there is an equivalent for the -dimension which replaces the subscript with .  To recap, when acceleration is constant we have the following kinematic equations for : , as well as the following kinematic equations for :   What's the takeaway? When acceleration is constant the one dimensional kinematic equations can be applied to each individual dimension.  "
 },
 {
   "id": "sec-projectile-motion",
@@ -916,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "Relative Position",
-  "body": " Relative Position  Imagine there are two objservers and looking at the same object as it moves. Observer ascribes a postion to the object, and a position to observer . What position does observer ascribe to the object?   The diagram shows an x-y coordinate plane with the vertical axis extending upward from the origin and the horizontal axis extending to the right. Three points are plotted. Point A is located at the lower left near the origin, and represents observer A's location. Point B is located above and to the right of A. Point B represents the location of observer B. Point C is located farther up and to the right compared to the other two points and represents the location of object C. A vector extends from A to B, and is labeled . A second vector extends from B to C, and is labeled . A second vector extends from A to C, and is labeled .   Diagram showing locations of observers A, B, and C on an x-y coordinate plane with vectors between them.    As can be seen from , if we go from observer to observer , then from to the object then we have traveled from observer to the object. Then we must have Solving this for we see that the observer must ascribe a position to the object. The position of an object\/location observered from the perspective of another observer is the the relative position of the object with respect to that observer. In our derivation above is the relative position of the object with respect to . If and then   Note that if one or both objects are in motion the relative position can change over time.    Your home is 5 kilometers at an angle of 30 degrees north away from the Sante Fe campus. Your friend's home is 12 kilometers at angle 45 degees west of north away from the Sante Fe campus. What is the distance between your homes?    Let the position of your home be Let the position of your friends home be      "
+  "body": " Relative Position  Imagine there are two objservers and looking at the same object as it moves. Observer ascribes a postion to the object, and a position to observer . What position does observer ascribe to the object?   The diagram shows an x-y coordinate plane with the vertical axis extending upward from the origin and the horizontal axis extending to the right. Three points are plotted. Point A is located at the lower left near the origin, and represents observer A's location. Point B is located above and to the right of A. Point B represents the location of observer B. Point C is located farther up and to the right compared to the other two points and represents the location of object C. A vector extends from A to B, and is labeled . A second vector extends from B to C, and is labeled . A third vector extends from A to C, and is labeled .   Diagram showing locations of observers A, B, and C on an x-y coordinate plane with vectors between them.    As can be seen from , if we go from observer to observer , then from to the object then we have traveled from observer to the object. Then we must have Solving this for we see that the observer must ascribe a position to the object. The position of an object\/location observered from the perspective of another observer is the the relative position of the object with respect to that observer. In our derivation above is the relative position of the object with respect to . If and then   Note that if one or both objects are in motion the relative position can change over time.    Your home is 5 kilometers at an angle of 30 degrees north away from the Sante Fe campus. Your friend's home is 12 kilometers at angle 45 degees west of north away from the Sante Fe campus. What is the distance between your homes?    Let the position of your home be Let the position of your friends home be      "
 },
 {
   "id": "fig-rel-position-diagram",
@@ -925,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "8.2.1",
   "title": "",
-  "body": " The diagram shows an x-y coordinate plane with the vertical axis extending upward from the origin and the horizontal axis extending to the right. Three points are plotted. Point A is located at the lower left near the origin, and represents observer A's location. Point B is located above and to the right of A. Point B represents the location of observer B. Point C is located farther up and to the right compared to the other two points and represents the location of object C. A vector extends from A to B, and is labeled . A second vector extends from B to C, and is labeled . A second vector extends from A to C, and is labeled .   Diagram showing locations of observers A, B, and C on an x-y coordinate plane with vectors between them.   "
+  "body": " The diagram shows an x-y coordinate plane with the vertical axis extending upward from the origin and the horizontal axis extending to the right. Three points are plotted. Point A is located at the lower left near the origin, and represents observer A's location. Point B is located above and to the right of A. Point B represents the location of observer B. Point C is located farther up and to the right compared to the other two points and represents the location of object C. A vector extends from A to B, and is labeled . A second vector extends from B to C, and is labeled . A third vector extends from A to C, and is labeled .   Diagram showing locations of observers A, B, and C on an x-y coordinate plane with vectors between them.   "
 },
 {
   "id": "sec-rel-position-4",
@@ -946,31 +973,13 @@ var ptx_lunr_docs = [
   "body": "  Your home is 5 kilometers at an angle of 30 degrees north away from the Sante Fe campus. Your friend's home is 12 kilometers at angle 45 degees west of north away from the Sante Fe campus. What is the distance between your homes?    Let the position of your home be Let the position of your friends home be     "
 },
 {
-  "id": "sec-rel-vel",
+  "id": "sec-rel-vel-alg",
   "level": "1",
-  "url": "sec-rel-vel.html",
+  "url": "sec-rel-vel-alg.html",
   "type": "Section",
   "number": "8.3",
   "title": "Relative Velocity",
-  "body": " Relative Velocity  we define the relative velocity as the change in relative position over time.   The diagram shows an x-y coordinate plane with the vertical axis extending upward from the origin and the horizontal axis extending to the right. Three points are plotted. Point A is located at the lower left near the origin, and represents observer A's location. Point B is located above and to the right of A. Point B represents the location of observer B. Point C is located farther up and to the right compared to the other two points and represents the location of object C. A vector extends from A to B, and is labeled . A second vector extends from B to C, and is labeled . A second vector extends from A to C, and is labeled .   Diagram showing locations of observers A, B, and C on an x-y coordinate plane with vectors between them.      Let be the velocity of observer in observer 's reference frame. Let be the velocity of the object in observer 's reference frame. Let be the velocity of the object in observer 's reference frame. Then     From we see that Then     Here's a question, what velocity (and acceleration) do observers ascribe to themselves? Observers really can be thought of as self centered.  Student's often find unintuitive for solving relative velocity problems. Lets rewrite in an equivalent but intuitively easier to use format. To lets rename to , to , and to . Then can be rewritten as Written in this form says that the velocity of with respect to is equal to the velocity of with respect to plus the velocity of with respect to .  "
-},
-{
-  "id": "fig-rel-velocity-diagram",
-  "level": "2",
-  "url": "sec-rel-vel.html#fig-rel-velocity-diagram",
-  "type": "Figure",
-  "number": "8.3.1",
-  "title": "",
-  "body": " The diagram shows an x-y coordinate plane with the vertical axis extending upward from the origin and the horizontal axis extending to the right. Three points are plotted. Point A is located at the lower left near the origin, and represents observer A's location. Point B is located above and to the right of A. Point B represents the location of observer B. Point C is located farther up and to the right compared to the other two points and represents the location of object C. A vector extends from A to B, and is labeled . A second vector extends from B to C, and is labeled . A second vector extends from A to C, and is labeled .   Diagram showing locations of observers A, B, and C on an x-y coordinate plane with vectors between them.   "
-},
-{
-  "id": "thm-rel-vel",
-  "level": "2",
-  "url": "sec-rel-vel.html#thm-rel-vel",
-  "type": "Theorem",
-  "number": "8.3.2",
-  "title": "",
-  "body": "  Let be the velocity of observer in observer 's reference frame. Let be the velocity of the object in observer 's reference frame. Let be the velocity of the object in observer 's reference frame. Then     From we see that Then    "
+  "body": " Relative Velocity   "
 },
 {
   "id": "sec-solving-rel-vel-probs",
@@ -979,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.4",
   "title": "Solving Relative Velocity Problems",
-  "body": " Solving Relative Velocity Problems  Lets go over the recommended steps for solving a relative velocity problem by working an example. An airplane has an airspeed of 250.0 kilometers per hour. There is a crosswind of 80.0 kilometers per hour blowing directly towards the northwest.   What direction (in degrees north of east) must the plane be pointed to fight the wind and head due north?    Determine the groundspeed of the airplane.     Here are the steps for solving the problem.   Decide whether or not the problem is is a relative velocity problem. Check whether the velocity of the target object is being observed or measured from two different frames of reference. (Note that if it is a combination relative velocity and kinematics problem, you typically solve the velocity first, then use the velocity to solve the kinematics part of the problem.)  The problem gives the airspeed of the plane which is the plane's speed relative to the air, and ask a question about the planes motion with respect to the ground. There are two different reference frames, the air and the ground. So this is a relative velocity problem.    Decide on which components of the three vectors ( , , and ) are givens and unknowns. (You'll need to use trig. to calculate the components symbolically if they gave you magnitudes or directions.) I usually write the vector x-components and y-components in columns, to show how and add up to give If a component is still unknown, put a variable (usually with a subscript) to represent the unknown value. You might want to keep a list telling you which variable values are givens and which are unknowns.  For this problem choose be the Earth, be the air, and be the plane. Then is the velocity of the air relative to the earth, is the velocity of the plane with respect to the air, and is the velocity of the plane with respect to the ground. The are givens are where is the angle of with respect to the -axis, and because part one of the question says the plane will be headed north relative to the ground. The unknowns are Using the form of the relative velocity equation given in equation and plugging in our values gives     For each of the equations you picked, solve for the unknowns. This is now just a high school algebra problem, as if solving for and in two simultaneous equations. So, algebraically solve one component's equation, then substitute the result into the other to solve for one of the unknowns. Often, the unknowns are magnitudes or directions, not just pure - or - components. Backsubstitute if necessary.  The -component of the equation is We can use this equation to solve for . This gives a symbolic solution for part 1 of the question. For part 2, since we just solved for we can you use it to solve for . is the total ground speed of the plane since . The -component of the equation is which is already the symbolic solution for .    Plug in the numbers with units so you can get your final answer and check the unit cancellations (helps detect errors in your algebra, such as forgetting to square)  Pluggin in numbers gives       "
+  "body": " Solving Relative Velocity Problems  Lets go over the recommended steps for solving a relative velocity problem by working an example. An airplane has an airspeed of 250.0 kilometers per hour. There is a crosswind of 80.0 kilometers per hour blowing directly towards the northwest.   What direction (in degrees north of east) must the plane be pointed to fight the wind and head due north?    Determine the groundspeed of the airplane.     Here are the steps for solving the problem.   Decide whether or not the problem is is a relative velocity problem. Check whether the velocity of the target object is being observed or measured from two different frames of reference. (Note that if it is a combination relative velocity and kinematics problem, you typically solve the velocity first, then use the velocity to solve the kinematics part of the problem.)  The problem gives the airspeed of the plane which is the plane's speed relative to the air, and ask a question about the planes motion with respect to the ground. There are two different reference frames, the air and the ground. So this is a relative velocity problem.    Decide on which components of the three vectors ( , , and ) are givens and unknowns. (You'll need to use trig. to calculate the components symbolically if they gave you magnitudes or directions.) I usually write the vector x-components and y-components in columns, to show how and add up to give If a component is still unknown, put a variable (usually with a subscript) to represent the unknown value. You might want to keep a list telling you which variable values are givens and which are unknowns.  For this problem choose be the Earth, be the air, and be the plane. Then is the velocity of the plane with respect to the air, is the velocity of the air relative to the earth, and is the velocity of the plane with respect to the ground. The are givens are where is the angle of with respect to the -axis, and because part one of the question says the plane will be headed north relative to the ground. The unknowns are and . Using the form of the relative velocity equation given in equation and plugging in our values gives     For each of the equations you picked, solve for the unknowns. This is now just a high school algebra problem, as if solving for and in two simultaneous equations. So, algebraically solve one component's equation, then substitute the result into the other to solve for one of the unknowns. Often, the unknowns are magnitudes or directions, not just pure - or - components. Backsubstitute if necessary.  The -component of the equation is We can use this equation to solve for . This gives a symbolic solution for part 1 of the question. For part 2, since we just solved for we can you use it to solve for . is the total ground speed of the plane since . The -component of the equation is which is already the symbolic solution for .    Plug in the numbers with units so you can get your final answer and check the unit cancellations (helps detect errors in your algebra, such as forgetting to square)  Pluggin in numbers gives       "
 },
 {
   "id": "exercises-ch-rel-velocity",
@@ -1459,22 +1468,13 @@ var ptx_lunr_docs = [
   "body": "  You are in New York, and are impressed by the speed of the elevators in a skyscraper compared to the ones in a low-rise apartment building. You wonder about the maximum acceleration for the skyscraper's elevators during normal operation, so you decide to measure it by using your bathroom scale. While the elevator is at rest on the ground floor, you get in, put down your scale, and stand on it. The scale reads 130 pounds You continue standing on the scale when the elevator goes up, carefully watching the reading. During the trip to the 50th floor, the greatest scale reading was 180 pounds (P.S. Also, roughly when during the trip up will this occur?)   "
 },
 {
-  "id": "sec-pulley-probs",
+  "id": "sec-pulley-probs-stat-equil",
   "level": "1",
-  "url": "sec-pulley-probs.html",
+  "url": "sec-pulley-probs-stat-equil.html",
   "type": "Section",
   "number": "12.1",
-  "title": "Pulley Problems",
-  "body": " Pulley Problems  In this chapter we'll solve physics problems with strings and pulleys assuming the ideal string approximation holds. Since the ideal string approximation holds we can use the two properties at the end of to help solve problems. Another tool that you'll occasionally need to solve pulley problems is an equation of constraint. An equation of constraint is a mathematical formula that defines the physical or geometric limitations placed on a system. When objects that are connected by a taut string move, we might need an equation of constraint to encode the requirment that the objects must move in a way that keeps the length of the string constant. The equation of constraint for the string usually expresses the length of the string in terms of the coordinates of the attached objects. If equations of constraint seem confusing at this point, know that it's easier to understand the concept through examples.  "
-},
-{
-  "id": "sec-pulley-probs-2",
-  "level": "2",
-  "url": "sec-pulley-probs.html#sec-pulley-probs-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "equation of constraint "
+  "title": "Pulley Problems with Static Equilibirum",
+  "body": " Pulley Problems with Static Equilibirum  In this chapter we'll solve physics problems with strings and pulleys assuming the ideal string approximation holds. Since the ideal string approximation holds we can use the two properties at the end of to help solve problems. For problems where nothing is moving pulley problems are solved in the same exact way you solved other problems with tension. However, the application of the properties in to pulleys can be confusing so it will be good for us work some practice problems.  "
 },
 {
   "id": "sec-pulleys-ex-prob-1",
@@ -1504,76 +1504,22 @@ var ptx_lunr_docs = [
   "body": " free body diagram for the pulley with the mass attached. There is a force of tension on each side of the pulley acting up. The force of tension on each side of the pulley is the same. Gravity acts down.   Pulley free body diagram with two equal tension forces acting up and gravity acting down.   "
 },
 {
-  "id": "sec-pulleys-ex-prob-2",
-  "level": "1",
-  "url": "sec-pulleys-ex-prob-2.html",
-  "type": "Section",
-  "number": "12.3",
-  "title": "Pulleys Example Problem 2",
-  "body": " Pulleys Example Problem 2   A simple two mass pulley system suspended from a horizontal beam supported by a vertical frame. A single pulley hangs from the center of the beam via a string. A rope runs over the pulley with one mass on each end. On the left side, an elephant icon represents mass . On the right side, a T-shirt icon represents mass . Both masses hang freely, aligned vertically beneath the pulley.   Elephant labeled m one and T-shirt labeled m two hanging from opposite sides of a pulley.    Atwood's machine was a pulley setup, originally used to slow down how fast objects fell, to make it easier to time their fall and measure the acceleration due to gravity. In the following Atwood's machine, a large given mass and a small given mass are hung over a frictionless pulley affixed to a beam. A string connects the two masses. Determine the acceleration of the small mass, in terms of the givens: , , and .  In this problem we choose down to be positive. For each mass a tension force acts up on it and a gravitational force acts down on it. The gravitational force on eithier block is the mass of the block times . The part of Newton's Second Law for gives The part of Newton's Second Law for gives We need to eliminate tension from these equationgs so lets subtract the second equation from the first. We want to find the acceleration of the small mass in terms of , , and so we need to eliminate . To get in terms of let's use an equation of constraint for the string. We've drawn a diagram in visually relating the coordinates of and with the length of the string.   A simple two mass pulley system suspended from a horizontal beam supported by a vertical frame. A single pulley hangs from the center of the beam via a string. A rope runs over the pulley with one mass on each end. On the left side, an elephant icon represents mass . The distance from the center of the pulley to the center of mass is . The distance from the center of mass to the end of the string is On the right side, a T-shirt icon represents mass . The distance from the center of the pulley to the center of mass is . The distance from the center of mass to the end of the string is Both masses hang freely, aligned vertically beneath the pulley.   Elephant labeled m one and T-shirt labeled m two hanging from opposite sides of a pulley. The coordinates of the masses are given as the distance from the center of the pulley to each mass.    The equation of constraint is where is the string length, is the radius of the pulley, and and are constants to correct for the fact that and go the center of their respective blocks even though the string doesn't go all the way to the center of eithier block. The term comes from the fact that the string travels halfway around the circluar pulley of radius . , , and are constants so taking the derivative with respect to time twice gives Plugging this into gives   "
-},
-{
-  "id": "fig-atwood-machine",
-  "level": "2",
-  "url": "sec-pulleys-ex-prob-2.html#fig-atwood-machine",
-  "type": "Figure",
-  "number": "12.3.1",
-  "title": "",
-  "body": " A simple two mass pulley system suspended from a horizontal beam supported by a vertical frame. A single pulley hangs from the center of the beam via a string. A rope runs over the pulley with one mass on each end. On the left side, an elephant icon represents mass . On the right side, a T-shirt icon represents mass . Both masses hang freely, aligned vertically beneath the pulley.   Elephant labeled m one and T-shirt labeled m two hanging from opposite sides of a pulley.   "
-},
-{
-  "id": "fig-pulleys-ex-prob-img-2",
-  "level": "2",
-  "url": "sec-pulleys-ex-prob-2.html#fig-pulleys-ex-prob-img-2",
-  "type": "Figure",
-  "number": "12.3.2",
-  "title": "",
-  "body": " A simple two mass pulley system suspended from a horizontal beam supported by a vertical frame. A single pulley hangs from the center of the beam via a string. A rope runs over the pulley with one mass on each end. On the left side, an elephant icon represents mass . The distance from the center of the pulley to the center of mass is . The distance from the center of mass to the end of the string is On the right side, a T-shirt icon represents mass . The distance from the center of the pulley to the center of mass is . The distance from the center of mass to the end of the string is Both masses hang freely, aligned vertically beneath the pulley.   Elephant labeled m one and T-shirt labeled m two hanging from opposite sides of a pulley. The coordinates of the masses are given as the distance from the center of the pulley to each mass.   "
-},
-{
   "id": "exercises-ch-pulleys",
   "level": "1",
   "url": "exercises-ch-pulleys.html",
   "type": "Exercises",
-  "number": "12.4",
+  "number": "12.3",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises   Fixed Pulleys    The kilogram block in is held in place by the massless rope passing over two massless, frictionless pulleys. Find the tensions to and the magnitude of force .   The diagram shows a two pulley, three rope mechanical system used to hold a mass labeled without moving. A fixed support is positioned at the top, holding the upper rope. The upper rope connects to the upper pully via a hook on the top of the pulley. The tension in the upper rope is labeled . The middle rope runs over the upper pulley from the right. The tension in this segment of the middle rope is labeled . A force labeled is applyed to the bottom of this segment of the middle rope. After looping over the upper pulley, the middle rope runs vertically down and loops under the lower pulley. The tension in this segment of the middle rope is labeled . After looping under the lower pulley, the middle rope runs vertically up and connects to the upper pully via a hook on the bottom of the pulley. The tension in this segment of the middle rope is labeled . The lower rope is fastened to the lower pulley via a hook on the bottom of the pulley, and runs vertically down where it is fastened to the hanging mass labeled . The tension in the lower rope is labeled .   Compound pulley system with labeled tension forces and a suspended mass.        Moving Pulleys     below shows a block of mass m resting on an icy, frictionless 20.0 degree slope. It is connected via a massless string over a massless, frictionless pulley to a hanging block of mass 2.00 kilogram. What mass is needed for the 2.00 kilogram block to accelerate downwards at 1.50 meters per second squared?   On the left side, a block labeled m rests on an inclined plane that rises upward to the right at a 20 degree angle. A rope is attached to the block, runs up the incline, and passes over a pulley positioned at the top corner of the incline. The rope continues downward on the right side of the pulley, where it is attached to a second block labeled 2 kilograms, which hangs vertically.   Block on a 20 degree incline connected by a rope over a pulley to a 2 kilogram hanging mass.        The 100.0 kilogram block in takes 6.60 seconds to reach the floor after being released from rest. What is the mass of the block on the left?   The image shows a simple two mass pulley system. A rope runs over a single pulley at the top center. On the left side of the rope hangs a block labeled . On the right side hangs a block labeled 100 kg. The right side block is positioned one meter above the ground.   Pulley system with a 100 kilogram mass hanging on one side of a pulley and another mass hanging on the other side.         shows a pulley system and two masses. Suppose kilograms and kilograms. What is the acceleration of across the frictionless table? Hint: The acceleration of is not the same as the acceleration of because the rope doubles back through the moving pulley on .   The diagram shows a physics setup with two masses connected by a single rope that runs across two pulleys. On the left, mass rests on a horizontal, frictionless surface. On the right a rope that is anchored to the wall runs horizontally to the left and loops over a pulley connected to mass on its right side. The rope then runs horizontally to the right and where it passes over a pulley mounted at edge of the surface on which mass rests. The rope then continues downward to mass , which hangs vertically. Mass is free to slide horizontally, while mass is suspended and free to move vertically.   Two mass pulley system with one mass on a horizontal surface and one mass hanging vertically.       "
+  "body": " Chapter Exercises   Fixed Pulleys    The kilogram block in is held in place by the massless rope passing over two massless, frictionless pulleys. Find the tensions to and the magnitude of force .   The diagram shows a two pulley, three rope mechanical system used to hold a mass labeled without moving. A fixed support is positioned at the top, holding the upper rope. The upper rope connects to the upper pully via a hook on the top of the pulley. The tension in the upper rope is labeled . The middle rope runs over the upper pulley from the right. The tension in this segment of the middle rope is labeled . A force labeled is applyed to the bottom of this segment of the middle rope. After looping over the upper pulley, the middle rope runs vertically down and loops under the lower pulley. The tension in this segment of the middle rope is labeled . After looping under the lower pulley, the middle rope runs vertically up and connects to the upper pully via a hook on the bottom of the pulley. The tension in this segment of the middle rope is labeled . The lower rope is fastened to the lower pulley via a hook on the bottom of the pulley, and runs vertically down where it is fastened to the hanging mass labeled . The tension in the lower rope is labeled .   Compound pulley system with labeled tension forces and a suspended mass.       "
 },
 {
   "id": "exercises-ch-pulleys-2-2",
   "level": "2",
   "url": "exercises-ch-pulleys.html#exercises-ch-pulleys-2-2",
   "type": "Exercise",
-  "number": "12.4.1",
+  "number": "12.3.1",
   "title": "",
   "body": "  The kilogram block in is held in place by the massless rope passing over two massless, frictionless pulleys. Find the tensions to and the magnitude of force .   The diagram shows a two pulley, three rope mechanical system used to hold a mass labeled without moving. A fixed support is positioned at the top, holding the upper rope. The upper rope connects to the upper pully via a hook on the top of the pulley. The tension in the upper rope is labeled . The middle rope runs over the upper pulley from the right. The tension in this segment of the middle rope is labeled . A force labeled is applyed to the bottom of this segment of the middle rope. After looping over the upper pulley, the middle rope runs vertically down and loops under the lower pulley. The tension in this segment of the middle rope is labeled . After looping under the lower pulley, the middle rope runs vertically up and connects to the upper pully via a hook on the bottom of the pulley. The tension in this segment of the middle rope is labeled . The lower rope is fastened to the lower pulley via a hook on the bottom of the pulley, and runs vertically down where it is fastened to the hanging mass labeled . The tension in the lower rope is labeled .   Compound pulley system with labeled tension forces and a suspended mass.     "
-},
-{
-  "id": "exercises-ch-pulleys-3-2",
-  "level": "2",
-  "url": "exercises-ch-pulleys.html#exercises-ch-pulleys-3-2",
-  "type": "Exercise",
-  "number": "12.4.2",
-  "title": "",
-  "body": "   below shows a block of mass m resting on an icy, frictionless 20.0 degree slope. It is connected via a massless string over a massless, frictionless pulley to a hanging block of mass 2.00 kilogram. What mass is needed for the 2.00 kilogram block to accelerate downwards at 1.50 meters per second squared?   On the left side, a block labeled m rests on an inclined plane that rises upward to the right at a 20 degree angle. A rope is attached to the block, runs up the incline, and passes over a pulley positioned at the top corner of the incline. The rope continues downward on the right side of the pulley, where it is attached to a second block labeled 2 kilograms, which hangs vertically.   Block on a 20 degree incline connected by a rope over a pulley to a 2 kilogram hanging mass.     "
-},
-{
-  "id": "exercises-ch-pulleys-3-3",
-  "level": "2",
-  "url": "exercises-ch-pulleys.html#exercises-ch-pulleys-3-3",
-  "type": "Exercise",
-  "number": "12.4.3",
-  "title": "",
-  "body": "  The 100.0 kilogram block in takes 6.60 seconds to reach the floor after being released from rest. What is the mass of the block on the left?   The image shows a simple two mass pulley system. A rope runs over a single pulley at the top center. On the left side of the rope hangs a block labeled . On the right side hangs a block labeled 100 kg. The right side block is positioned one meter above the ground.   Pulley system with a 100 kilogram mass hanging on one side of a pulley and another mass hanging on the other side.     "
-},
-{
-  "id": "exercises-ch-pulleys-3-4",
-  "level": "2",
-  "url": "exercises-ch-pulleys.html#exercises-ch-pulleys-3-4",
-  "type": "Exercise",
-  "number": "12.4.4",
-  "title": "",
-  "body": "   shows a pulley system and two masses. Suppose kilograms and kilograms. What is the acceleration of across the frictionless table? Hint: The acceleration of is not the same as the acceleration of because the rope doubles back through the moving pulley on .   The diagram shows a physics setup with two masses connected by a single rope that runs across two pulleys. On the left, mass rests on a horizontal, frictionless surface. On the right a rope that is anchored to the wall runs horizontally to the left and loops over a pulley connected to mass on its right side. The rope then runs horizontally to the right and where it passes over a pulley mounted at edge of the surface on which mass rests. The rope then continues downward to mass , which hangs vertically. Mass is free to slide horizontally, while mass is suspended and free to move vertically.   Two mass pulley system with one mass on a horizontal surface and one mass hanging vertically.     "
 },
 {
   "id": "sec-stat-kin-fric",
@@ -1852,7 +1798,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "15.1",
   "title": "Work",
-  "body": " Work   This chapter and the next explores mechanical energy and related concepts. Before beginning it will be helpful to give an intuitive but unrigourous, imprecise, and slightly incorrect overview of energy. Unrigourously, energy is a quantitative property of a system of one or more objects describing its ability to cause change. Energy can have many different forms. Some examples are electrical, chemical, and gravitational. A useful analogy for energy is money. Money lets you buy stuff and can be in many different accounts. Energy lets you do stuff and can be in many different forms. The total energy of a system is like the system's \"net worth\".  One important energy \"account\" is kinetic energy. The kinetic energy (often written as or ) is the energy an object has due to its motion. Mathimatically, where is mass of the object and is the speed of the object. In addition to the kinetic energy \"account\" we can associate an energy account with a force acting on a system as long as it meets some special conditions which we will discuss later. For example, the gravitational energy \"account\" is the \"account\" associated with the gravitational force.  In this section we will explore the concept of work in physics. Work ( ) on a system of one or more objects is the energy transferred to that systems by means of a force acting on the object. Energy transferred to the object is positive work, and energy transferred from the object is negative work. Continuing the money analogy, work is analogous to transferring money between accounts. Positive work done by a force transfers energy from the account associated with that force into the object's kinetic energy account Negative work done by a force transfers energy out of the object's kinetic energy account and into the account associated with that force.    Work From a Single Force  Consider an object moving along a path. If there is a force that point along the path, there will be acceleration in the direction of motion. As a result, the object's speed will change. Let's denote an arbitrary infinitesmally small displacement along the path as . The magnitude of is the length of the infinitesmal path segment and the direction of is the direction of motion. The amount of force parallel to the path can be found using the dot product: . The quantity multiplies the component of the force parallel to the path by the length of the path segment.  If force points with the path, the speed increases: If force points against the path, the speed decreases:   The quantity is referred to as the infinitesimal work performed by the force on the object over the displacement , which changes the objects speed: Adding up the small amounts of work done by the force along each segment gives the work along the entire path. where at the bottom of the integral sign denote the countor or path the integral is to be taken over. The units of work are which are also known as \"joules\" .  If the path is a straight line and the force acting on the object is constant over the path, then this expression reduces to where is the displacement of the total straight line path.  positive work increases speed: negative work decreases speed: The \"differential\" length represents a change in position along the path. In two-dimensions... (the path defines the relationship between and ). The change in position can also be related to velocity over a short period of time . Therefore,      Net Work  The work done by all the forces acting on the object as it moves along the path is known as the net work . The net work is given by Because the path is the same for each force (object only follows one path), we can bring the summation into the integral Noting that we get    "
+  "body": " Work   This chapter and the next explores mechanical energy and related concepts. Before beginning it will be helpful to give an intuitive but unrigourous, imprecise, and slightly incorrect overview of energy. Unrigourously, energy is a quantitative property of a system of one or more objects describing its ability to cause change. Energy can have many different forms. Some examples are electrical, chemical, and gravitational. A useful analogy for energy is money. Money lets you buy stuff and can be in many different accounts. Energy lets you do stuff and can be in many different forms. The total energy of a system is like the system's \"net worth\".  One important energy \"account\" is kinetic energy. The kinetic energy (often written as or ) is the energy an object has due to its motion. Mathimatically, where is mass of the object and is the speed of the object. In addition to the kinetic energy \"account\", every force that conserves energy (doesn't change the energy of the system) also has an energy account. For example, the gravitational energy \"account\" is the \"account\" associated with the gravitational force.  In this section we will explore the concept of work in physics. Work ( ) on a system of one or more objects is the energy transferred to that systems by means of a force acting on the object. Energy transferred to the object is positive work, and energy transferred from the object is negative work. Continuing the money analogy, work is analogous to transferring money between accounts. Positive work done by a force transfers energy from the account associated with that force into the object's kinetic energy account Negative work done by a force transfers energy out of the object's kinetic energy account and into the account associated with that force.    Work From a Single Force  Consider an object moving along a path. If there is a force that point along the path, there will be acceleration in the direction of motion. As a result, the object's speed will change. Let's denote an arbitrary infinitesmally small displacement along the path as . The magnitude of is the length of the infinitesmal path segment and the direction of is the direction of motion. The amount of force parallel to the path can be found using the dot product: . The quantity multiplies the component of the force parallel to the path by the length of the path segment.  If force points with the path, the speed increases: If force points against the path, the speed decreases:   The quantity is referred to as the infinitesimal work performed by the force on the object over the displacement , which changes the objects speed: Adding up the small amounts of work done by the force along each segment gives the work along the entire path. where at the bottom of the integral sign denote the countor or path the integral is to be taken over. The units of work are which are also known as \"joules\" .  If the path is a straight line and the force acting on the object is constant over the path, then this expression reduces to where is the displacement of the total straight line path.  positive work increases speed: negative work decreases speed: The \"differential\" length represents a change in position along the path. In two-dimensions... (the path defines the relationship between and ). The change in position can also be related to velocity over a short period of time . Therefore,      Net Work  The work done by all the forces acting on the object as it moves along the path is known as the net work . The net work is given by Because the path is the same for each force (object only follows one path), we can bring the summation into the integral Noting that we get    "
 },
 {
   "id": "subsec-work-from-mult-forces-2",

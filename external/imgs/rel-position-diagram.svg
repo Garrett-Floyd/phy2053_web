@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="4.0000001"
-     inkscape:cx="236.87499"
-     inkscape:cy="268.37499"
+     inkscape:zoom="1"
+     inkscape:cx="269"
+     inkscape:cy="153.5"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g25">
+     inkscape:current-layer="layer1">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -56,26 +56,6 @@
        width="41.574802"
        height="22.677164"
        id="rect26" />
-    <marker
-       style="overflow:visible"
-       id="ArrowWide"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Wide arrow"
-       markerWidth="0.69999999"
-       markerHeight="0.69999999"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
-         d="M 3,-3 0,0 3,3"
-         transform="rotate(180,0.125,0)"
-         sodipodi:nodetypes="ccc"
-         id="path25" />
-    </marker>
     <rect
        x="377.95276"
        y="188.97636"
@@ -193,8 +173,8 @@
     <rect
        x="264.56693"
        y="377.95276"
-       width="18.897638"
-       height="18.897636"
+       width="46.408495"
+       height="29.530559"
        id="rect1-4" />
     <marker
        style="overflow:visible"
@@ -222,9 +202,15 @@
        width="18.897638"
        height="18.897636"
        id="rect1-4-7" />
+    <rect
+       x="264.56693"
+       y="377.95276"
+       width="46.408497"
+       height="29.53056"
+       id="rect1-4-4" />
     <marker
        style="overflow:visible"
-       id="ArrowWide-5-6"
+       id="ArrowWide-5-8"
        refX="0"
        refY="0"
        orient="auto-start-reverse"
@@ -240,7 +226,33 @@
          d="M 3,-3 0,0 3,3"
          transform="rotate(180,0.125,0)"
          sodipodi:nodetypes="ccc"
-         id="path25-1-1" />
+         id="path25-1-8" />
+    </marker>
+    <rect
+       x="264.56693"
+       y="377.95276"
+       width="46.408497"
+       height="29.53056"
+       id="rect1-4-2" />
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-5-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="0.69999999"
+       markerHeight="0.69999999"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path25-1-6" />
     </marker>
   </defs>
   <g
@@ -330,7 +342,8 @@
          id="tspan3">C</tspan></text>
     <g
        id="g26"
-       inkscape:label="g-vec-r">
+       inkscape:label="g-vec-r-CA"
+       transform="translate(7.6381523,-6.0610023)">
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,39.721089,1.186707)"
@@ -338,54 +351,51 @@
          style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-4);display:inline;fill:#000000;stroke-width:1.88976"><tspan
            x="264.56641"
            y="392.3652"
-           id="tspan4">r</tspan></text>
+           id="tspan5">r<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4">CA</tspan></tspan></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;marker-end:url(#ArrowWide-5)"
          d="m 109.36185,101.5305 h 2.27265"
          id="path15-1" />
     </g>
     <g
-       id="g25"
-       inkscape:label="g-vec-R"
-       transform="translate(5.2528811,-0.84945336)">
+       id="g26-5"
+       inkscape:label="g-vec-r-CB"
+       transform="translate(2.6381522,-38.061003)">
       <text
          xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,9.6898475,16.186756)"
-         id="text2"
-         style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;stroke-width:1.88976"><tspan
-           x="377.95312"
-           y="203.38863"
-           id="tspan5">R
-</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;marker-end:url(#ArrowWide)"
-         d="m 110.02339,65.849453 h 2.27265"
-         id="path15" />
-    </g>
-    <g
-       id="g26-3"
-       inkscape:label="g-vec-r-prime"
-       transform="translate(-40.749703,3.233347)">
-      <text
-         xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,44.721092,1.186707)"
-         id="text1-2-2"
-         style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-4-7);display:inline;fill:#000000;stroke-width:1.88976"><tspan
+         transform="matrix(0.26458333,0,0,0.26458333,39.721089,1.186707)"
+         id="text1-2-5"
+         style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-4-4);display:inline;fill:#000000;stroke-width:1.88976"><tspan
            x="264.56641"
            y="392.3652"
-           id="tspan6">r</tspan></text>
+           id="tspan7">r<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan6">CB</tspan></tspan></text>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;marker-end:url(#ArrowWide-5-6)"
-         d="M 114.38241,101.29893 H 116.983"
-         id="path15-1-2" />
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;marker-end:url(#ArrowWide-5-8)"
+         d="m 109.36185,101.5305 h 2.27265"
+         id="path15-1-1" />
+    </g>
+    <g
+       id="g26-2"
+       inkscape:label="g-vec-r-BA"
+       transform="translate(-38.720949,1.0000034)">
       <text
          xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,44.749966,18.672267)"
-         id="text26"
-         style="font-weight:bold;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect26);display:inline;fill:#000000;stroke:none;stroke-width:0.755906;stroke-dasharray:none"><tspan
-           x="272.125"
-           y="324.51022"
-           id="tspan7">'</tspan></text>
+         transform="matrix(0.26458333,0,0,0.26458333,39.721089,1.186707)"
+         id="text1-2-3"
+         style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-4-2);display:inline;fill:#000000;stroke-width:1.88976"><tspan
+           x="264.56641"
+           y="392.3652"
+           id="tspan9">r<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan8">BA</tspan></tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;marker-end:url(#ArrowWide-5-7)"
+         d="m 109.36185,101.5305 h 2.27265"
+         id="path15-1-16" />
     </g>
   </g>
 </svg>
