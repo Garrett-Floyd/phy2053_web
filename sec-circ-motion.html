@@ -109,15 +109,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.9';
+eBookConfig.runestone_version = '8.2.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b8b41abee2fe6343.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -319,7 +319,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-work.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Work</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-sing-force" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Work From a Single Force</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-alg-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-work-kin-energy-theorem.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Work-Kinetic Energy Theorem</span></a></div></li>
@@ -329,42 +329,35 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-conserv-energy.html" class="internal"><span class="codenumber">16</span> <span class="title">Conservation of Energy</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-forces.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Conservative Forces</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Potential Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Power Example Problem</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.7</span> <span class="title">Chapter Exercises</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Potential Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-power.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Chapter Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-lin-momentum-and-com.html" class="internal"><span class="codenumber">17</span> <span class="title">Linear Momentum and Center of Mass</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-momentum-impulse.html#exercises-sec-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-alg-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-momentum-impulse.html#exercises-sec-calc-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-conserv-momentum.html#exercises-sec-conserv-momentum" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-collisions.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Collisions</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-elastic-collisions" class="internal"><span class="codenumber">17.3.1</span> <span class="title">1D Elastic Collsions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-inelastic-collisions" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Inelastic Collisions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-explosions" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Explosions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-collisions.html#exercises-sec-collisions" class="internal"><span class="codenumber">17.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-collision-ex-prob.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Collision Example Problem</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-com.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Center of Mass</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-com.html#exercises-sec-com" class="internal"><span class="codenumber">17.5</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-var-mass-force.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Variable Mass Force</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-var-mass-force.html#exercises-sec-sec-var-mass-force" class="internal"><span class="codenumber">17.6</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -374,7 +367,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-rot-kin.html" class="internal"><span class="codenumber">18.1</span> <span class="title">Rotational Kinematics</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-alg-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-eqs-rot-kin" class="internal"><span class="codenumber">18.1.2</span> <span class="title">Equations of Rotational Kinematics</span></a></div></li>
 </ul>
 </li>
@@ -382,7 +375,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-circ-motion.html" class="internal"><span class="codenumber">18.2</span> <span class="title">Circular Motion</span></a></div>
 <ul class="structural toc-item-list active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-relating-cart-polar-coord-systems" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relating Cartesian and Polar Coordinate Systems</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-alg-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-ucm.html" class="internal"><span class="codenumber">18.3</span> <span class="title">Uniform Circular Motion</span></a></div></li>
@@ -413,13 +406,13 @@ eBookConfig.enable_chatcodes =  false;
 </div></section><section class="subsection" id="subsec-relating-cart-polar-coord-systems"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Relating Cartesian and Polar Coordinate Systems</span>
 </h3>
-<div class="para" id="subsec-relating-cart-polar-coord-systems-2">Unit vectors point in the direction that increase the coordinate they’re associated with. In the cartesian coordinate system the <span class="process-math">\(\hat{x}\)</span> unit vector points in the direction of increasing <span class="process-math">\(x\text{,}\)</span> and the <span class="process-math">\(\hat{y}\)</span> unit vector points in the direction of increasing <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-relating-cart-polar-coord-systems-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-relating-cart-polar-coord-systems-2">Unit vectors point in the direction that increases the coordinate they’re associated but keeps the other coordinates constant. In the cartesian coordinate system the <span class="process-math">\(\hat{x}\)</span> unit vector points in the direction that increases <span class="process-math">\(x\)</span> but keeps <span class="process-math">\(y\)</span> constant. The <span class="process-math">\(\hat{y}\)</span> unit vector points in the direction that increases <span class="process-math">\(y\)</span> but keeps <span class="process-math">\(x\)</span> constant.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-relating-cart-polar-coord-systems-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-circ-motion-cart-unit-vecs"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/imgs/circ-motion-cart-unit-vecs.svg" class="contained" alt="A Cartesian grid with the Cartesian unit vectors at two different points."></div>
 <figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A Cartesian grid with the Cartesian unit vectors at two different points. From each point, two black arrows extend: one arrow points horizontally to the right, representing the positive x-unit direction, and the other arrow points vertically upward, representing the positive y-unit direction. The right-pointing arrow is labeled <span class="process-math">\(\hat{x}\text{,}\)</span> and the upward-pointing arrow is labeled <span class="process-math">\(\hat{y}\text{.}\)</span><div class="autopermalink" data-description="Figure 18.2.1"><a href="#fig-circ-motion-cart-unit-vecs" title="Copy heading and permalink for Figure 18.2.1" aria-label="Copy heading and permalink for Figure 18.2.1">🔗</a></div></figcaption></figure><div class="para" id="subsec-relating-cart-polar-coord-systems-4">Cartesian coordinates are special because the unit vectors point in the same direction everywhere (They don’t depend on the the position <span class="process-math">\(\left( x, y \right)\)</span>). Polar coordinates are defined by the radius <span class="process-math">\(r\)</span> and angle <span class="process-math">\(\theta\)</span> where <span class="process-math">\(\theta\)</span> is in radians.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-relating-cart-polar-coord-systems-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-circ-motion-polar-unit-vecs"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/imgs/circ-motion-polar-unit-vecs.svg" class="contained" alt="Polar grid with two sets of polar unit vectors labeled r-hat and theta-hat at different positions."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A polar coordinate grid contains five concentric circles and twelve evenly spaced radial lines, forming a full 360-degree polar layout. A small solid dot marks the center of the grid. Two separate pairs of unit vectors are drawn at different angular positions on the grid. Each pair of unit vectors originates from a small black point located on one of the circles. In each pair , one arrow represents the r-hat direction (pointing radially outward from the center), and the other arrow represents the <span class="process-math">\(\theta\)</span>-hat direction (pointing tangentially in the clockwise direction to the circle it lies on). Each arrow has a small arrowhead and is labeled with a bold character: <span class="process-math">\(\hat{r}\)</span> for the radial unit vector and <span class="process-math">\(\hat{\theta}\)</span> for the angular unit vector.<div class="autopermalink" data-description="Figure 18.2.2"><a href="#fig-circ-motion-polar-unit-vecs" title="Copy heading and permalink for Figure 18.2.2" aria-label="Copy heading and permalink for Figure 18.2.2">🔗</a></div></figcaption></figure><div class="para" id="subsec-relating-cart-polar-coord-systems-6">Unit vectors point in the direction that increases their coordinate so the <span class="process-math">\(\hat{r}\)</span> unit vector points in the direction of increasing <span class="process-math">\(r\text{,}\)</span> and the <span class="process-math">\(\hat{\theta}\)</span> unit vector points in the direction of increasing <span class="process-math">\(\theta\text{.}\)</span> The direction of unit vectors in polar coordinates depends on position <span class="process-math">\(\left( r, \theta \right)\text{.}\)</span> The fact that unit vectors for polar coordinates depend on position is usually undesirable. Let’s express them in terms of cartesian unit vectors which don’t depend on position to deal with this.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-relating-cart-polar-coord-systems-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A polar coordinate grid contains five concentric circles and twelve evenly spaced radial lines, forming a full 360-degree polar layout. A small solid dot marks the center of the grid. Two separate pairs of unit vectors are drawn at different angular positions on the grid. Each pair of unit vectors originates from a small black point located on one of the circles. In each pair , one arrow represents the r-hat direction (pointing radially outward from the center), and the other arrow represents the <span class="process-math">\(\theta\)</span>-hat direction (pointing tangentially in the clockwise direction to the circle it lies on). Each arrow has a small arrowhead and is labeled with a bold character: <span class="process-math">\(\hat{r}\)</span> for the radial unit vector and <span class="process-math">\(\hat{\theta}\)</span> for the angular unit vector.<div class="autopermalink" data-description="Figure 18.2.2"><a href="#fig-circ-motion-polar-unit-vecs" title="Copy heading and permalink for Figure 18.2.2" aria-label="Copy heading and permalink for Figure 18.2.2">🔗</a></div></figcaption></figure><div class="para" id="subsec-relating-cart-polar-coord-systems-6">Unit vectors point in the direction that increases their coordinate but keeps the other coordinats constant. Therefore, the <span class="process-math">\(\hat{r}\)</span> unit vector points in the direction that increases <span class="process-math">\(r\text{,}\)</span> but keeps <span class="process-math">\(\theta\)</span> constant. Likewise the <span class="process-math">\(\hat{\theta}\)</span> unit vector points in the direction that increases <span class="process-math">\(\theta\text{,}\)</span> but keeps <span class="process-math">\(r\)</span> constant. The direction of unit vectors in polar coordinates depends on position <span class="process-math">\(\left( r, \theta \right)\text{.}\)</span> The fact that unit vectors for polar coordinates depend on position is usually undesirable. Let’s express them in terms of cartesian unit vectors which don’t depend on position to deal with this.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-relating-cart-polar-coord-systems-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-circ-motion-polar-in-cart"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/imgs/circ-motion-polar-in-cart.svg" class="contained" alt="A diagram showing the angles between the polar and cartesian unit vectors at a point on a circle."></div>
 <figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A coordinate system with horizontal x-axis and vertical y-axis intersects at the center of a large circle. The circle represents a path of circular motion. A point on the circle, located in the upper-right quadrant, is marked with a small filled dot. A straight radius line extends from the center of the circle to this point. The angle between the radius line and the x-axis is labeled as <span class="process-math">\(\theta\text{.}\)</span> Four short arrows originate at the point on the circle, indicating directions of basis vectors. A vector labeled <span class="process-math">\(\hat{x}\)</span> points horizontally to the right. A vector labeled <span class="process-math">\(\hat{y}\)</span> points vertically up. A vector labeled <span class="process-math">\(\hat{r}\)</span> points radially outward from the center of the circle. A vector labeled <span class="process-math">\(\hat{\theta}\)</span> points tangentially in the clockwise direction to the circle at that point. The <span class="process-math">\(\hat{r}\)</span> vector makes and angle <span class="process-math">\(\theta\)</span> with the <span class="process-math">\(\hat{x}\)</span> vector. The <span class="process-math">\(\hat{\theta}\)</span> vector alos makes and angle <span class="process-math">\(\theta\)</span> with the <span class="process-math">\(\hat{y}\)</span> vector.<div class="autopermalink" data-description="Figure 18.2.3"><a href="#fig-circ-motion-polar-in-cart" title="Copy heading and permalink for Figure 18.2.3" aria-label="Copy heading and permalink for Figure 18.2.3">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-relating-cart-polar-coord-systems-8">
@@ -436,158 +429,206 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-relating-cart-polar-coord-systems-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 18.2.1: Relating Cartesian and Polar Coordinate Systems"><a href="#subsec-relating-cart-polar-coord-systems" title="Copy heading and permalink for Subsection 18.2.1: Relating Cartesian and Polar Coordinate Systems" aria-label="Copy heading and permalink for Subsection 18.2.1: Relating Cartesian and Polar Coordinate Systems">🔗</a></div></section><section class="subsection" id="subsec-circ-motion"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 18.2.1: Relating Cartesian and Polar Coordinate Systems"><a href="#subsec-relating-cart-polar-coord-systems" title="Copy heading and permalink for Subsection 18.2.1: Relating Cartesian and Polar Coordinate Systems" aria-label="Copy heading and permalink for Subsection 18.2.1: Relating Cartesian and Polar Coordinate Systems">🔗</a></div></section><section class="subsection" id="subsec-alg-circ-motion"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Circular Motion</span>
 </h3>
-<div class="para" id="subsec-circ-motion-2">Now we have the tools we need to relate linear and angular kinematics in circular motion.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circ-motion-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-alg-circ-motion-2">Now we have the tools we need to relate linear and angular kinematics in circular motion.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-alg-circ-motion-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="theorem theorem-like" id="thm-vel-circ-motion"><h4 class="heading">
+<article class="theorem theorem-like" id="thm-avg-speed-circ-motion"><h4 class="heading">
 <span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
-<div class="para logical" id="thm-vel-circ-motion-1-1">
-<div class="para">The velocity of an object undergoing circular motion is</div>
-<div class="displaymath process-math" id="thm-vel-circ-motion-1-1-1">
+<div class="para logical" id="thm-avg-speed-circ-motion-1-1">
+<div class="para">The average speed of an object undergoing circular motion is</div>
+<div class="displaymath process-math" id="thm-avg-speed-circ-motion-1-1-1">
 \begin{equation*}
-\vec{v} = r \omega \hat{\theta}
+s_{avg} = r \omega_{z,avg}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#thm-vel-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-avg-speed-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.2.4"><a href="#thm-vel-circ-motion" title="Copy heading and permalink for Theorem 18.2.4" aria-label="Copy heading and permalink for Theorem 18.2.4">🔗</a></div></article><details id="thm-vel-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-vel-circ-motion-2-1">
-<div class="para">For circular motion the position of the revolving object at any time <span class="process-math">\(t\)</span> is</div>
-<div class="displaymath process-math" id="thm-vel-circ-motion-2-1-2">
+<div class="autopermalink" data-description="Theorem 18.2.4"><a href="#thm-avg-speed-circ-motion" title="Copy heading and permalink for Theorem 18.2.4" aria-label="Copy heading and permalink for Theorem 18.2.4">🔗</a></div></article><details id="thm-avg-speed-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-avg-speed-circ-motion-2-1">
+<div class="para">From <a href="sec-pos-vel-speed-acc.html#def-speed" class="xref" data-knowl="./knowl/xref/def-speed.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.2">Definition 3.1.2</a> and equation <a href="sec-rot-kin.html#eq-arc-length" class="xref" data-knowl="./knowl/xref/eq-arc-length.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 18.1.1">(18.1.1)</a> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-speed.html ./knowl/xref/eq-arc-length.html ./knowl/xref/def-avg-ang-vel-z.html" id="thm-avg-speed-circ-motion-2-1-3">
 \begin{equation*}
-\vec{r} = r \cos (\theta) \hat{x} + r \sin (\theta) \hat{x}.
+s_{avg} = \frac{d}{\Delta t} = \frac{r \Delta \theta_{z}}{\Delta t}.
 \end{equation*}
 </div>
-<div class="para">Then</div>
-<div class="displaymath process-math" id="thm-vel-circ-motion-2-1-3">
+<div class="para">Then by <a href="sec-rot-kin.html#def-avg-ang-vel-z" class="xref" data-knowl="./knowl/xref/def-avg-ang-vel-z.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 18.1.3">Definition 18.1.3</a> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-speed.html ./knowl/xref/eq-arc-length.html ./knowl/xref/def-avg-ang-vel-z.html" id="thm-avg-speed-circ-motion-2-1-5">
 \begin{equation*}
-\vec{v} = \frac{d \vec{r}}{dt} = -r \left( \frac{d\theta (t)}{dt} \right) \sin (\theta (t)) \hat{x} + r \left( \frac{d\theta (t)}{dt} \right) \cos (\theta (t)) \hat{y}.
+s_{avg} = r \omega_{z,avg}.
 \end{equation*}
 </div>
-<div class="para">Now <span class="process-math">\(\omega (t) = \frac{d \theta (t)}{dt}\)</span> so we have</div>
-<div class="displaymath process-math" id="thm-vel-circ-motion-2-1-5">
-\begin{align*}
-\vec{v} \amp = -r \omega (t) \sin (\theta (t)) \hat{x} + r \omega (t) \cos (\theta (t)) \hat{x} \\
-\\
-\amp = r \omega \hat{\theta}. 
-\end{align*}
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-avg-speed-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#thm-vel-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Proof 18.2.4.1"><a href="#thm-vel-circ-motion-2" title="Copy heading and permalink for Proof 18.2.4.1" aria-label="Copy heading and permalink for Proof 18.2.4.1">🔗</a></div></article></details><div class="para logical" id="subsec-circ-motion-4">
-<div class="para">The speed of an object undergoing circular motion is then</div>
-<div class="displaymath process-math" id="eq-circ-mot-speed">
-\begin{equation}
-v = r \omega.\tag{18.2.1}
-\end{equation}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circ-motion-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<article class="theorem theorem-like" id="thm-acc-circ-motion"><h4 class="heading">
+<div class="autopermalink" data-description="Proof 18.2.4.1"><a href="#thm-avg-speed-circ-motion-2" title="Copy heading and permalink for Proof 18.2.4.1" aria-label="Copy heading and permalink for Proof 18.2.4.1">🔗</a></div></article></details><article class="theorem theorem-like" id="thm-inst-speed-circ-motion"><h4 class="heading">
 <span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
-<div class="para logical" id="thm-acc-circ-motion-1-1">
-<div class="para">The acceleration of an object undergoing circular motion is</div>
-<div class="displaymath process-math" id="thm-acc-circ-motion-1-1-1">
+<div class="para logical" id="thm-inst-speed-circ-motion-1-1">
+<div class="para">The instantaneous speed of an object undergoing circular motion is</div>
+<div class="displaymath process-math" id="thm-inst-speed-circ-motion-1-1-1">
 \begin{equation*}
-\vec{a} = r \alpha \hat{\theta} - r \omega^{2} \hat{r}
+v = r \omega_{z}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#thm-acc-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-inst-speed-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.2.5"><a href="#thm-acc-circ-motion" title="Copy heading and permalink for Theorem 18.2.5" aria-label="Copy heading and permalink for Theorem 18.2.5">🔗</a></div></article><details id="thm-acc-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-acc-circ-motion-2-1">
-<div class="displaymath process-math" id="thm-acc-circ-motion-2-1-1">
-\begin{align*}
-\vec{v} \amp = r \omega \hat{\theta} \\
-\\
-\amp = -r \omega (t) \sin (\theta (t)) \hat{x} + r \omega (t) \cos (\theta (t)) \hat{x} 
-\end{align*}
-</div>
-<div class="para">so</div>
-<div class="displaymath process-math" id="thm-acc-circ-motion-2-1-2">
-\begin{align*}
-\vec{a} = \amp \frac{d \vec{v}}{dt}\\
-\\
-= \amp -r \left( \frac{d \omega (t)}{dt} \right) \sin (\theta (t)) \hat{x}
--r \left( \omega (t) \right)^{2} \cos (\theta (t)) \hat{x}\\
-\amp + r \left( \frac{d \omega (t)}{dt} \right) \cos (\theta (t)) \hat{y}
--r \left( \omega (t) \right)^{2} \sin (\theta (t)) \hat{y}
-\end{align*}
-</div>
-<div class="para">Now <span class="process-math">\(\alpha (t) = \frac{d \omega (t)}{dt}\)</span> so</div>
-<div class="displaymath process-math" id="thm-acc-circ-motion-2-1-4">
-\begin{align*}
-\vec{a} = \amp -r \alpha (t) \sin (\theta (t)) \hat{x}
--r \left( \omega (t) \right)^{2} \cos (\theta (t)) \hat{x}\\
-\amp + r \alpha (t) \cos (\theta (t)) \hat{y}
--r \left( \omega (t) \right)^{2} \sin (\theta (t)) \hat{y}\\
-\\
-= \amp -r \alpha (t) \sin (\theta (t)) \hat{x}
-+ r \alpha (t) \cos (\theta (t)) \hat{y}\\
-\amp -r \left( \omega (t) \right)^{2} \cos (\theta (t)) \hat{x}
--r \left( \omega (t) \right)^{2} \sin (\theta (t)) \hat{y}\\
-\\
-= \amp r \alpha (t) \left( - \sin (\theta (t)) \hat{x} + \cos (\theta (t)) \hat{y} \right)\\
-\amp -r \left( \omega (t) \right)^{2} \left( \cos (\theta (t)) \hat{x} + \sin (\theta (t)) \hat{y} \right)\\
-\\
-= \amp r \alpha \hat{\theta} - r \omega^{2} \hat{r} 
-\end{align*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#thm-acc-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Proof 18.2.5.1"><a href="#thm-acc-circ-motion-2" title="Copy heading and permalink for Proof 18.2.5.1" aria-label="Copy heading and permalink for Proof 18.2.5.1">🔗</a></div></article></details><div class="para logical" id="subsec-circ-motion-6">
-<div class="para">If we break the acceleration vector into its componenents in polar coordinates we get</div>
-<div class="displaymath process-math" id="subsec-circ-motion-6-1">
+<div class="autopermalink" data-description="Theorem 18.2.5"><a href="#thm-inst-speed-circ-motion" title="Copy heading and permalink for Theorem 18.2.5" aria-label="Copy heading and permalink for Theorem 18.2.5">🔗</a></div></article><details id="thm-inst-speed-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-inst-speed-circ-motion-2-1">
+<div class="para">From the proof of <a href="sec-circ-motion.html#thm-avg-speed-circ-motion" class="xref" data-knowl="./knowl/xref/thm-avg-speed-circ-motion.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.2.4">Theorem 18.2.4</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-avg-speed-circ-motion.html ./knowl/xref/def-avg-ang-vel-z.html" id="thm-inst-speed-circ-motion-2-1-2">
 \begin{equation*}
-\vec{a} = a_{r} \hat{r} + a_{t} \hat{\theta} = r \alpha \hat{\theta} - r \omega^{2} \hat{r}.
+s_{avg} = r \omega_{z,avg}
 \end{equation*}
 </div>
-<div class="para">Since vectors are equal if and only if their components are equal we see that the radial component of the acceleration <span class="process-math">\(a_{r}\)</span> is given by</div>
-<div class="displaymath process-math" id="eq-rad-acc-omega">
-\begin{equation}
-a_{r} =  - r \omega^{2}\tag{18.2.2}
-\end{equation}
+<div class="para">If <span class="process-math">\(\Delta t\)</span> in <a href="sec-rot-kin.html#def-avg-ang-vel-z" class="xref" data-knowl="./knowl/xref/def-avg-ang-vel-z.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 18.1.3">Definition 18.1.3</a> becomes extremely small compared to the objects velocity then we get a good approximation of the speed the object has at any given instant. If we call the instantaneous z-component of the angular velocity <span class="process-math">\(\omega_{z}\)</span> and acknowledge that the instantaneous speed is the magnitude of velocity <span class="process-math">\(v\)</span> we obtain the result we want.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-inst-speed-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para">and the angular component <span class="process-math">\(a_{t}\)</span> is given by</div>
-<div class="displaymath process-math" id="eq-tang-acc">
-\begin{equation}
-a_{t} = r \alpha.\tag{18.2.3}
-\end{equation}
+<div class="autopermalink" data-description="Proof 18.2.5.1"><a href="#thm-inst-speed-circ-motion-2" title="Copy heading and permalink for Proof 18.2.5.1" aria-label="Copy heading and permalink for Proof 18.2.5.1">🔗</a></div></article></details><article class="theorem theorem-like" id="thm-alg-vel-circ-motion"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="thm-alg-vel-circ-motion-1-1">
+<div class="para">The velocity of an object undergoing circular motion is</div>
+<div class="displaymath process-math" id="thm-alg-vel-circ-motion-1-1-1">
+\begin{equation*}
+\vec{v} = r \omega_{z} \hat{\theta} 
+\end{equation*}
 </div>
-<div class="para">The angular component of the acceleration <span class="process-math">\(a_{t}\)</span> has a subscript <span class="process-math">\(t\)</span> because its also known as the tangential acceleration. It called tangential acceleration because the angular component of the acceleration is always tangent to the object’s circular path at its current position.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circ-motion-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-alg-vel-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figure class="figure figure-like" id="fig-circ-motion-tang-acc"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/imgs/circ-motion-tang-acc.svg" class="contained" alt="Tangent acceleration vector shown at a point on a circular path."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The diagram shows a circle representing an object’s circular path. A small black dot is placed on the upper-right portion of the circle to mark the object’s position. From this point, a diagonal arrow extends upward and leftward tangential to the circle, indicating the direction of the tangent acceleration vector. The arrow is labeled as <span class="process-math">\(\vec{a}_{t}\text{.}\)</span><div class="autopermalink" data-description="Figure 18.2.6"><a href="#fig-circ-motion-tang-acc" title="Copy heading and permalink for Figure 18.2.6" aria-label="Copy heading and permalink for Figure 18.2.6">🔗</a></div></figcaption></figure><div class="para" id="subsec-circ-motion-8">
-<span class="process-math">\(a_{t}\)</span> is also the component of the acceleration that changes the object’s angular velocity <span class="process-math">\(\omega\)</span> over time. The radial component of the acceleration <span class="process-math">\(a_{r}\)</span> is also known as the centripedal acceleration (The word centripedal means center seeking).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circ-motion-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Theorem 18.2.6"><a href="#thm-alg-vel-circ-motion" title="Copy heading and permalink for Theorem 18.2.6" aria-label="Copy heading and permalink for Theorem 18.2.6">🔗</a></div></article><details id="thm-alg-vel-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para" id="thm-alg-vel-circ-motion-2-1">We already know the magnitude of the velocity from <a href="sec-circ-motion.html#thm-inst-speed-circ-motion" class="xref" data-knowl="./knowl/xref/thm-inst-speed-circ-motion.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.2.5">Theorem 18.2.5</a>, so we’ll focus on getting the direction at any instant. Since the object is undergoing circular motion, it is constrained to stay on a circle of constant radius <span class="process-math">\(r\text{.}\)</span> Then at any instant, if <span class="process-math">\(\omega_{z}\)</span> is positive it can only be moving in the direction that increases <span class="process-math">\(\theta\)</span> but keeps <span class="process-math">\(r\)</span> constant. As we discussed earlier in this section, <span class="process-math">\(\hat{\theta}\)</span> is the unique unit vector pointing in this direction at any location on the circle.<div class="autopermalink" data-description="Paragraph"><a href="#thm-alg-vel-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figure class="figure figure-like" id="fig-circ-motion-rad-acc"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/imgs/circ-motion-rad-acc.svg" class="contained" alt="Radial acceleration vector pointing inward from a point on a circular path."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The diagram shows a circle representing an object’s circular path. A small black dot is placed on the upper-right portion of the circle to mark the object’s position. From this point, a diagonal arrow extends downward and leftward toward the center of the circle, indicating the direction of the radial acceleration vector. The arrow is labeled as <span class="process-math">\(\vec{a}_{r}\text{.}\)</span><div class="autopermalink" data-description="Figure 18.2.7"><a href="#fig-circ-motion-rad-acc" title="Copy heading and permalink for Figure 18.2.7" aria-label="Copy heading and permalink for Figure 18.2.7">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-circ-motion-10">
-<div class="para">The radial acceleration always points towards the center of the circle. Plugging equation <a href="sec-circ-motion.html#eq-circ-mot-speed" class="xref" data-knowl="./knowl/xref/eq-circ-mot-speed.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 18.2.1">(18.2.1)</a> into equation <a href="sec-circ-motion.html#eq-rad-acc-omega" class="xref" data-knowl="./knowl/xref/eq-rad-acc-omega.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 18.2.2">(18.2.2)</a> gives another useful formula for the radial acceleration.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-circ-mot-speed.html ./knowl/xref/eq-rad-acc-omega.html" id="subsec-circ-motion-10-3">
-\begin{align*}
-a_{r} \amp = - r \omega^{2} \\
+<div class="autopermalink" data-description="Proof 18.2.6.1"><a href="#thm-alg-vel-circ-motion-2" title="Copy heading and permalink for Proof 18.2.6.1" aria-label="Copy heading and permalink for Proof 18.2.6.1">🔗</a></div></article></details><div class="para" id="subsec-alg-circ-motion-6">The easiest way to understand instantaneous acceleration of an object undergoing circular motion is to break it down into its <span class="process-math">\(r\)</span> and <span class="process-math">\(\theta\)</span> components. We can break the acceleration into its <span class="process-math">\(r\)</span> and <span class="process-math">\(\theta\)</span> components in exactly the same way we broke the acceleration down into its <span class="process-math">\(x\)</span>- and <span class="process-math">\(y\)</span>-components earlier in the course. the <span class="process-math">\(r\)</span> component of acceleration is called the radial or centripedal component of acceleration <span class="process-math">\(a_{r}\text{.}\)</span> centripedal is latin word that means center seeking. The <span class="process-math">\(\theta\)</span> component of acceleration <span class="process-math">\(a_{t}\)</span> is called the tangential component of acceleration becaue <span class="process-math">\(a_{t}\hat{\theta}\)</span> always points in a direction that is tangent to the circle.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-alg-circ-motion-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-rad-comp-acc-circ-motion"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="thm-rad-comp-acc-circ-motion-1-1">
+<div class="para">For an object undergoing circular motion, the radial component of acceleration is</div>
+<div class="displaymath process-math" id="thm-rad-comp-acc-circ-motion-1-1-1">
+\begin{equation*}
+a_{r} = - \frac{v^{2}}{r}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-rad-comp-acc-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 18.2.7"><a href="#thm-rad-comp-acc-circ-motion" title="Copy heading and permalink for Theorem 18.2.7" aria-label="Copy heading and permalink for Theorem 18.2.7">🔗</a></div></article><details id="thm-rad-comp-acc-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para" id="thm-rad-comp-acc-circ-motion-2-1">The acceleration of an object undergoing circular motion can be broken down into a tangential component <span class="process-math">\(a_{t}\)</span> which is the projection of <span class="process-math">\(\vec{a}\)</span> onto the <span class="process-math">\(\hat{\theta}\)</span> direction and a radial component <span class="process-math">\(a_{r}\)</span> which is the projection of <span class="process-math">\(\vec{a}\)</span> onto the <span class="process-math">\(\hat{r}\)</span> direction.<div class="autopermalink" data-description="Paragraph"><a href="#thm-rad-comp-acc-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-rad-acc-proof"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/imgs/rad-acc-proof.svg" class="contained" alt="Diagram of a circle with radial and tangential displacement vectors labeled with acceleration-based expressions."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The image shows a circle representing a circular path. A vertical line extends from the center of the circle to the top of the circle. The vertical line represents the radius of the circle and is labeled r. From the top point on the circle, a horizontal arrow points to the left. The horizontal arrow represents the tangential displacement which has a length of <span class="process-math">\(\frac{1}{2}a_{t}\left( \Delta t \right)^{2}\text{.}\)</span> From the top of the tangential displacement vector an arrow points in the direction of the center of the circle and extends to the surface of the circle. This arrow represents the radial displacement vector which has a length of <span class="process-math">\(-\frac{1}{2}a_{r}\left( \Delta t \right)^{2}\text{.}\)</span> From the tip of the radial displacement vector and the surface of the circle, a line extends radially in to the center of the circle. The length of this line is the radius of the circle and is labeled r. The radial displacement vector and the nonvertical line labeled r make up the hypotenuse of a right triangle. The other sides of the triangle are the vertical line labeled r and the tangential displacement vector.<div class="autopermalink" data-description="Figure 18.2.8"><a href="#fig-rad-acc-proof" title="Copy heading and permalink for Figure 18.2.8" aria-label="Copy heading and permalink for Figure 18.2.8">🔗</a></div></figcaption></figure><div class="para logical" id="thm-rad-comp-acc-circ-motion-2-3">
+<div class="para">Figure x shows the change in position of an object undergoing circular motion over a very short period of time <span class="process-math">\(\Delta t\text{.}\)</span> Since the period of time <span class="process-math">\(\Delta t\)</span> is so small we can approximate the acceleration as constant over this interval. During that period of time the displacements in the <span class="process-math">\(\hat{\theta}\)</span> and <span class="process-math">\(\hat{r}\)</span> directions must add up to keep the object on the circle. <span class="process-math">\(\vec{v}\)</span> and <span class="process-math">\(a_{t}\hat{\theta}\)</span> point in the <span class="process-math">\(\hat{\theta}\)</span> direction, so according to <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-2" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.2">Theorem 4.1.2</a> the total displacment in the <span class="process-math">\(\hat{\theta}\)</span> direction is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-1d-const-a-2.html" id="thm-rad-comp-acc-circ-motion-2-3-10">
+\begin{equation*}
+\frac{1}{2}a_{t} \left( \Delta t \right)^{2} + v \Delta t.
+\end{equation*}
+</div>
+<div class="para">Since the <span class="process-math">\(\hat{\theta}\)</span> is tangent to the circle, this displacement tries to get the object to fly off the circle in a straight line.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-rad-comp-acc-circ-motion-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="thm-rad-comp-acc-circ-motion-2-4">
+<div class="para">To keep the object from flying off, we must have the radial displacement be in the <span class="process-math">\(-\hat{r}\)</span> direction (towards the center of the circle) to keep the object on circle. <span class="process-math">\(a_{r}\)</span> is the projection of <span class="process-math">\(\vec{a}\)</span> unto the positive <span class="process-math">\(\hat{r}\)</span> direction. To relate <span class="process-math">\(a_{r}\)</span> to the projection of <span class="process-math">\(\vec{a}\)</span> unto the <span class="process-math">\(-\hat{r}\)</span> direct we note that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-1d-const-a-2.html" id="thm-rad-comp-acc-circ-motion-2-4-8">
+\begin{equation*}
+a_{r}\hat{r} = \left( -a_{r} \right) \left( -\hat{r} \right).
+\end{equation*}
+</div>
+<div class="para">So the projection of <span class="process-math">\(\vec{a}\)</span> along <span class="process-math">\(-\hat{r}\)</span> is <span class="process-math">\(-a_{r}\text{.}\)</span> According to <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-2" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.2">Theorem 4.1.2</a> the displacement in the <span class="process-math">\(-\hat{r}\)</span> direction is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-1d-const-a-2.html" id="thm-rad-comp-acc-circ-motion-2-4-14">
+\begin{equation*}
+\frac{1}{2} \left( - a_{r} \right) \left( \Delta t \right)^2.
+\end{equation*}
+</div>
+<div class="para">Now we can use the pythagorean theorem to solve for <span class="process-math">\(a_{r}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-1d-const-a-2.html" id="thm-rad-comp-acc-circ-motion-2-4-16">
+\begin{gather*}
+\left[\frac{1}{2} a_{t} \left( \Delta t \right)^{2} + v \Delta t \right]^{2} + r^{2} =
+\left[-\frac{1}{2} a_{r} \left( \Delta t \right)^{2} + r \right]^{2} \\
 \\
-\amp = - r (\frac{v}{r})^{2} \\
+\left( \frac{a_{t}^{2}}{4} \right) \left( \Delta t \right)^{4} +
+a_{t} v \left( \Delta t \right)^{3} +
+v^{2} \left( \Delta t \right)^{2} +
+r^{2} =
+\left( \frac{a_{r}^{2}}{4} \right) \left( \Delta t \right)^{4} -
+a_{r} r \left( \Delta t \right)^{2} +
+r^{2}\\
+\\
+-a_{r} r \left( \Delta t \right)^{2} =
+\left( \frac{a_{t}^{2} - a_{r}^{2}}{4} \right) \left( \Delta t \right)^{4} +
+a_{t} v \left( \Delta t \right)^{3} +
+v^{2} \left( \Delta t \right)^{2}\\
+\\
+a_{r} =
+\left( \frac{a_{r}^{2} - a_{t}^{2}}{4r} \right) \left( \Delta t \right)^{2} -
+\frac{a_{t} v}{r} \Delta t -
+\frac{v^{2}}{r}
+\end{gather*}
+</div>
+<div class="para">We want to know the radial component of the instantaneous acceleration. To get the radial component of the acceleration at an instant we need <span class="process-math">\(\Delta t \rightarrow 0\text{.}\)</span> Plugging in zero for <span class="process-math">\(\Delta t\)</span> gives</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-1d-const-a-2.html" id="thm-rad-comp-acc-circ-motion-2-4-19">
+\begin{equation*}
+a_{r} = - \frac{v^{2}}{r}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-rad-comp-acc-circ-motion-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 18.2.7.1"><a href="#thm-rad-comp-acc-circ-motion-2" title="Copy heading and permalink for Proof 18.2.7.1" aria-label="Copy heading and permalink for Proof 18.2.7.1">🔗</a></div></article></details><article class="theorem theorem-like" id="thm-tang-comp-acc-circ-motion"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="thm-tang-comp-acc-circ-motion-1-1">
+<div class="para">For an object undergoing circular motion, the tangential componenet of acceleration is</div>
+<div class="displaymath process-math" id="thm-tang-comp-acc-circ-motion-1-1-1">
+\begin{equation*}
+a_{t} = r \alpha_{z}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-tang-comp-acc-circ-motion-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 18.2.9"><a href="#thm-tang-comp-acc-circ-motion" title="Copy heading and permalink for Theorem 18.2.9" aria-label="Copy heading and permalink for Theorem 18.2.9">🔗</a></div></article><details id="thm-tang-comp-acc-circ-motion-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-tang-comp-acc-circ-motion-2-1">
+<div class="para">The average tangential acceleration is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-inst-speed-circ-motion.html ./knowl/xref/def-avg-ang-acc-z.html ./knowl/xref/def-avg-ang-acc-z.html" id="thm-tang-comp-acc-circ-motion-2-1-1">
+\begin{equation*}
+a_{t,avg} = \frac{\Delta s}{\Delta t}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\Delta s\)</span> is the change in speed and <span class="process-math">\(\Delta t\)</span> is the change in time. Plugging in the formula for the instantaneous speed from <a href="sec-circ-motion.html#thm-inst-speed-circ-motion" class="xref" data-knowl="./knowl/xref/thm-inst-speed-circ-motion.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.2.5">Theorem 18.2.5</a> gives</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-inst-speed-circ-motion.html ./knowl/xref/def-avg-ang-acc-z.html ./knowl/xref/def-avg-ang-acc-z.html" id="thm-tang-comp-acc-circ-motion-2-1-5">
+\begin{equation*}
+a_{t,avg} = \frac{r \Delta \omega_{z}}{\Delta t}.
+\end{equation*}
+</div>
+<div class="para">By definition <a href="sec-rot-kin.html#def-avg-ang-acc-z" class="xref" data-knowl="./knowl/xref/def-avg-ang-acc-z.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 18.1.4">Definition 18.1.4</a> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-inst-speed-circ-motion.html ./knowl/xref/def-avg-ang-acc-z.html ./knowl/xref/def-avg-ang-acc-z.html" id="thm-tang-comp-acc-circ-motion-2-1-7">
+\begin{equation*}
+a_{t,avg} = r \alpha_{z,avg}.
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(\Delta t\)</span> in <a href="sec-rot-kin.html#def-avg-ang-acc-z" class="xref" data-knowl="./knowl/xref/def-avg-ang-acc-z.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 18.1.4">Definition 18.1.4</a> becomes extremely small compared to the objects angular acceleration then we get a good approximation of the z-component of angular acceleration the object has at any given instant. If we call the instantaneous z-component of the angular acceleration <span class="process-math">\(\alpha_{z}\)</span> and we call the instantaneous tangential acceleration <span class="process-math">\(a_{t}\)</span> we obtain the result we want.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-tang-comp-acc-circ-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 18.2.9.1"><a href="#thm-tang-comp-acc-circ-motion-2" title="Copy heading and permalink for Proof 18.2.9.1" aria-label="Copy heading and permalink for Proof 18.2.9.1">🔗</a></div></article></details><div class="para logical" id="subsec-alg-circ-motion-9">
+<div class="para">Plugging <a href="sec-circ-motion.html#thm-inst-speed-circ-motion" class="xref" data-knowl="./knowl/xref/thm-inst-speed-circ-motion.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.2.5">Theorem 18.2.5</a> into <a href="sec-circ-motion.html#thm-rad-comp-acc-circ-motion" class="xref" data-knowl="./knowl/xref/thm-rad-comp-acc-circ-motion.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.2.7">Theorem 18.2.7</a> gives another useful formula for the radial component of the acceleration.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-inst-speed-circ-motion.html ./knowl/xref/thm-rad-comp-acc-circ-motion.html" id="subsec-alg-circ-motion-9-3">
+\begin{align*}
+a_{r} \amp = - \frac{v^2}{r} \\
+\\
+\amp = - \frac{r^{2} \omega_{z}^{2}}{r} \\
 
 \end{align*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-circ-mot-speed.html ./knowl/xref/eq-rad-acc-omega.html" id="eq-rad-acc-v">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-inst-speed-circ-motion.html ./knowl/xref/thm-rad-comp-acc-circ-motion.html" id="eq-alg-rad-comp-acc-omega">
 \begin{equation}
-a_{r} = - \frac{v^2}{r}\tag{18.2.4}
+a_{r} = - r \omega_{z}^{2}\tag{18.2.1}
 \end{equation}
 </div>
 <div class="para">Finally, the radial and tangential components of the acceleration are always orthogonal (at a right angle to each other) so we can use the pythagorean theorem to get</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-circ-mot-speed.html ./knowl/xref/eq-rad-acc-omega.html" id="subsec-circ-motion-10-5">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-inst-speed-circ-motion.html ./knowl/xref/thm-rad-comp-acc-circ-motion.html" id="subsec-alg-circ-motion-9-5">
 \begin{equation*}
 \lvert \vec{a} \rvert = \sqrt{a_{t}^{2} + a_{r}^{2}.}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circ-motion-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-alg-circ-motion-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 18.2.2: Circular Motion"><a href="#subsec-circ-motion" title="Copy heading and permalink for Subsection 18.2.2: Circular Motion" aria-label="Copy heading and permalink for Subsection 18.2.2: Circular Motion">🔗</a></div></section><div class="autopermalink" data-description="Section 18.2: Circular Motion"><a href="#sec-circ-motion" title="Copy heading and permalink for Section 18.2: Circular Motion" aria-label="Copy heading and permalink for Section 18.2: Circular Motion">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 18.2.2: Circular Motion"><a href="#subsec-alg-circ-motion" title="Copy heading and permalink for Subsection 18.2.2: Circular Motion" aria-label="Copy heading and permalink for Subsection 18.2.2: Circular Motion">🔗</a></div></section><div class="autopermalink" data-description="Section 18.2: Circular Motion"><a href="#sec-circ-motion" title="Copy heading and permalink for Section 18.2: Circular Motion" aria-label="Copy heading and permalink for Section 18.2: Circular Motion">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-rot-kin.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-ucm.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

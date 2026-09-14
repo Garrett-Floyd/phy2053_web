@@ -109,15 +109,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.9';
+eBookConfig.runestone_version = '8.2.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b8b41abee2fe6343.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -319,7 +319,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-work.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Work</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-sing-force" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Work From a Single Force</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-alg-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-work-kin-energy-theorem.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Work-Kinetic Energy Theorem</span></a></div></li>
@@ -329,42 +329,35 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-conserv-energy.html" class="internal"><span class="codenumber">16</span> <span class="title">Conservation of Energy</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-forces.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Conservative Forces</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Potential Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Power Example Problem</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.7</span> <span class="title">Chapter Exercises</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Potential Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-power.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Chapter Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-lin-momentum-and-com.html" class="internal"><span class="codenumber">17</span> <span class="title">Linear Momentum and Center of Mass</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-momentum-impulse.html#exercises-sec-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-alg-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-momentum-impulse.html#exercises-sec-calc-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-conserv-momentum.html#exercises-sec-conserv-momentum" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-collisions.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Collisions</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-elastic-collisions" class="internal"><span class="codenumber">17.3.1</span> <span class="title">1D Elastic Collsions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-inelastic-collisions" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Inelastic Collisions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-explosions" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Explosions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-collisions.html#exercises-sec-collisions" class="internal"><span class="codenumber">17.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-collision-ex-prob.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Collision Example Problem</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-com.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Center of Mass</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-com.html#exercises-sec-com" class="internal"><span class="codenumber">17.5</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-var-mass-force.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Variable Mass Force</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-var-mass-force.html#exercises-sec-sec-var-mass-force" class="internal"><span class="codenumber">17.6</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -374,7 +367,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-rot-kin.html" class="internal"><span class="codenumber">18.1</span> <span class="title">Rotational Kinematics</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-alg-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-eqs-rot-kin" class="internal"><span class="codenumber">18.1.2</span> <span class="title">Equations of Rotational Kinematics</span></a></div></li>
 </ul>
 </li>
@@ -382,7 +375,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-circ-motion.html" class="internal"><span class="codenumber">18.2</span> <span class="title">Circular Motion</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-relating-cart-polar-coord-systems" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relating Cartesian and Polar Coordinate Systems</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-alg-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-ucm.html" class="internal"><span class="codenumber">18.3</span> <span class="title">Uniform Circular Motion</span></a></div></li>
@@ -469,269 +462,7 @@ eBookConfig.enable_chatcodes =  false;
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <figure class="figure figure-like" id="fig-overhead-sled-pulled-by-ropes"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/overhead-sled-pulled-by-ropes.png" class="contained" alt="Three tension forces acting on a block at different angles with a rightward velocity vector."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.3.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The diagram shows a single crate with three labeled tension forces applied to it. One force, <span class="process-math">\(T_1\text{,}\)</span> has a magnitude of 600 newtons and is directed upward and to the right at a 20 degree angle above the horizontal. A second force, <span class="process-math">\(T_2\text{,}\)</span> has a magnitude of 410 newtons and is directed downward and to the right at a 30 degree angle below the horizontal. The third force, <span class="process-math">\(T_3\text{,}\)</span> has a magnitude of 650 newtons and is directed horizontally to the left. A separate velocity vector labeled v extends horizontally to the right from the block. The block is centered, and all force arrows originate from the same point on the block.<div class="autopermalink" data-description="Figure 15.3.5"><a href="#fig-overhead-sled-pulled-by-ropes" title="Copy heading and permalink for Figure 15.3.5" aria-label="Copy heading and permalink for Figure 15.3.5">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 15.3.8"><a href="#exercises-ch-work-and-kinetic-energy-3-4" title="Copy heading and permalink for Exercise 15.3.8" aria-label="Copy heading and permalink for Exercise 15.3.8">🔗</a></div></article><div class="autopermalink" data-description="Subexercises: Work Under Constant Force and Straight Line Displacement"><a href="#exercises-ch-work-and-kinetic-energy-3" title="Copy heading and permalink for Subexercises: Work Under Constant Force and Straight Line Displacement" aria-label="Copy heading and permalink for Subexercises: Work Under Constant Force and Straight Line Displacement">🔗</a></div></article><article class="subexercises" id="exercises-ch-work-and-kinetic-energy-4"><h3 class="heading"><span class="title">Work in General</span></h3>
-<article class="exercise exercise-like" id="exercises-ch-work-and-kinetic-energy-4-2"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div class="para" id="exercises-ch-work-and-kinetic-energy-4-2-1-1">A force on an object is given by <span class="process-math">\(F(x)=(-4.00N/m)x+(2.00N/m^{3})x^{3}\text{.}\)</span> What is the work done by that force when the object moves from <span class="process-math">\(x = 1.00\)</span> meters to <span class="process-math">\(x = 2.00\)</span> meters? Is it a negative or positive amount of work (the sign does matter)?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 15.3.9"><a href="#exercises-ch-work-and-kinetic-energy-4-2" title="Copy heading and permalink for Exercise 15.3.9" aria-label="Copy heading and permalink for Exercise 15.3.9">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-work-and-kinetic-energy-4-3"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div class="para" id="exercises-ch-work-and-kinetic-energy-4-3-1-1">A force on an object is given by <span class="process-math">\(F(x)=(5.00N) \sin [ (0.0159 m^{-1})x ]\text{.}\)</span> What is the work done by that force when the object moves from <span class="process-math">\(x = 1.00\)</span> meters to <span class="process-math">\(x = 2.00\)</span> meters? Is it a negative or positive amount of work (the sign does matter)?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 15.3.10"><a href="#exercises-ch-work-and-kinetic-energy-4-3" title="Copy heading and permalink for Exercise 15.3.10" aria-label="Copy heading and permalink for Exercise 15.3.10">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-work-and-kinetic-energy-4-4"><h4 class="heading">
-<span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Deriving the Relation between Work and Kinetic Energy: the Work-Kinetic Energy Theorem (1-D version).</span>
-</h4>
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1">
-<div class="para">Suppose a target object is travelling along the x-axis (starting at position <span class="process-math">\(x=0\)</span> and speed <span class="process-math">\(v=v_{i}\text{,}\)</span> ending at position <span class="process-math">\(x_{f}\)</span> and speed <span class="process-math">\(v_{f}\)</span>), and there is a horizontal force along the x-axis applied to the target object, but the force varies as the object changes position. So, force is <span class="process-math">\(F(x)\text{,}\)</span> a function of <span class="process-math">\(x\text{.}\)</span> You’d think that applying a force along the direction of travel would make the velocity <span class="process-math">\(\ \ \fillinmath{X}\ \ \text{.}\)</span> Based on this information, the question we will answer is: how much work is done by the force, and how is that related to the velocity of the object?</div>
-<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8">
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-1">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-1-1">
-<div class="para">What general formula do we need for computing the work done by a varying force?</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-1-1-1">
-\begin{equation*}
-W = \int_{}^{}{\vec{\ \fillinmath{X}}\  \cdot \vec{\ ds}}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.a"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-1" title="Copy heading and permalink for Item 15.3.11.a" aria-label="Copy heading and permalink for Item 15.3.11.a">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1">
-<div class="para">When doing an integral of a dot product, it’s easiest to figure out the dot product attempting to integrate:</div>
-<ol class="lower-roman" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1">
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-1">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-1-1">
-<div class="para">Since the force is only in the x direction, we can easily write the force vector in component form:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-1-1-1">
-\begin{equation*}
-\vec{F} = \left\langle F(x),0,\ \fillinmath{X}\  \right\rangle
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.b.i"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-1" title="Copy heading and permalink for Item 15.3.11.b.i" aria-label="Copy heading and permalink for Item 15.3.11.b.i">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-2">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-2-1">
-<div class="para">Since the small displacement ds is only in the x direction, we can easily write the displacement vector in component form:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-2-1-1">
-\begin{equation*}
-\vec{ds} = \left\langle dx,\ \fillinmath{X}\ ,0 \right\rangle
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.b.ii"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-2" title="Copy heading and permalink for Item 15.3.11.b.ii" aria-label="Copy heading and permalink for Item 15.3.11.b.ii">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-3">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-3-1">
-<div class="para">Therefore, the dot product is:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-3-1-1">
-\begin{equation*}
-\vec{F} \cdot \vec{ds} = \ \ \fillinmath{X}\ \  + (0)(0) + (0)(0)
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.b.iii"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1-1-3" title="Copy heading and permalink for Item 15.3.11.b.iii" aria-label="Copy heading and permalink for Item 15.3.11.b.iii">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.b"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-2" title="Copy heading and permalink for Item 15.3.11.b" aria-label="Copy heading and permalink for Item 15.3.11.b">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-3">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-3-1">
-<div class="para">Subbing the dot product back into the integral, we see the integral for our 1-D case becomes:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-3-1-1">
-\begin{equation*}
-W = \int_{}^{}{F(x)dx}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.c"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-3" title="Copy heading and permalink for Item 15.3.11.c" aria-label="Copy heading and permalink for Item 15.3.11.c">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1">
-<div class="para">Eventually, our original question wanted us to write this formula in terms of velocity. We’ll have to do this substitution in a couple of stages rather than all at once.</div>
-<ol class="lower-roman" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1">
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-1">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-1-1">
-<div class="para">Right now, one of the symbols in the formula has a relation to kinematics. Which one of Newton’s Laws can we use to substitute for the force F so it is more related to velocity?</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-1-1-1">
-\begin{equation*}
-\fillinmath{XXXXXXXXXX}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.d.i"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-1" title="Copy heading and permalink for Item 15.3.11.d.i" aria-label="Copy heading and permalink for Item 15.3.11.d.i">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-2">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-2-1">
-<div class="para">Making the above substitution into the formula for work, we get:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-2-1-1">
-\begin{equation*}
-W = \int_{}^{}{\ \fillinmath{X}\ a\ dx}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.d.ii"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-2" title="Copy heading and permalink for Item 15.3.11.d.ii" aria-label="Copy heading and permalink for Item 15.3.11.d.ii">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3-1">
-<div class="para">The acceleration isn’t constant, so we can’t use the equations of kinematics to relate it to velocity. However, we can go all the way back to the basic calculus definition to substitute for the acceleration so it is related to velocity:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3-1-1">
-\begin{equation*}
-a = \frac{d\fillinmath{X}\ }{d\fillinmath{X}\ }
-\end{equation*}
-</div>
-<div class="para">Multiplying the top and bottom by dx allows us to perform something called the Chain Rule:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3-1-2">
-\begin{equation*}
-a = \frac{d\fillinmath{X}\ }{d\fillinmath{X}\ }\frac{dx\ }{dx\ }
-\end{equation*}
-</div>
-<div class="para">(Rearrange this into something more useful by switching the order in which the denominators are multiplied):</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3-1-3">
-\begin{equation*}
-a = \frac{d\fillinmath{X}\ }{dx}\frac{dx\ }{\ d\fillinmath{X}\ }
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.d.iii"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-3" title="Copy heading and permalink for Item 15.3.11.d.iii" aria-label="Copy heading and permalink for Item 15.3.11.d.iii">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-4">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-4-1">
-<div class="para">Making the above substitution into the formula for work, we get:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-4-1-1">
-\begin{equation*}
-W = \int_{}^{}{m\ \left( \frac{d\fillinmath{X}\ }{dx}\frac{dx\ }{\ d\fillinmath{X}\ } \right)\ dx}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.d.iv"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1-1-4" title="Copy heading and permalink for Item 15.3.11.d.iv" aria-label="Copy heading and permalink for Item 15.3.11.d.iv">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.d"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-4" title="Copy heading and permalink for Item 15.3.11.d" aria-label="Copy heading and permalink for Item 15.3.11.d">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-5">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-5-1">
-<div class="para">Cancelling dx from the numerator and denominator simplifies this to:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-5-1-1">
-\begin{equation*}
-W = \int_{}^{}{m\ \ d\fillinmath{X}\ \frac{dx\ }{\ dt\ }}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.e"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-5" title="Copy heading and permalink for Item 15.3.11.e" aria-label="Copy heading and permalink for Item 15.3.11.e">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-6">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-6-1">
-<div class="para">But we already know that <span class="process-math">\(\frac{dx\ }{\ dt\ }\)</span> is the definition of <span class="process-math">\(\ \ \fillinmath{XXXXX}\text{,}\)</span> so we can simplify that, too, which yields:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-6-1-3">
-\begin{equation*}
-W = \int_{}^{}{m\ v\ dv}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.f"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-6" title="Copy heading and permalink for Item 15.3.11.f" aria-label="Copy heading and permalink for Item 15.3.11.f">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-7">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-7-1">
-<div class="para">Mass m is constant even though the force pushing on the object is varying. So, m factors out:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-7-1-1">
-\begin{equation*}
-W = m\int_{}^{}{\ \fillinmath{X}\ }
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.g"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-7" title="Copy heading and permalink for Item 15.3.11.g" aria-label="Copy heading and permalink for Item 15.3.11.g">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-8">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-8-1">
-<div class="para">This is an easy integral, but we need to apply limits of integration so that there aren’t constants of integration. Since the variable of integration here turned out to be <span class="process-math">\(\fillinmath{X}\text{,}\)</span> then according to the original givens, the lower limit should be <span class="process-math">\(v = \fillinmath{X}\ \text{,}\)</span> and the upper limit should be <span class="process-math">\(v = \fillinmath{X}\text{.}\)</span>
-</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-8-1-4">
-\begin{equation*}
-W = m\int_{v = \ \fillinmath{X}\ \ }^{v = \ \fillinmath{X}\ \ }{\ \fillinmath{X}\ }
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.h"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-8" title="Copy heading and permalink for Item 15.3.11.h" aria-label="Copy heading and permalink for Item 15.3.11.h">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-9">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-9-1">
-<div class="para">Now carry out the integral, giving:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-9-1-1">
-\begin{equation*}
-W = \frac{1}{2}mv^{2} \bigg|_{v_{i}}^{v_{f}}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.i"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-9" title="Copy heading and permalink for Item 15.3.11.i" aria-label="Copy heading and permalink for Item 15.3.11.i">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-10">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-10-1">
-<div class="para">Carrying out the evaluation between the limits gives the answer to our question, which was how the work relates to the velocity:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-10-1-1">
-\begin{equation*}
-W = \ \fillinmath{X}\  - \frac{1}{2}m{v_{i}}^{2}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.j"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-10" title="Copy heading and permalink for Item 15.3.11.j" aria-label="Copy heading and permalink for Item 15.3.11.j">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-11">
-<div class="para logical" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-11-1">
-<div class="para">Physicists define the instantaneous kinetic energy, <span class="process-math">\(KE\text{,}\)</span> based on the target object’s speed at a given time. So, the final kinetic energy is evaluated using the final speed, <span class="process-math">\(KE_{f} = \frac{1}{2}m{v_{f}}^{2}\text{,}\)</span> and the initial kinetic energy is evaluated using the initial speed, <span class="process-math">\(KE_{i}= \fillinmath{X}\ \text{.}\)</span> Making these substitutions, the equation can be written in terms of kinetic energies:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-11-1-4">
-\begin{equation*}
-W = \ {KE}_{f}\  - {KE}_{i}
-\end{equation*}
-</div>
-<div class="para">In other words, the net work done (total done by all forces) is the change in kinetic energy:</div>
-<div class="displaymath process-math" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-11-1-5">
-\begin{equation*}
-\ \fillinmath{X}\  = \ \mathrm{\Delta}KE
-\end{equation*}
-</div>
-<div class="para">That is called the Work-Energy Theorem.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.k"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-11" title="Copy heading and permalink for Item 15.3.11.k" aria-label="Copy heading and permalink for Item 15.3.11.k">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-12">
-<div class="para" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-12-1">Lastly, SI units for energy must be: <span class="process-math">\((mass units)*(speed units)^{2} = \ \fillinmath{X}\ \frac{m^{2}}{s^{2}}\)</span> = Joules.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.l"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-12" title="Copy heading and permalink for Item 15.3.11.l" aria-label="Copy heading and permalink for Item 15.3.11.l">🔗</a></div>
-</li>
-<li id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-13">
-<div class="para" id="exercises-ch-work-and-kinetic-energy-4-4-2-1-8-13-1">The 3-D version of the Work-Energy Theorem just requires adding up the work done in the x direction with the work in the y and z directions. The final equation actually comes out the same, as long as the speeds used are the magnitudes of the 3-D velocity vectors!<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-13-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 15.3.11.m"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1-8-13" title="Copy heading and permalink for Item 15.3.11.m" aria-label="Copy heading and permalink for Item 15.3.11.m">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 15.3.11: Deriving the Relation between Work and Kinetic Energy: the Work-Kinetic Energy Theorem (1-D version)"><a href="#exercises-ch-work-and-kinetic-energy-4-4" title="Copy heading and permalink for Exercise 15.3.11: Deriving the Relation between Work and Kinetic Energy: the Work-Kinetic Energy Theorem (1-D version)" aria-label="Copy heading and permalink for Exercise 15.3.11: Deriving the Relation between Work and Kinetic Energy: the Work-Kinetic Energy Theorem (1-D version)">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-work-and-kinetic-energy-4-5"><h4 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div class="para" id="exercises-ch-work-and-kinetic-energy-4-5-1-1">You are driving your car uphill along a straight road. Suddenly, you see a car run a red light and enter the intersection just ahead of you. You slam on your brakes and skid in a straight line to a stop, leaving skid marks 30 meters long. A policeman observes the whole incident and gives a ticket to the other car for running a red light. He also gives you a ticket for exceeding the speed limit of 50 kilometers per hour. When you get home, you read your physics book and estimate that the coefficient of kinetic friction between your tires and the road was 0.60, and the coefficient of static friction was 0.80. You estimate that the hill made an angle of about 10 degrees with the horizontal. You look in your owner’s manual and find that your car’s mass is 930 kilograms. Based on this evidence, could you successfully fight the traffic ticket in court?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 15.3.12"><a href="#exercises-ch-work-and-kinetic-energy-4-5" title="Copy heading and permalink for Exercise 15.3.12" aria-label="Copy heading and permalink for Exercise 15.3.12">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-work-and-kinetic-energy-4-6"><h4 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div class="para" id="exercises-ch-work-and-kinetic-energy-4-6-1-1">You have landed a summer job with a company that has been given the contract to design the ski jump for the next Winter Olympics. The track is coated with snow and has an angle of 25 degrees from the horizontal. A skier zips down the ski jump ramp so that he leaves it at high speed. The winner is the person who jumps the farthest after leaving the end of the ramp. Your task is to determine the height of the starting gate above the end of the ramp, which will determine the mechanical structure of the ski jump facility. You have been told that the typical ski-jumper pushes off from the starting gate at a speed of 2.0 meters per second. For safety reasons, your design should be such that for a perfect run down the ramp, the skier’s speed before leaving the end of the ramp and sailing through the air should be no more than 80 kilometers per hour. You run some experiments on various skis used by the jumpers and determine that the coefficient of static friction between the snow and the skis is 0.10 and its coefficient of kinetic friction is 0.02. Since the ski-jumpers bend over and wear very aerodynamic suits, you decide to neglect the air resistance to make your design.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-work-and-kinetic-energy-4-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 15.3.13"><a href="#exercises-ch-work-and-kinetic-energy-4-6" title="Copy heading and permalink for Exercise 15.3.13" aria-label="Copy heading and permalink for Exercise 15.3.13">🔗</a></div></article><div class="autopermalink" data-description="Subexercises: Work in General"><a href="#exercises-ch-work-and-kinetic-energy-4" title="Copy heading and permalink for Subexercises: Work in General" aria-label="Copy heading and permalink for Subexercises: Work in General">🔗</a></div></article><div class="autopermalink" data-description="Exercises 15.3: Chapter Exercises"><a href="#exercises-ch-work-and-kinetic-energy" title="Copy heading and permalink for Exercises 15.3: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 15.3: Chapter Exercises">🔗</a></div></section></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.3.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The diagram shows a single crate with three labeled tension forces applied to it. One force, <span class="process-math">\(T_1\text{,}\)</span> has a magnitude of 600 newtons and is directed upward and to the right at a 20 degree angle above the horizontal. A second force, <span class="process-math">\(T_2\text{,}\)</span> has a magnitude of 410 newtons and is directed downward and to the right at a 30 degree angle below the horizontal. The third force, <span class="process-math">\(T_3\text{,}\)</span> has a magnitude of 650 newtons and is directed horizontally to the left. A separate velocity vector labeled v extends horizontally to the right from the block. The block is centered, and all force arrows originate from the same point on the block.<div class="autopermalink" data-description="Figure 15.3.5"><a href="#fig-overhead-sled-pulled-by-ropes" title="Copy heading and permalink for Figure 15.3.5" aria-label="Copy heading and permalink for Figure 15.3.5">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 15.3.8"><a href="#exercises-ch-work-and-kinetic-energy-3-4" title="Copy heading and permalink for Exercise 15.3.8" aria-label="Copy heading and permalink for Exercise 15.3.8">🔗</a></div></article><div class="autopermalink" data-description="Subexercises: Work Under Constant Force and Straight Line Displacement"><a href="#exercises-ch-work-and-kinetic-energy-3" title="Copy heading and permalink for Subexercises: Work Under Constant Force and Straight Line Displacement" aria-label="Copy heading and permalink for Subexercises: Work Under Constant Force and Straight Line Displacement">🔗</a></div></article><div class="autopermalink" data-description="Exercises 15.3: Chapter Exercises"><a href="#exercises-ch-work-and-kinetic-energy" title="Copy heading and permalink for Exercises 15.3: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 15.3: Chapter Exercises">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-work-kin-energy-theorem.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-conserv-energy.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

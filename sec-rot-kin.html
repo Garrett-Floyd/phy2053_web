@@ -109,15 +109,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.9';
+eBookConfig.runestone_version = '8.2.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b8b41abee2fe6343.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -319,7 +319,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-work.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Work</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-sing-force" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Work From a Single Force</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-alg-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-work-kin-energy-theorem.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Work-Kinetic Energy Theorem</span></a></div></li>
@@ -329,42 +329,35 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-conserv-energy.html" class="internal"><span class="codenumber">16</span> <span class="title">Conservation of Energy</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-forces.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Conservative Forces</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Potential Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Power Example Problem</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.7</span> <span class="title">Chapter Exercises</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Potential Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-power.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Chapter Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-lin-momentum-and-com.html" class="internal"><span class="codenumber">17</span> <span class="title">Linear Momentum and Center of Mass</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-momentum-impulse.html#exercises-sec-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-alg-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-momentum-impulse.html#exercises-sec-calc-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-conserv-momentum.html#exercises-sec-conserv-momentum" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-collisions.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Collisions</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-elastic-collisions" class="internal"><span class="codenumber">17.3.1</span> <span class="title">1D Elastic Collsions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-inelastic-collisions" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Inelastic Collisions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-explosions" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Explosions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-collisions.html#exercises-sec-collisions" class="internal"><span class="codenumber">17.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-collision-ex-prob.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Collision Example Problem</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-com.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Center of Mass</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-com.html#exercises-sec-com" class="internal"><span class="codenumber">17.5</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-var-mass-force.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Variable Mass Force</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-var-mass-force.html#exercises-sec-sec-var-mass-force" class="internal"><span class="codenumber">17.6</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -374,7 +367,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-rot-kin.html" class="internal"><span class="codenumber">18.1</span> <span class="title">Rotational Kinematics</span></a></div>
 <ul class="structural toc-item-list active">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-alg-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-eqs-rot-kin" class="internal"><span class="codenumber">18.1.2</span> <span class="title">Equations of Rotational Kinematics</span></a></div></li>
 </ul>
 </li>
@@ -382,7 +375,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-circ-motion.html" class="internal"><span class="codenumber">18.2</span> <span class="title">Circular Motion</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-relating-cart-polar-coord-systems" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relating Cartesian and Polar Coordinate Systems</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-alg-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-ucm.html" class="internal"><span class="codenumber">18.3</span> <span class="title">Uniform Circular Motion</span></a></div></li>
@@ -409,59 +402,57 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-rot-kin"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Rotational Kinematics</span>
 </h2>
-<section class="introduction" id="sec-rot-kin-2"><div class="para" id="sec-rot-kin-2-1">Imagine we have an object going in a circle about a central point.<div class="autopermalink" data-description="Paragraph"><a href="#sec-rot-kin-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec-rot-kin-2"><div class="para" id="sec-rot-kin-2-1">Imagine we have an object going around a circle which is centered on the z-axis.<div class="autopermalink" data-description="Paragraph"><a href="#sec-rot-kin-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-circ-motion-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/circ-motion-1.svg" class="contained" alt="Diagram of circular motion showing an x-y coordinate system, a circle of radius r, a point on the circle, and the symbolic polar and cartesian coordinates of the point."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The diagram shows an x-y coordinate system with horizontal and vertical axes marked by arrowheads. A circle is centered at the origin. A small black point representing the location of an object on the circle lies on the upper-right portion of the circle. An arc shaped vector just outside the circle indicates the object is traveling counter-clockwise along the circle. A straight radius line extends from the center of the circle to this point labeled <span class="process-math">\(r\)</span> for the radius of the circle. A curved arc near the center of the circle marks the angle <span class="process-math">\(θ\)</span> between the positive <span class="process-math">\(x\)</span>-axis and the radius line. The point on the circle has a vertical line segment extending downward to the <span class="process-math">\(x\)</span>-axis. This forms a triangle with <span class="process-math">\(x\)</span>-axis and the radius line. The vertical line segment is labeled <span class="process-math">\(y\)</span> to indicate the <span class="process-math">\(y\)</span> coordinate of the object. the part of the triangle formed by the <span class="process-math">\(x\)</span>-axis is labeled <span class="process-math">\(x\)</span> to indicate the <span class="process-math">\(x\)</span> coordinate of the object.<div class="autopermalink" data-description="Figure 18.1.1"><a href="#fig-circ-motion-1" title="Copy heading and permalink for Figure 18.1.1" aria-label="Copy heading and permalink for Figure 18.1.1">🔗</a></div></figcaption></figure><div class="para" id="sec-rot-kin-2-3">This situation occurs frequently in physics. We will see that it’s much easier to analyze the physics of this situation in polar coordinates than cartesian coordinates. For example lets ask a simple question, if at time <span class="process-math">\(t = 0\text{,}\)</span> <span class="process-math">\(\theta = 0\)</span> what distance has the object traveled by time <span class="process-math">\(t\text{?}\)</span> This question would be a pain in cartesian coordinates. Let’s us polar coordinates. From geometry the perimeter of a circle is <span class="process-math">\(2 \pi r\text{,}\)</span> so if <span class="process-math">\(\theta (t)\)</span> is such that the object has made one revolution around the circle then <span class="process-math">\(s = 2 \pi r\)</span> where <span class="process-math">\(s\)</span> is the distance traveled. What about a half or quater circle?<div class="autopermalink" data-description="Paragraph"><a href="#sec-rot-kin-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The diagram shows an x-y coordinate system with horizontal and vertical axes marked by arrowheads. A circle is centered at the origin. A small black point representing the location of an object on the circle lies on the upper-right portion of the circle. An arc shaped vector just outside the circle indicates the object is traveling counter-clockwise along the circle. A straight radius line extends from the center of the circle to this point labeled <span class="process-math">\(r\)</span> for the radius of the circle. A curved arc near the center of the circle marks the angle <span class="process-math">\(θ\)</span> between the positive <span class="process-math">\(x\)</span>-axis and the radius line. The point on the circle has a vertical line segment extending downward to the <span class="process-math">\(x\)</span>-axis. This forms a triangle with <span class="process-math">\(x\)</span>-axis and the radius line. The vertical line segment is labeled <span class="process-math">\(y\)</span> to indicate the <span class="process-math">\(y\)</span> coordinate of the object. the part of the triangle formed by the <span class="process-math">\(x\)</span>-axis is labeled <span class="process-math">\(x\)</span> to indicate the <span class="process-math">\(x\)</span> coordinate of the object.<div class="autopermalink" data-description="Figure 18.1.1"><a href="#fig-circ-motion-1" title="Copy heading and permalink for Figure 18.1.1" aria-label="Copy heading and permalink for Figure 18.1.1">🔗</a></div></figcaption></figure><div class="para" id="sec-rot-kin-2-3">This situation occurs frequently in physics. We will see that it’s much easier to analyze the physics of this situation in polar coordinates than cartesian coordinates. For example lets ask a simple question, if at time <span class="process-math">\(t = 0\text{,}\)</span> <span class="process-math">\(\theta = 0\)</span> what distance has the object traveled by time <span class="process-math">\(t\text{?}\)</span> This question would be a pain in cartesian coordinates. Let’s us polar coordinates. From geometry the perimeter of a circle is <span class="process-math">\(2 \pi r\text{,}\)</span> so if <span class="process-math">\(\theta (t)\)</span> is such that the object has made one revolution around the circle then <span class="process-math">\(d = 2 \pi r\)</span> where <span class="process-math">\(d\)</span> is the distance traveled. What about a half or quater circle?<div class="autopermalink" data-description="Paragraph"><a href="#sec-rot-kin-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-circ-motion-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/circ-motion-2.svg" class="contained" alt="One full circle and two circular arcs labeled with arc-length formulas."></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The image displays three geometric figures arranged horizontally: a full circle on the left, a semicircle in the center, and a quarter-circle arc on the right. Each figure has a radius of equal length, shown through consistent sizing across the shapes. In the center of each circular figure is a bold formula representing the arc length for that specific portion of a circle. The full circle on the left is paired with the formula <span class="process-math">\(s = 2πr\text{.}\)</span> The semicircle in the center is paired with <span class="process-math">\(s = πr\text{.}\)</span> The quarter-circle arc on the right is paired with <span class="process-math">\(s = \left( \sfrac{π}{2} \right) r\text{.}\)</span> The formulas correspond directly to the amount of the circumference represented by each arc.<div class="autopermalink" data-description="Figure 18.1.2"><a href="#fig-circ-motion-2" title="Copy heading and permalink for Figure 18.1.2" aria-label="Copy heading and permalink for Figure 18.1.2">🔗</a></div></figcaption></figure><div class="para logical" id="sec-rot-kin-2-5">
-<div class="para">In general</div>
-<div class="displaymath process-math" id="sec-rot-kin-2-5-1">
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The image displays three geometric figures arranged horizontally: a full circle on the left, a semicircle in the center, and a quarter-circle arc on the right. Each figure has a radius of equal length, shown through consistent sizing across the shapes. In the center of each circular figure is a bold formula representing the arc length for that specific portion of a circle. The full circle on the left is paired with the formula <span class="process-math">\(d = 2πr\text{.}\)</span> The semicircle in the center is paired with <span class="process-math">\(d = πr\text{.}\)</span> The quarter-circle arc on the right is paired with <span class="process-math">\(d = \left( \sfrac{π}{2} \right) r\text{.}\)</span> The formulas correspond directly to the amount of the circumference represented by each arc.<div class="autopermalink" data-description="Figure 18.1.2"><a href="#fig-circ-motion-2" title="Copy heading and permalink for Figure 18.1.2" aria-label="Copy heading and permalink for Figure 18.1.2">🔗</a></div></figcaption></figure><div class="para logical" id="sec-rot-kin-2-5">
+<div class="para">In general the distance traveled around the circle (<span class="process-math">\(d\)</span>) is</div>
+<div class="displaymath process-math" id="eq-arc-length">
 \begin{equation}
-s = r \theta\tag{18.1.1}
+d = r \Delta \theta\tag{18.1.1}
 \end{equation}
 </div>
 <div class="para">where <span class="process-math">\(\theta\)</span> <em class="emphasis">must be in radians</em>.</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec-rot-kin-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><section class="subsection" id="subsec-ang-pos-vel-acc"><h3 class="heading hide-type">
+</div></section><section class="subsection" id="subsec-alg-ang-pos-vel-acc"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Angular Position, Velocity, and Acceleration</span>
 </h3>
-<div class="para logical" id="subsec-ang-pos-vel-acc-2">
-<div class="para">We can do kinematics with <span class="process-math">\(\theta (t)\text{.}\)</span> We define angular velocity <span class="process-math">\(\omega\)</span> as the change in angle per unit time elapsed.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-diff-ang-vel.html ./knowl/xref/eq-diff-ang-acc.html" id="eq-diff-ang-vel">
-\begin{equation}
-\omega = \frac{ d \theta }{ dt}\tag{18.1.2}
-\end{equation}
+<div class="para" id="subsec-alg-ang-pos-vel-acc-2">We can do kinematics with <span class="process-math">\(\theta (t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-alg-ang-pos-vel-acc-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para">Similarly we can define angular acceleration <span class="process-math">\(\alpha\)</span> as the change in angular velocity per unit time elapsed.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-diff-ang-vel.html ./knowl/xref/eq-diff-ang-acc.html" id="eq-diff-ang-acc">
-\begin{equation}
-\alpha = \frac{d \omega}{dt}\tag{18.1.3}
-\end{equation}
+<article class="definition definition-like" id="def-avg-ang-vel-z"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="def-avg-ang-vel-z-1-1">
+<div class="para">We define the z-component of the average angular velocity <span class="process-math">\(\omega_{avg}\)</span> as</div>
+<div class="displaymath process-math" id="def-avg-ang-vel-z-1-1-2">
+\begin{equation*}
+\omega_{avg} = \frac{ \Delta \theta }{ \Delta t}.
+\end{equation*}
 </div>
-<div class="para">We can obtain integral equations of motion by integrating equation <a href="sec-rot-kin.html#eq-diff-ang-vel" class="xref" data-knowl="./knowl/xref/eq-diff-ang-vel.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 18.1.2">(18.1.2)</a> and equation <a href="sec-rot-kin.html#eq-diff-ang-acc" class="xref" data-knowl="./knowl/xref/eq-diff-ang-acc.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 18.1.3">(18.1.3)</a> which gives</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-diff-ang-vel.html ./knowl/xref/eq-diff-ang-acc.html" id="eq-int-ang-vel">
-\begin{equation}
-\theta_{f} = \int_{t_{i}}^{t_{f}} \omega d t + \theta_{i}\tag{18.1.4}
-\end{equation}
+<div class="autopermalink" data-description="Paragraph"><a href="#def-avg-ang-vel-z-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para">and</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-diff-ang-vel.html ./knowl/xref/eq-diff-ang-acc.html" id="eq-int-ang-acc">
-\begin{equation}
-\omega_{f} = \int_{t_{i}}^{t_{f}} \alpha d t + \omega_{i}\tag{18.1.5}
-\end{equation}
+<div class="autopermalink" data-description="Definition 18.1.3"><a href="#def-avg-ang-vel-z" title="Copy heading and permalink for Definition 18.1.3" aria-label="Copy heading and permalink for Definition 18.1.3">🔗</a></div></article><article class="definition definition-like" id="def-avg-ang-acc-z"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para logical" id="def-avg-ang-acc-z-1-1">
+<div class="para">Similarly we can define the z-component of the average angular acceleration <span class="process-math">\(\alpha\)</span> as.</div>
+<div class="displaymath process-math" id="def-avg-ang-acc-z-1-1-2">
+\begin{equation*}
+\alpha_{avg} = \frac{\Delta \omega}{\Delta t}.
+\end{equation*}
 </div>
-<div class="para">respectively.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-ang-pos-vel-acc-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-avg-ang-acc-z-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 18.1.1: Angular Position, Velocity, and Acceleration"><a href="#subsec-ang-pos-vel-acc" title="Copy heading and permalink for Subsection 18.1.1: Angular Position, Velocity, and Acceleration" aria-label="Copy heading and permalink for Subsection 18.1.1: Angular Position, Velocity, and Acceleration">🔗</a></div></section><section class="subsection" id="subsec-eqs-rot-kin"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Definition 18.1.4"><a href="#def-avg-ang-acc-z" title="Copy heading and permalink for Definition 18.1.4" aria-label="Copy heading and permalink for Definition 18.1.4">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.1.1: Angular Position, Velocity, and Acceleration"><a href="#subsec-alg-ang-pos-vel-acc" title="Copy heading and permalink for Subsection 18.1.1: Angular Position, Velocity, and Acceleration" aria-label="Copy heading and permalink for Subsection 18.1.1: Angular Position, Velocity, and Acceleration">🔗</a></div></section><section class="subsection" id="subsec-eqs-rot-kin"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Equations of Rotational Kinematics</span>
 </h3>
-<div class="para" id="subsec-eqs-rot-kin-2">Let’s consider the special case that occurs when the angular accleration <span class="process-math">\(\alpha\)</span> is constant.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-eqs-rot-kin-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-eqs-rot-kin-2">Let’s consider the special case that occurs when the z-component of the angular accleration <span class="process-math">\(\alpha\)</span> is constant.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-eqs-rot-kin-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="theorem theorem-like" id="thm-const-alpha-1"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="thm-const-alpha-1-1-1">
 <div class="para">If <span class="process-math">\(\alpha\)</span> is constant then</div>
@@ -472,12 +463,27 @@ s = r \theta\tag{18.1.1}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.1.3"><a href="#thm-const-alpha-1" title="Copy heading and permalink for Theorem 18.1.3" aria-label="Copy heading and permalink for Theorem 18.1.3">🔗</a></div></article><details id="thm-const-alpha-1-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para" id="thm-const-alpha-1-2-1">Evaluating equation <a href="sec-rot-kin.html#eq-int-ang-acc" class="xref" data-knowl="./knowl/xref/eq-int-ang-acc.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 18.1.5">(18.1.5)</a> with constant <span class="process-math">\(\alpha\)</span> gives the desired result.<div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Theorem 18.1.5"><a href="#thm-const-alpha-1" title="Copy heading and permalink for Theorem 18.1.5" aria-label="Copy heading and permalink for Theorem 18.1.5">🔗</a></div></article><details id="thm-const-alpha-1-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-const-alpha-1-2-1">
+<div class="para">If the z-component of the angular acceleration is constant then by <a href="sec-rot-kin.html#def-avg-ang-acc-z" class="xref" data-knowl="./knowl/xref/def-avg-ang-acc-z.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 18.1.4">Definition 18.1.4</a> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-avg-ang-acc-z.html" id="thm-const-alpha-1-2-1-2">
+\begin{equation*}
+\alpha = \alpha_{avg,z} = \frac{\omega_{f} - \omega_{i}}{\Delta t}.
+\end{equation*}
 </div>
-<div class="autopermalink" data-description="Proof 18.1.3.1"><a href="#thm-const-alpha-1-2" title="Copy heading and permalink for Proof 18.1.3.1" aria-label="Copy heading and permalink for Proof 18.1.3.1">🔗</a></div></article></details><div class="para" id="subsec-eqs-rot-kin-4">Hopefully this should look familiar. <a href="sec-rot-kin.html#thm-const-alpha-1" class="xref" data-knowl="./knowl/xref/thm-const-alpha-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.1.3">Theorem 18.1.3</a> is just <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-1" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.1">Theorem 4.1.1</a> with all the linear kinematic variables replaced with their angular versions. Even the proofs are the same if you replace the linear kinematic variables with the angular versions. This logic extends to the other theorems in <a href="sec-deriv-1d-kin-eqs.html" class="internal" title="Section 4.1: Deriving 1D Kinematic Equations">Section 4.1</a> as well. We list the remaining rotational kinematic equations below but omit the proofs since they are entirely similar to the linear versions.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-eqs-rot-kin-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">Rearranging, we get</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-avg-ang-acc-z.html" id="thm-const-alpha-1-2-1-3">
+\begin{align*}
+\omega_{f} - \omega_{i} \amp = \alpha \Delta t \\
+\\
+\omega_{f} \amp = \alpha \Delta t + \omega_{i} 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 18.1.5.1"><a href="#thm-const-alpha-1-2" title="Copy heading and permalink for Proof 18.1.5.1" aria-label="Copy heading and permalink for Proof 18.1.5.1">🔗</a></div></article></details><div class="para" id="subsec-eqs-rot-kin-4">Hopefully this should look familiar. <a href="sec-rot-kin.html#thm-const-alpha-1" class="xref" data-knowl="./knowl/xref/thm-const-alpha-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.1.5">Theorem 18.1.5</a> is just <a href="sec-deriv-1d-kin-eqs.html#thm-1d-const-a-1" class="xref" data-knowl="./knowl/xref/thm-1d-const-a-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.1.1">Theorem 4.1.1</a> with all the linear kinematic variables replaced with their angular versions. Even the proofs are the same if you replace the linear kinematic variables with the angular versions. This logic extends to the other theorems in <a href="sec-deriv-1d-kin-eqs.html" class="internal" title="Section 4.1: Deriving 1D Kinematic Equations">Section 4.1</a> as well. We list the remaining rotational kinematic equations below but omit the proofs since they are entirely similar to the linear versions.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-eqs-rot-kin-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="theorem theorem-like" id="thm-const-alpha-2"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="thm-const-alpha-2-1-1">
 <div class="para">If <span class="process-math">\(\alpha\)</span> is constant then</div>
@@ -488,8 +494,8 @@ s = r \theta\tag{18.1.1}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.1.4"><a href="#thm-const-alpha-2" title="Copy heading and permalink for Theorem 18.1.4" aria-label="Copy heading and permalink for Theorem 18.1.4">🔗</a></div></article><article class="theorem theorem-like" id="thm-const-alpha-3"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Theorem 18.1.6"><a href="#thm-const-alpha-2" title="Copy heading and permalink for Theorem 18.1.6" aria-label="Copy heading and permalink for Theorem 18.1.6">🔗</a></div></article><article class="theorem theorem-like" id="thm-const-alpha-3"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="thm-const-alpha-3-1-1">
 <div class="para">If <span class="process-math">\(\alpha\)</span> is constant then</div>
@@ -500,8 +506,8 @@ s = r \theta\tag{18.1.1}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.1.5"><a href="#thm-const-alpha-3" title="Copy heading and permalink for Theorem 18.1.5" aria-label="Copy heading and permalink for Theorem 18.1.5">🔗</a></div></article><article class="theorem theorem-like" id="thm-const-alpha-4"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Theorem 18.1.7"><a href="#thm-const-alpha-3" title="Copy heading and permalink for Theorem 18.1.7" aria-label="Copy heading and permalink for Theorem 18.1.7">🔗</a></div></article><article class="theorem theorem-like" id="thm-const-alpha-4"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="thm-const-alpha-4-1-1">
 <div class="para">If <span class="process-math">\(\alpha\)</span> is constant then</div>
@@ -512,8 +518,8 @@ s = r \theta\tag{18.1.1}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.1.6"><a href="#thm-const-alpha-4" title="Copy heading and permalink for Theorem 18.1.6" aria-label="Copy heading and permalink for Theorem 18.1.6">🔗</a></div></article><article class="theorem theorem-like" id="thm-const-alpha-5"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Theorem 18.1.8"><a href="#thm-const-alpha-4" title="Copy heading and permalink for Theorem 18.1.8" aria-label="Copy heading and permalink for Theorem 18.1.8">🔗</a></div></article><article class="theorem theorem-like" id="thm-const-alpha-5"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="thm-const-alpha-5-1-1">
 <div class="para">If <span class="process-math">\(\alpha\)</span> is constant then</div>
@@ -524,7 +530,7 @@ s = r \theta\tag{18.1.1}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-const-alpha-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Theorem 18.1.7"><a href="#thm-const-alpha-5" title="Copy heading and permalink for Theorem 18.1.7" aria-label="Copy heading and permalink for Theorem 18.1.7">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.1.2: Equations of Rotational Kinematics"><a href="#subsec-eqs-rot-kin" title="Copy heading and permalink for Subsection 18.1.2: Equations of Rotational Kinematics" aria-label="Copy heading and permalink for Subsection 18.1.2: Equations of Rotational Kinematics">🔗</a></div></section><div class="autopermalink" data-description="Section 18.1: Rotational Kinematics"><a href="#sec-rot-kin" title="Copy heading and permalink for Section 18.1: Rotational Kinematics" aria-label="Copy heading and permalink for Section 18.1: Rotational Kinematics">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Theorem 18.1.9"><a href="#thm-const-alpha-5" title="Copy heading and permalink for Theorem 18.1.9" aria-label="Copy heading and permalink for Theorem 18.1.9">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.1.2: Equations of Rotational Kinematics"><a href="#subsec-eqs-rot-kin" title="Copy heading and permalink for Subsection 18.1.2: Equations of Rotational Kinematics" aria-label="Copy heading and permalink for Subsection 18.1.2: Equations of Rotational Kinematics">🔗</a></div></section><div class="autopermalink" data-description="Section 18.1: Rotational Kinematics"><a href="#sec-rot-kin" title="Copy heading and permalink for Section 18.1: Rotational Kinematics" aria-label="Copy heading and permalink for Section 18.1: Rotational Kinematics">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-rotational-kinematics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-circ-motion.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

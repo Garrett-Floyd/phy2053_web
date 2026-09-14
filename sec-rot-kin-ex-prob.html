@@ -109,15 +109,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.9';
+eBookConfig.runestone_version = '8.2.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b8b41abee2fe6343.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -319,7 +319,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-work.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Work</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-sing-force" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Work From a Single Force</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-work.html#subsec-alg-work-from-mult-forces" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Net Work</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-work-kin-energy-theorem.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Work-Kinetic Energy Theorem</span></a></div></li>
@@ -329,42 +329,35 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-conserv-energy.html" class="internal"><span class="codenumber">16</span> <span class="title">Conservation of Energy</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-forces.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Conservative Forces</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Potential Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Power Example Problem</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.7</span> <span class="title">Chapter Exercises</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pot-energy.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Potential Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-energy-ex-prob.html" class="internal"><span class="codenumber">16.3</span> <span class="title">Conservation of Energy Example Problem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-power.html" class="internal"><span class="codenumber">16.4</span> <span class="title">Power</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-power-ex-prob.html" class="internal"><span class="codenumber">16.5</span> <span class="title">Power Example Problem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-conserv-energy.html" class="internal"><span class="codenumber">16.6</span> <span class="title">Chapter Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-lin-momentum-and-com.html" class="internal"><span class="codenumber">17</span> <span class="title">Linear Momentum and Center of Mass</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-momentum-impulse.html#exercises-sec-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-alg-momentum-impulse.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Momentum and Impulse</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-momentum-impulse.html#exercises-sec-calc-impulse" class="internal"><span class="codenumber">17.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-conserv-momentum.html#exercises-sec-conserv-momentum" class="internal"><span class="codenumber">17.2</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conserv-momentum.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Conservation of Momentum</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-collisions.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Collisions</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-elastic-collisions" class="internal"><span class="codenumber">17.3.1</span> <span class="title">1D Elastic Collsions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-inelastic-collisions" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Inelastic Collisions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-collisions.html#subsec-explosions" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Explosions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-collisions.html#exercises-sec-collisions" class="internal"><span class="codenumber">17.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-collision-ex-prob.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Collision Example Problem</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-com.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Center of Mass</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-com.html#exercises-sec-com" class="internal"><span class="codenumber">17.5</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-var-mass-force.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Variable Mass Force</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-var-mass-force.html#exercises-sec-sec-var-mass-force" class="internal"><span class="codenumber">17.6</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -374,7 +367,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-rot-kin.html" class="internal"><span class="codenumber">18.1</span> <span class="title">Rotational Kinematics</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-alg-ang-pos-vel-acc" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Angular Position, Velocity, and Acceleration</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rot-kin.html#subsec-eqs-rot-kin" class="internal"><span class="codenumber">18.1.2</span> <span class="title">Equations of Rotational Kinematics</span></a></div></li>
 </ul>
 </li>
@@ -382,7 +375,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-circ-motion.html" class="internal"><span class="codenumber">18.2</span> <span class="title">Circular Motion</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-relating-cart-polar-coord-systems" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relating Cartesian and Polar Coordinate Systems</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circ-motion.html#subsec-alg-circ-motion" class="internal"><span class="codenumber">18.2.2</span> <span class="title">Circular Motion</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-ucm.html" class="internal"><span class="codenumber">18.3</span> <span class="title">Uniform Circular Motion</span></a></div></li>
@@ -470,7 +463,7 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(?\)</span></td>
 </tr>
 </table></div></figure><div class="para logical" id="sec-rot-kin-ex-prob-5">
-<div class="para">Given what we know, <a href="sec-rot-kin.html#thm-const-alpha-4" class="xref" data-knowl="./knowl/xref/thm-const-alpha-4.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.1.6">Theorem 18.1.6</a> is the best equation to solve for the number of radians covered before coming to rest. Plugging in zero values gives</div>
+<div class="para">Given what we know, <a href="sec-rot-kin.html#thm-const-alpha-4" class="xref" data-knowl="./knowl/xref/thm-const-alpha-4.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.1.8">Theorem 18.1.8</a> is the best equation to solve for the number of radians covered before coming to rest. Plugging in zero values gives</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-const-alpha-4.html" id="sec-rot-kin-ex-prob-5-2">
 \begin{equation*}
 \theta_{f} = \frac{1}{2} \omega_{i} t_{f}.
@@ -512,7 +505,7 @@ v_{t,i} = (0.100 m) \left( 3.4558 \ \sfrac{rads}{s} \right) = 0.34558 \left( \fr
 a_{t} = r \alpha
 \end{equation*}
 </div>
-<div class="para">but we don’t know <span class="process-math">\(\alpha\)</span> at the inital time. Lets solve for it using equation <a href="sec-rot-kin.html#thm-const-alpha-1" class="xref" data-knowl="./knowl/xref/thm-const-alpha-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.1.3">Theorem 18.1.3</a>. Plugging in zero values gives</div>
+<div class="para">but we don’t know <span class="process-math">\(\alpha\)</span> at the inital time. Lets solve for it using equation <a href="sec-rot-kin.html#thm-const-alpha-1" class="xref" data-knowl="./knowl/xref/thm-const-alpha-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 18.1.5">Theorem 18.1.5</a>. Plugging in zero values gives</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-const-alpha-1.html" id="sec-rot-kin-ex-prob-7-4">
 \begin{align*}
 -\omega_{i} \amp = \alpha t_{f} \\

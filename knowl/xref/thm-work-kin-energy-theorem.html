@@ -31,31 +31,59 @@ W_{net} = \Delta K
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-work-kin-energy-theorem-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Theorem 15.2.1: Work-Kinetic Energy Theorem"><a href="#thm-work-kin-energy-theorem" title="Copy heading and permalink for Theorem 15.2.1: Work-Kinetic Energy Theorem" aria-label="Copy heading and permalink for Theorem 15.2.1: Work-Kinetic Energy Theorem">🔗</a></div></article><details class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical">
+<div class="para">We can’t examine the proof for the general theorem because it requires calculus. However, we can prove that theorem is true for work done by a constant net force over a straight line displacement. In this case we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{net} = \vec{F}_{net} \cdot \vec{l},
+\end{equation*}
+</div>
+<div class="para">and by Newton’s Second Law we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{F}_{net} = m \vec{a}.
+\end{equation*}
+</div>
+<div class="para">Then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{net} = m \vec{a} \cdot \vec{l} = m( a_{x} \Delta x + a_{y} \Delta y + a_{z} \Delta z).
+\end{equation*}
+</div>
+<div class="para">Since the net force is constant over the displacement the acceleration must be constant also by Newton’s Second Law. Then we can use the equations of kinematices to get rid of the components of acceleration. In particular, consider the following rearrangements of kinematic equations:</div>
 <div class="displaymath process-math">
 \begin{align*}
-W_{net} \amp = \int_{C} \vec{F}_{net} \cdot d\vec{l} \\
+a_{x} \amp = \frac{v_{x,f}^{2} - v_{x,i}^{2}}{2 \Delta x}\\
 \\
-\amp = \int_{t_{i}}^{t_{f}} \vec{F}_{net} \cdot \vec{v} dt \\
+a_{y} \amp = \frac{v_{y,f}^{2} - v_{y,i}^{2}}{2 \Delta y}\\
 \\
-\amp = \int_{t_{i}}^{t_{f}} m \left( \vec{a} \cdot \vec{v} \right) dt \\
+a_{z} \amp = \frac{v_{z,f}^{2} - v_{z,i}^{2}}{2 \Delta z}.
+\end{align*}
+</div>
+<div class="para">Plugging these these in, we get</div>
+<div class="displaymath process-math">
+\begin{align*}
+W_{net} \amp = m\left[
+\left( \frac{v_{x,f}^{2} - v_{x,i}^{2}}{2 \Delta x} \right) \Delta x +
+\left( \frac{v_{y,f}^{2} - v_{y,i}^{2}}{2 \Delta y} \right) \Delta y +
+\left( \frac{v_{z,f}^{2} - v_{z,i}^{2}}{2 \Delta z} \right) \Delta z
+\right]\\
 \\
-\amp = \int_{t_{i}}^{t_{f}} m \left( \frac{d\vec{v}}{dt} \cdot \vec{v} \right) dt \\
+\amp = m \left[
+\left( \frac{v_{x,f}^{2} - v_{x,i}^{2}}{2} \right) +
+\left( \frac{v_{y,f}^{2} - v_{y,i}^{2}}{2} \right) +
+\left( \frac{v_{z,f}^{2} - v_{z,i}^{2}}{2} \right)
+\right]\\
 \\
-\amp = \int_{t_{i}}^{t_{f}} m \left( \frac{dv_{x}}{dt} v_{x} + \frac{dv_{y}}{dt} v_{y} + \frac{dv_{z}}{dt}v_{z} \right) dt \\
+\amp = \frac{1}{2}m \left[
+\left( v_{x,f}^{2} + v_{y,f}^{2} + v_{z,f}^{2} \right) -
+\left( v_{x,i}^{2} + v_{y,i}^{2} + v_{z,i}^{2} \right)
+\right]\\
 \\
-\amp = \int_{t_{i}}^{t_{f}} m v_{x} \frac{dv_{x}}{dt} dt + \int_{t_{i}}^{t_{f}} m v_{y} \frac{dv_{y}}{dt} dt + \int_{t_{i}}^{t_{f}} m v_{z} \frac{dv_{z}}{dt} dt\\
+\amp = \frac{1}{2}m \left( v_{f}^{2} - v_{i}^{2} \right)\\
 \\
-\amp = \int_{v_{x, i}}^{v_{x, f}} m v_{x} dv_{x} + \int_{v_{y, i}}^{v_{y, f}} m v_{y} dv_{y} + \int_{v_{z, i}}^{v_{z, f}} m v_{z} dv_{z}\\
+\amp = \frac{1}{2} m v_{f}^{2} - \frac{1}{2} m v_{i}^{2}\\
 \\
-\amp = \left. \left[ \frac{1}{2} m v_{x}^{2} \right] \right|_{v_{x, i}}^{v_{x, f}} + \left. \left[ \frac{1}{2} m v_{y}^{2} \right] \right|_{v_{y, i}}^{v_{y, f}} + \left. \left[ \frac{1}{2} m v_{z}^{2} \right] \right|_{v_{z, i}}^{v_{z, f}} \\
-\\
-\amp = \frac{1}{2} m \left( v_{x, f}^{2} + v_{y, f}^{2} + v_{z, f}^{2} \right) - \frac{1}{2} m \left( v_{x, i}^{2} + v_{y, i}^{2} + v_{z, i}^{2} \right) \\
-\\
-\amp = \frac{1}{2} m v_{f}^{2} - \frac{1}{2} m v_{i}^{2} \\
-\\
-\amp = K_{f} - K_{i} \\
-\\
-\amp = \Delta K 
+\amp = \Delta K
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#thm-work-kin-energy-theorem-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
